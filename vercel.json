@@ -4,12 +4,12 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/tr",
+      "source": "/tr/",
       "destination": "/de/",
       "permanent": true
     },
     {
-      "source": "/tr/:path*",
+      "source": "/tr/:path+/",
       "destination": "/de/",
       "permanent": true
     }
