@@ -1,0 +1,27 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Diagnostic de visibilité IA",
+  "meta": { "title": "Diagnostic gratuit de visibilité IA pour PME | Renee", "description": "Votre entreprise est-elle visible dans ChatGPT, Gemini, Perplexity et Google ? Nous testons 10 questions clients et vous envoyons un bref rapport." },
+  "eyebrow": "Gratuit pour les PME suisses",
+  "h1": "Quelle est la visibilité de votre entreprise dans ChatGPT, Gemini et Google ?",
+  "lead": "De plus en plus de personnes demandent à des assistants IA de leur recommander des prestataires locaux. Nous vérifions si votre entreprise y est citée, et comment.",
+  "jump": "Demander le diagnostic",
+  "why": {
+    "title": "Pourquoi c'est important.",
+    "items": [
+      { "t": "Une réponse plutôt qu'une liste de résultats", "d": "Un assistant IA ne cite souvent que quelques prestataires. Qui n'y figure pas n'est pas comparé." },
+      { "t": "L'IA cite ce qui est clairement énoncé", "d": "Prestations, adresse, prix et avis doivent être publics et faciles à identifier." },
+      { "t": "Cela se mesure", "d": "Les mêmes questions, posées régulièrement, montrent si vos mesures portent leurs fruits." }
+    ]
+  },
+  "includes": {
+    "title": "Ce que comprend le diagnostic.",
+    "steps": [
+      { "t": "10 questions clients", "d": "Des questions types de votre secteur et de votre région." },
+      { "t": "4 systèmes", "d": "ChatGPT, Gemini, Perplexity et Google." },
+      { "t": "Bref rapport PDF", "d": "Où vous apparaissez, où vous êtes absent et qui est cité à votre place." },
+      { "t": "3 actions rapides", "d": "Trois mesures que vous pouvez appliquer immédiatement." }
+    ]
+  },
+  "form": { "title": "Demander le diagnostic.", "text": "Vous recevez le rapport sous {{stat.report}} heures par e-mail. Le diagnostic est gratuit et sans engagement." }
+}

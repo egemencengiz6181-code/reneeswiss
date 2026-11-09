@@ -1,0 +1,22 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "ERTS",
+  "meta": { "title": "ERTS: Marke für erneuerbare Energie | Renee", "description": "Markenzeichen aus Windrad und Blatt, Piktogrammsystem und Kampagne für den Energieproduzenten ERTS, ausgerollt auf Aussenwerbung, Social und Print." },
+  "name": "ERTS",
+  "industry": "Erneuerbare Energie",
+  "year": "2024",
+  "summary": "Ein Markenzeichen, das Windrad und Blatt verbindet, und ein Piktogrammsystem für die gesamte Kommunikation.",
+  "challenge": "Der Produzent sauberer Energie brauchte eine klare Marke und eine Sprache, die über alle Kanäle trägt.",
+  "solution": "Das Zeichen verbindet Rotorblatt und Blatt in einer Form. Ein Piktogrammsystem trägt die Kommunikation.",
+  "result": "Der Claim «Empowering Green Future» wurde in Aussenwerbung, Social Media und Print ausgerollt.",
+  "services": ["Logo", "Corporate Identity", "Markenhandbuch", "Kampagne"],
+  "cover": { "src": "erts/6c", "alt": "ERTS: Stofftasche mit Markenzeichen im Wasser" },
+  "gallery": [
+    { "src": "erts/5", "alt": "ERTS: Logo mit Bildmarke und Schriftzug" },
+    { "src": "erts/8", "alt": "ERTS: sechs Piktogramme auf grünem Grund" },
+    { "src": "erts/9", "alt": "ERTS: Social-Media-Beiträge im Raster" },
+    { "src": "erts/10", "alt": "ERTS: Kampagnenmittel und Trinkflasche" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}

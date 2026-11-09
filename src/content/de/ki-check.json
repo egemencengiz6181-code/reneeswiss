@@ -1,0 +1,27 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "KI-Sichtbarkeits-Check",
+  "meta": { "title": "Kostenloser KI-Sichtbarkeits-Check für KMU | Renee", "description": "Wie sichtbar ist Ihr Unternehmen in ChatGPT, Gemini, Perplexity und Google? Wir testen 10 Kundenfragen und senden Ihnen einen kurzen Bericht." },
+  "eyebrow": "Kostenlos für Schweizer KMU",
+  "h1": "Wie sichtbar ist Ihr Unternehmen in ChatGPT, Gemini und Google?",
+  "lead": "Immer öfter fragen Menschen KI-Assistenten nach lokalen Anbietern. Wir prüfen, ob und wie Ihr Unternehmen dort genannt wird.",
+  "jump": "Check anfordern",
+  "why": {
+    "title": "Warum das zählt.",
+    "items": [
+      { "t": "Antwort statt Trefferliste", "d": "Ein KI-Assistent nennt oft nur wenige Anbieter. Wer fehlt, wird nicht verglichen." },
+      { "t": "KI zitiert, was klar dasteht", "d": "Leistungen, Standort, Preise und Bewertungen müssen öffentlich und eindeutig auffindbar sein." },
+      { "t": "Es lässt sich messen", "d": "Dieselben Fragen, regelmässig gestellt, zeigen, ob Ihre Massnahmen wirken." }
+    ]
+  },
+  "includes": {
+    "title": "Das ist im Check enthalten.",
+    "steps": [
+      { "t": "10 Kundenfragen", "d": "Typische Fragen aus Ihrer Branche und Region." },
+      { "t": "4 Systeme", "d": "ChatGPT, Gemini, Perplexity und Google." },
+      { "t": "Kurzer PDF-Bericht", "d": "Wo Sie erscheinen, wo nicht und wer stattdessen genannt wird." },
+      { "t": "3 Quick Wins", "d": "Drei Massnahmen, die Sie sofort umsetzen können." }
+    ]
+  },
+  "form": { "title": "Check anfordern.", "text": "Sie erhalten den Bericht innert {{stat.report}} Stunden per E-Mail. Der Check ist kostenlos und unverbindlich." }
+}

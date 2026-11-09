@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import { CASE_IDS } from '../lib/routes';
+import PageHead from '../components/PageHead.astro';
+import CaseCard from '../components/CaseCard.astro';
+import FinalCta from '../components/FinalCta.astro';
+---
+<Layout locale={locale} route={route} meta={p.meta}>
+  <PageHead eyebrow={p.eyebrow} title={p.h1} lead={p.lead} />
+  <div class="wrap pb-20 grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">{CASE_IDS.map((id) => <CaseCard locale={locale} id={id} />)}</div>
+  <FinalCta locale={locale} />
+</Layout>

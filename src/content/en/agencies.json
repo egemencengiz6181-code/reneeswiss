@@ -1,0 +1,61 @@
+{
+  "_review": "",
+  "breadcrumb": "For agencies",
+  "meta": { "title": "White label agency partner for Switzerland | Renee", "description": "White label partner for Swiss agencies: design, web, 3D, content, ads. NDA, no client contact, 48–72 h, {{price.agencyHour}}. First job up to 4 h free." },
+  "eyebrow": "White label for agencies",
+  "h1": "Your extra capacity. Under your name.",
+  "lead": "We take on production work for Swiss agencies of 1 to 30 people. You keep the client relationship; we deliver in your branding and in your tools.",
+  "deliver": {
+    "eyebrow": "What we deliver",
+    "title": "Everything that can be produced remotely.",
+    "items": [
+      { "t": "Design", "d": "Presentations, campaign assets, layouts, final artwork." },
+      { "t": "Corporate identity", "d": "Logos, brand systems and guidelines based on your concept." },
+      { "t": "Web", "d": "Design and development, multilingual and SEO-ready." },
+      { "t": "Social content", "d": "Posts, Reels and carousels based on your content calendar." },
+      { "t": "3D renders", "d": "Product visualisation and animation from CAD or references." },
+      { "t": "Ads ops", "d": "Set-up and management of Google and Meta campaigns." },
+      { "t": "SEO & GEO", "d": "Technical implementation, content and AI visibility." }
+    ]
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Clearly agreed before work starts.",
+    "steps": [
+      { "t": "NDA", "d": "Signed before the first briefing." },
+      { "t": "Briefing", "d": "In your templates and tools, with one dedicated point of contact." },
+      { "t": "Delivery", "d": "Standard tasks in 48–72 hours." },
+      { "t": "Revisions", "d": "Correction rounds are defined in the scope. The files are yours." }
+    ]
+  },
+  "rules": {
+    "eyebrow": "Our rules",
+    "title": "What you can expect from us.",
+    "items": ["No direct contact with your clients. Our name appears nowhere.", "We work in your tools: Figma, Asana or Trello, Slack or Teams.", "One dedicated point of contact, available during Swiss office hours.", "Data processing agreement with standard contractual clauses whenever personal data is involved."]
+  },
+  "pricing": {
+    "eyebrow": "Pricing models",
+    "title": "Three models, depending on workload.",
+    "models": [
+      { "t": "Hourly rate", "price": "{{price.agencyHour}}", "d": "For individual tasks with no commitment." },
+      { "t": "Capacity package", "price": "20 / 40 / 80 h", "d": "Reserved hours per month. Details on the pricing page." },
+      { "t": "Fixed price", "price": "Per deliverable", "d": "A set price per render, layout or landing page." }
+    ],
+    "note": "All prices {{vat}}"
+  },
+  "pilot": {
+    "title": "Test job: we deliver a first task of up to 4 hours free of charge.",
+    "text": "So you can assess quality and collaboration without risk.",
+    "cta": "Request a test job",
+    "items": ["No obligation, no follow-up order required", "NDA for the test job too", "Delivery within {{stat.pilot}} hours of a complete briefing"]
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Questions from agencies.",
+    "items": [
+      { "q": "Will our clients find out about you?", "a": "No. We stay out of sight, and the NDA sets this out in writing. Files and metadata are delivered unbranded." },
+      { "q": "Who owns the usage rights?", "a": "Once paid for, all rights to the delivered work pass to your agency." },
+      { "q": "What happens if we hit a bottleneck at the weekend?", "a": "Our standard is Mon–Fri. Urgent weekend work is agreed in advance." }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Kontakt",
+  "meta": { "title": "Kontakt und Erstgespräch | Renee", "description": "Buchen Sie ein kostenloses Erstgespräch von 20 Minuten oder schreiben Sie uns. Antwort innert {{stat.response}} Stunden während der Bürozeiten." },
+  "eyebrow": "Kontakt",
+  "h1": "Sprechen wir über Ihr Projekt.",
+  "lead": "Buchen Sie direkt einen Termin oder schreiben Sie uns. Wir antworten innert {{stat.response}} Stunden während der Bürozeiten.",
+  "labels": { "email": "E-Mail", "phone": "Telefon", "hours": "Bürozeiten", "location": "Standort" },
+  "location": "{{legal.city}}, Türkei. Remote für die Schweiz."
+}

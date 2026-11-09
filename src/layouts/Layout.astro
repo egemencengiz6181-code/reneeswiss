@@ -1,0 +1,88 @@
+---
+import '../styles/global.css';
+import site from '../config/site.json';
+import { LOCALES, HREFLANG, pathOf, href, route as getRoute, type Locale, type Route } from '../lib/routes';
+import { common, pageContent } from '../lib/content';
+import { orgGraph, breadcrumbLd } from '../lib/schema';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CalButton from '../components/CalButton.astro';
+
+interface Props { locale: Locale; route: Route; meta: { title: string; description: string }; jsonLd?: object[] }
+const { locale, route, meta, jsonLd = [] } = Astro.props;
+const c = common(locale);
+const origin = Astro.site!.origin;
+const abs = (p: string) => origin + p;
+const self = abs(pathOf(route, locale));
+const ogImage = abs(`/og/${locale}/${route.id}.png`);
+const crumbs: { name: string; url: string }[] = [];
+if (route.id !== 'home') {
+  crumbs.push({ name: c.nav.home, url: href(locale, 'home') });
+  if (route.parent) crumbs.push({ name: pageContent(locale, getRoute(route.parent)).breadcrumb, url: href(locale, route.parent) });
+  crumbs.push({ name: pageContent(locale, route).breadcrumb ?? meta.title, url: pathOf(route, locale) });
+}
+const graph = [...orgGraph(origin, locale), ...(crumbs.length ? [breadcrumbLd(origin, crumbs)] : []), ...jsonLd];
+const ld = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c');
+const review = locale === 'de' || locale === 'fr' ? '<!-- TODO: native review needed -->' : '';
+---
+<!doctype html>
+<html lang={HREFLANG[locale]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{meta.title}</title>
+    <meta name="description" content={meta.description} />
+    {route.noindex && <meta name="robots" content="noindex, follow" />}
+    <link rel="canonical" href={self} />
+    {LOCALES.map((l) => <link rel="alternate" hreflang={HREFLANG[l]} href={abs(pathOf(route, l))} />)}
+    <link rel="alternate" hreflang="x-default" href={abs(pathOf(route, 'de'))} />
+    <link rel="icon" href="/brand/renee-icon.webp" type="image/webp" />
+    <meta property="og:type" content={route.template === 'article' ? 'article' : 'website'} />
+    <meta property="og:site_name" content="Renee" />
+    <meta property="og:locale" content={HREFLANG[locale].replace('-', '_')} />
+    <meta property="og:title" content={meta.title} />
+    <meta property="og:description" content={meta.description} />
+    <meta property="og:url" content={self} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={meta.title} />
+    <meta name="twitter:description" content={meta.description} />
+    <meta name="twitter:image" content={ogImage} />
+    <script type="application/ld+json" set:html={ld} />
+    <Fragment set:html={review} />
+  </head>
+  <body data-turnstile={site.forms.turnstileSiteKey || undefined} class="pb-[72px] lg:pb-0">
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-white focus:p-3">{c.skip}</a>
+    <Header locale={locale} route={route} />
+    {crumbs.length > 0 && (
+      <nav aria-label={c.nav.breadcrumb} class="wrap pt-5 text-[14px] muted">
+        <ol class="flex flex-wrap gap-x-2">
+          {crumbs.map((b, i) => (
+            <li class="flex gap-2">
+              {i > 0 && <span aria-hidden="true">/</span>}
+              {i < crumbs.length - 1 ? <a class="link no-underline hover:underline" href={b.url}>{b.name}</a> : <span aria-current="page">{b.name}</span>}
+            </li>
+          ))}
+        </ol>
+      </nav>
+    )}
+    <main id="main"><slot /></main>
+    <Footer locale={locale} />
+    <aside class="mobile-bar lg:hidden fixed bottom-0 inset-x-0 z-30 bg-white border-t border-line p-3" aria-label={c.cta.short}>
+      <CalButton locale={locale} label={c.cta.primary} class="w-full" />
+    </aside>
+    {site.calLink && (
+      <dialog class="cal" aria-label={c.cal.title}>
+        <div class="flex items-center justify-between gap-4 p-3 border-b border-line text-[14px]">
+          <span class="muted">{c.cal.note}</span>
+          <button type="button" class="btn btn-outline btn-sm" data-close>{c.cal.close}</button>
+        </div>
+        <iframe title={c.cal.title} class="w-full h-[calc(100%-65px)] border-0"></iframe>
+      </dialog>
+    )}
+    {site.analytics.cloudflareToken && <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: site.analytics.cloudflareToken })}></script>}
+    <script src="../scripts/site.ts"></script>
+  </body>
+</html>

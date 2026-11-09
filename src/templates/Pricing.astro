@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import PageHead from '../components/PageHead.astro';
+import Section from '../components/Section.astro';
+import FinalCta from '../components/FinalCta.astro';
+import CalButton from '../components/CalButton.astro';
+import { href } from '../lib/routes';
+import { common } from '../lib/content';
+const c = common(locale);
+---
+<Layout locale={locale} route={route} meta={p.meta}>
+  <PageHead eyebrow={p.eyebrow} title={p.h1} lead={p.lead} />
+  <Section eyebrow={p.sme.eyebrow} title={p.sme.title} tone="mist">
+    <ul class="grid lg:grid-cols-3 gap-6">
+      {p.sme.packages.map((x: any, i: number) => (
+        <li class:list={['p-6 flex flex-col', i === 1 ? 'on-dark bg-ink text-white' : 'bg-white']}>
+          <h3 class="subtitle">{x.name}</h3>
+          <p class="muted text-[16px] mt-2">{x.for}</p>
+          <p class="title mt-8">{x.price}</p>
+          <ul class="dash-list mt-8 mb-8">{x.items.map((b: string) => <li>{b}</li>)}</ul>
+          <div class="mt-auto"><CalButton locale={locale} label={c.cta.short} /></div>
+        </li>
+      ))}
+    </ul>
+  </Section>
+  <Section eyebrow={p.agency.eyebrow} title={p.agency.title}>
+    <ul class="grid lg:grid-cols-3 gap-6">
+      {p.agency.packages.map((x: any) => <li class="border border-line p-6"><h3 class="subtitle">{x.name}</h3><p class="title mt-6">{x.price}</p><p class="muted mt-2">{x.rate}</p></li>)}
+    </ul>
+    <p class="mt-8"><a class="arrow-link" href={href(locale, 'agencies')}>{p.agency.link} →</a></p>
+  </Section>
+  <div class="wrap pb-16"><p class="border-t border-ink pt-4 text-[16px]">{p.note}</p></div>
+  <FinalCta locale={locale} />
+</Layout>

@@ -1,0 +1,28 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Preise",
+  "meta": { "title": "Preise für Design, Web und Marketing | Renee", "description": "Transparente Preise in CHF: drei Pakete für KMU und monatliche Kapazitätspakete für Agenturen. Alle Preise zzgl. MwSt., Offerte innert {{stat.offer}} Stunden." },
+  "eyebrow": "Preise",
+  "h1": "Klare Preise, bevor wir anfangen.",
+  "lead": "Die Pakete zeigen den üblichen Einstieg. Nach dem Erstgespräch erhalten Sie einen Festpreis für Ihren Umfang.",
+  "sme": {
+    "eyebrow": "Für Unternehmen",
+    "title": "Drei Pakete für KMU.",
+    "packages": [
+      { "name": "Start", "for": "Für einen sauberen Auftritt im Web.", "price": "{{price.pkgStart}}", "items": ["Website bis 5 Seiten, eine Sprache", "Technisches SEO und strukturierte Daten", "Kontaktformular und Terminbuchung", "Einführung und Übergabe"] },
+      { "name": "Wachstum", "for": "Für laufende Sichtbarkeit und Anfragen.", "price": "{{price.pkgGrowth}}", "items": ["Social-Media-Content nach Redaktionsplan", "Google- oder Meta-Ads-Betreuung", "Monatsbericht mit klaren Zahlen", "Eine feste Ansprechperson"] },
+      { "name": "Komplett", "for": "Für Marketing aus einer Hand.", "price": "{{price.pkgFull}}", "items": ["Alles aus dem Paket Wachstum", "SEO und KI-Sichtbarkeit (GEO)", "Google und Meta kombiniert", "Quartalsgespräch zur Strategie"] }
+    ]
+  },
+  "agency": {
+    "eyebrow": "Für Agenturen",
+    "title": "Monatliche Kapazität, fix reserviert.",
+    "link": "White-Label-Modell im Detail",
+    "packages": [
+      { "name": "20 Stunden pro Monat", "price": "{{price.cap20}}", "rate": "{{price.cap20Rate}}" },
+      { "name": "40 Stunden pro Monat", "price": "{{price.cap40}}", "rate": "{{price.cap40Rate}}" },
+      { "name": "80 Stunden pro Monat", "price": "{{price.cap80}}", "rate": "{{price.cap80Rate}}" }
+    ]
+  },
+  "note": "Alle Preise {{vat}} Individuelle Offerte innert {{stat.offer}} Stunden."
+}

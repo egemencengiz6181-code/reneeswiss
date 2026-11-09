@@ -1,0 +1,22 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Deru",
+  "meta": { "title": "Deru : marque et emballage pour le café | Renee", "description": "Logo, personnages et système d'emballage pour une marque de café : déclinés sur gobelets, couvercles, boîtes et pots de glace, sans surcoût." },
+  "name": "Deru",
+  "industry": "Café et commerce de détail",
+  "year": "2024",
+  "summary": "Une marque de café avec ses propres personnages, reconnaissable du gobelet au coffret cadeau.",
+  "challenge": "La marque devait fonctionner sur de nombreux formats d'emballage sans renchérir la production.",
+  "solution": "Des gobelets à café qui courent, attrapent et rient forment un système de personnages, librement déclinable sur tous les formats.",
+  "result": "Le système a été décliné sans surcoût sur le gobelet, le couvercle, la boîte, le pot de glace et l'emballage de pâtisserie.",
+  "services": ["Logo", "Identité visuelle", "Emballage", "Illustration"],
+  "cover": { "src": "deru/1", "alt": "Deru : gobelets à café imprimés en vert et violet" },
+  "gallery": [
+    { "src": "deru/5", "alt": "Deru : boîte d'expédition ouverte avec gobelet et sachet de café" },
+    { "src": "deru/3", "alt": "Deru : quatre personnages sur des aplats de couleur" },
+    { "src": "deru/7", "alt": "Deru : pot de glace sur fond vert" },
+    { "src": "deru/4", "alt": "Deru : motif de personnages en forme de gobelets à café" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}

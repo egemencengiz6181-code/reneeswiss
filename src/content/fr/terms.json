@@ -1,0 +1,10 @@
+{
+  "_review": "TODO: native review needed. Placeholder, legal review required.",
+  "breadcrumb": "Conditions générales",
+  "meta": { "title": "Conditions générales | Renee", "description": "Conditions générales de Renee Design Lab pour les prestations de design, de web et de marketing." },
+  "h1": "Conditions générales",
+  "intro": "Les conditions générales complètes sont en cours d'élaboration. D'ici là, les conditions figurant dans votre offre s'appliquent.",
+  "sections": [
+    { "h": "Principes", "list": ["Le périmètre, le prix et les échéances sont fixés dans l'offre écrite.", "Tous les prix s'entendent en CHF, {{vat}}", "Les droits d'utilisation sont transférés après paiement intégral."] }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "_review": "TODO: native review needed",
+  "contact": { "breadcrumb": "Merci", "meta": { "title": "Merci | Renee", "description": "Votre message nous est bien parvenu." }, "eyebrow": "Message reçu", "h1": "Merci pour votre message.", "text": "Nous répondons sous {{stat.response}} heures pendant les horaires de bureau. Vous pouvez aussi choisir un rendez-vous dès maintenant." },
+  "agency": { "breadcrumb": "Merci", "meta": { "title": "Merci, demande de partenariat reçue | Renee", "description": "Votre demande de partenariat nous est bien parvenue." }, "eyebrow": "Demande reçue", "h1": "Merci. La prochaine étape, c'est le NDA.", "text": "Nous vous recontactons sous {{stat.response}} heures pendant les horaires de bureau avec notre NDA et le formulaire de briefing pour le mandat test." },
+  "ki": { "breadcrumb": "Merci", "meta": { "title": "Merci, diagnostic IA demandé | Renee", "description": "Votre diagnostic de visibilité IA est bien demandé." }, "eyebrow": "Diagnostic demandé", "h1": "Votre diagnostic IA est en cours.", "text": "Vous recevez le rapport sous {{stat.report}} heures par e-mail. Souhaitez-vous le parcourir avec nous ? Réservez un rendez-vous dès maintenant." }
+}

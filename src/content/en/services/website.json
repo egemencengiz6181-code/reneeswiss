@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "Websites",
+  "meta": { "title": "Web design Switzerland: price {{price.website}} | Renee", "description": "Web design and development for Swiss SMEs: multilingual, fast and SEO-ready. Prices {{price.website}}, first version from 10 working days." },
+  "name": "Websites",
+  "short": "Design and development, multilingual and SEO-ready.",
+  "h1": "A website that brings in enquiries and loads fast.",
+  "lead": "Design and development from one source: multilingual, structured for search engines and AI assistants, with no ongoing licence fees.",
+  "facts": { "who": "SMEs, practices, schools and agencies", "what": "Design, development, multilingual set-up, SEO basics" },
+  "timeline": "from 10 working days",
+  "problem": "Outdated websites load slowly, are a chore on mobile and don't explain clearly what the company offers. Visitors leave before they enquire.",
+  "included": ["Site structure and copy concept", "Custom design, desktop and mobile", "Development as a fast static website or with a CMS", "Multilingual set-up with hreflang", "Technical SEO and structured data", "Contact form and appointment booking"],
+  "deliverables": ["Finished website on your domain", "Source code and all access", "Short maintenance guide", "Lighthouse report for sign-off"],
+  "process": [
+    { "t": "Structure", "d": "Define pages, content and goals." },
+    { "t": "Design", "d": "Homepage first, then the other templates." },
+    { "t": "Development", "d": "Build on a test environment you can access." },
+    { "t": "Launch", "d": "Sign-off, publication, Search Console." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "What does the starting price include?", "a": "Up to five pages in one language with custom design. Further pages and languages are quoted individually." },
+    { "q": "Who writes the copy?", "a": "We can write it or build in your copy. On request, we have German and French copy checked by native speakers." },
+    { "q": "Where is the website hosted?", "a": "By default on Cloudflare Pages. Other providers are possible." }
+  ]
+}

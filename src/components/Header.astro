@@ -1,0 +1,48 @@
+---
+import { LOCALES, HREFLANG, href, pathOf, type Locale, type Route } from '../lib/routes';
+import { common } from '../lib/content';
+import CalButton from './CalButton.astro';
+interface Props { locale: Locale; route?: Route }
+const { locale, route } = Astro.props;
+const c = common(locale);
+const items = [['agencies', c.nav.agencies], ['services', c.nav.services], ['work', c.nav.work], ['pricing', c.nav.pricing], ['ki-check', c.nav.kiCheck], ['about', c.nav.about]];
+const current = Astro.url.pathname;
+const alt = (l: Locale) => (route ? pathOf(route, l) : `/${l}/`);
+---
+<header class="sticky top-0 z-40 bg-white border-b border-line">
+  <div class="wrap flex items-center justify-between gap-6 h-16 lg:h-20">
+    <a href={href(locale, 'home')} class="flex-none" aria-label={c.nav.home}>
+      <img src="/brand/renee-logo-trim.webp" alt="Renee" width="92" height="40" class="h-8 lg:h-9 w-auto" />
+    </a>
+    <nav class="hidden lg:flex gap-6 xl:gap-8 text-[15px]" aria-label={c.nav.primaryLabel}>
+      {items.map(([id, label]) => (
+        <a href={href(locale, id)} class="link no-underline hover:underline" aria-current={current.startsWith(href(locale, id)) ? 'page' : undefined}>{label}</a>
+      ))}
+    </nav>
+    <div class="hidden lg:flex items-center gap-5">
+      <ul class="flex gap-2 text-[14px]" aria-label={c.nav.languages}>
+        {LOCALES.map((l) => (
+          <li><a href={alt(l)} hreflang={HREFLANG[l]} lang={HREFLANG[l]} class:list={['link px-1 py-2', l === locale ? 'font-semibold no-underline' : 'no-underline muted']} aria-current={l === locale ? 'true' : undefined}>{l.toUpperCase()}<span class="sr-only"> {c.languageNames[l]}</span></a></li>
+        ))}
+      </ul>
+      <CalButton locale={locale} label={c.cta.short} size="sm" class="head-cta" />
+    </div>
+    <details class="menu lg:hidden">
+      <summary class="btn btn-outline btn-sm" aria-label={c.nav.menu}><span class="menu-open">{c.nav.menu}</span><span class="menu-close">{c.cal.close}</span></summary>
+      <div class="fixed inset-x-0 top-16 bottom-0 bg-white overflow-y-auto">
+        <nav class="wrap py-6" aria-label={c.nav.primaryLabel}>
+          <ul>
+            {items.concat([['blog', c.nav.blog], ['contact', c.nav.contact]]).map(([id, label]) => (
+              <li class="border-b border-line"><a href={href(locale, id)} class="block py-4 subtitle no-underline">{label}</a></li>
+            ))}
+          </ul>
+          <ul class="flex gap-2 mt-6" aria-label={c.nav.languages}>
+            {LOCALES.map((l) => (
+              <li><a href={alt(l)} hreflang={HREFLANG[l]} lang={HREFLANG[l]} class:list={['inline-block px-3 py-3 border border-line no-underline text-[15px]', l === locale && 'font-semibold border-ink']} aria-current={l === locale ? 'true' : undefined}>{l.toUpperCase()}<span class="sr-only"> {c.languageNames[l]}</span></a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </details>
+  </div>
+</header>

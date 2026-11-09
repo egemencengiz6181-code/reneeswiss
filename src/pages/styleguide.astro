@@ -1,0 +1,27 @@
+---
+// Internal component library (noindex). Developer page, intentionally German-only.
+import '../styles/global.css';
+import Eyebrow from '../components/Eyebrow.astro';
+import Form from '../components/Form.astro';
+import Faq from '../components/Faq.astro';
+import Process from '../components/Process.astro';
+import ServiceGrid from '../components/ServiceGrid.astro';
+import CaseCard from '../components/CaseCard.astro';
+const colors = [['Purple', '#8766e8', 'CTA-Fläche, Fokus, Akzent'], ['Purple Ink', '#5b3fd0', 'Text/Hover auf Weiss (AA)'], ['Lime', '#c9fc4a', 'Stern, Akzent auf Schwarz. Nie als Texthintergrund'], ['Black', '#000000', ''], ['White', '#ffffff', ''], ['Mist', '#f5f5f3', 'Alternativer Hintergrund'], ['Line', '#e6e6e3', 'Rahmen'], ['Muted', '#6b6b6b', 'Sekundärtext auf Hell'], ['Ash', '#a9a9a9', 'Sekundärtext auf Schwarz']];
+---
+<!doctype html>
+<html lang="de-CH">
+  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Styleguide – Renee</title><meta name="robots" content="noindex, nofollow" /></head>
+  <body>
+    <main class="wrap py-16 space-y-20">
+      <h1 class="display">Styleguide</h1>
+      <section><h2 class="title mb-6">Farben</h2><ul class="grid md:grid-cols-3 gap-4">{colors.map(([n, h, d]) => <li class="border border-line"><div class="h-24" style={`background:${h}`}></div><div class="p-3 text-[15px]"><strong>{n}</strong> {h}<br /><span class="muted">{d}</span></div></li>)}</ul></section>
+      <section class="space-y-4"><h2 class="title mb-6">Typografie</h2><p class="display">Display 40–72</p><p class="title">Title 30–48</p><p class="subtitle">Subtitle 20–24</p><p class="lead">Lead 18–22</p><p>Body 17</p><p class="muted">Muted</p><Eyebrow text="Eyebrow mit Stern" /></section>
+      <section><h2 class="title mb-6">Buttons</h2><div class="flex flex-wrap gap-3"><a class="btn btn-primary" href="#">Primary</a><a class="btn btn-outline" href="#">Outline</a><a class="btn btn-primary btn-sm" href="#">Small</a></div><div class="on-dark bg-ink p-6 mt-4 flex gap-3"><a class="btn btn-primary" href="#">Primary</a><a class="btn btn-outline" href="#">Outline</a></div></section>
+      <section><h2 class="title mb-6">Karten</h2><ServiceGrid locale="de" /><div class="grid md:grid-cols-3 mt-10"><CaseCard locale="de" id="arni" /></div></section>
+      <section><h2 class="title mb-6">Prozess</h2><Process steps={[{ t: 'Schritt', d: 'Beschreibung' }, { t: 'Schritt', d: 'Beschreibung' }, { t: 'Schritt', d: 'Beschreibung' }, { t: 'Schritt', d: 'Beschreibung' }]} /></section>
+      <section><h2 class="title mb-6">FAQ</h2><Faq items={[{ q: 'Frage?', a: 'Antwort.' }]} /></section>
+      <section><h2 class="title mb-6">Formular</h2><Form locale="de" type="agency" routeId="agencies" /></section>
+    </main>
+  </body>
+</html>

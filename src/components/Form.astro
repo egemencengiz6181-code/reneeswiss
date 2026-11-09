@@ -1,0 +1,64 @@
+---
+import site from '../config/site.json';
+import { href, pathOf, route as getRoute, type Locale } from '../lib/routes';
+import { common, services } from '../lib/content';
+interface Props { locale: Locale; type: 'agency' | 'contact' | 'ki-check' | 'ki-short'; routeId: string; dark?: boolean }
+const { locale, type, routeId, dark = false } = Astro.props;
+const c = common(locale);
+const f = c.forms;
+const kind = type === 'ki-short' ? 'ki-check' : type;
+const next = href(locale, { agency: 'thanks-agency', contact: 'thanks-contact', 'ki-check': 'thanks-ki' }[kind]);
+type Field = { name: string; label: string; type?: string; required?: boolean; auto?: string; wide?: boolean };
+const F = (name: string, label: string, opts: Partial<Field> = {}): Field => ({ name, label, required: true, ...opts });
+const fields: Record<string, Field[]> = {
+  agency: [F('company', f.agencyName, { auto: 'organization' }), F('website', f.website, { type: 'url', auto: 'url' }), F('name', f.name, { auto: 'name' }), F('email', f.email, { type: 'email', auto: 'email' })],
+  contact: [F('name', f.name, { auto: 'name' }), F('company', f.company, { auto: 'organization', required: false }), F('email', f.email, { type: 'email', auto: 'email' }), F('phone', f.phone, { type: 'tel', auto: 'tel', required: false })],
+  'ki-check': [F('name', f.name, { auto: 'name' }), F('company', f.company, { auto: 'organization' }), F('website', f.website, { type: 'url', auto: 'url' }), F('city', f.city, { auto: 'address-level2' }), F('industry', f.industry), F('email', f.email, { type: 'email', auto: 'email' })],
+  'ki-short': [F('website', f.website, { type: 'url', auto: 'url' }), F('email', f.email, { type: 'email', auto: 'email' })],
+};
+const id = (n: string) => `${type}-${n}`;
+const submit = { agency: c.cta.agency, contact: f.send, 'ki-check': c.cta.check, 'ki-short': c.cta.check }[type];
+const page = pathOf(getRoute(routeId), locale);
+---
+<form method="post" action={site.forms.action} data-form class:list={['grid gap-5', dark && 'form-dark']} id={type === 'ki-short' ? undefined : 'form'}>
+  <input type="hidden" name="form" value={kind} />
+  <input type="hidden" name="locale" value={locale} />
+  <input type="hidden" name="page" value={page} />
+  <input type="hidden" name="_next" value={next} />
+  <input type="hidden" name="utm_source" /><input type="hidden" name="utm_medium" /><input type="hidden" name="utm_campaign" />
+  <div class="hp" aria-hidden="true"><label>Fax <input type="text" name="fax_number" tabindex="-1" autocomplete="off" /></label></div>
+  <div class="grid md:grid-cols-2 gap-5">
+    {fields[type].map((x) => (
+      <div class="field">
+        <label for={id(x.name)}>{x.label}{!x.required && ` ${f.optional}`}</label>
+        <input id={id(x.name)} name={x.name} type={(x.type ?? 'text') as 'text'} required={x.required} autocomplete={x.auto} />
+      </div>
+    ))}
+  </div>
+  {type === 'agency' && (
+    <>
+      <fieldset>
+        <legend class="text-[15px] mb-3">{f.neededServices}</legend>
+        <div class="grid md:grid-cols-2 gap-3">
+          {services(locale).map((s) => <label class="check"><input type="checkbox" name="services" value={s.name} />{s.name}</label>)}
+        </div>
+      </fieldset>
+      <div class="field">
+        <label for={id('volume')}>{f.volume}</label>
+        <select id={id('volume')} name="volume">{f.volumeOptions.map((o: string) => <option>{o}</option>)}</select>
+      </div>
+    </>
+  )}
+  {type !== 'ki-check' && type !== 'ki-short' && (
+    <div class="field">
+      <label for={id('message')}>{f.message}{type === 'agency' && ` ${f.optional}`}</label>
+      <textarea id={id('message')} name="message" required={type === 'contact'}></textarea>
+    </div>
+  )}
+  <label class="check"><input type="checkbox" name="newsletter" value="yes" />{f.newsletter}</label>
+  {site.forms.turnstileSiteKey && <div data-turnstile-box></div>}
+  <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
+    <button type="submit" class="btn btn-primary">{submit}</button>
+    <p class:list={['text-[14px] max-w-[52ch]', dark ? 'text-ash' : 'muted']}>{f.privacyBefore} <a class="link" href={href(locale, 'privacy')}>{f.privacyLink}</a>{f.privacyAfter}</p>
+  </div>
+</form>

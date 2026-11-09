@@ -1,0 +1,15 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Partenaire en marque blanche",
+  "meta": { "title": "Agence en marque blanche : la check-list | Renee", "description": "Les points à vérifier par les agences suisses chez un partenaire en marque blanche : NDA, contact client, qualité, protection des données et mandat test." },
+  "title": "Partenaire en marque blanche pour agences : les points à vérifier",
+  "author": "Rédaction Renee",
+  "date": "2026-11-08",
+  "summary": "Un partenaire en marque blanche apporte de la capacité sans que vous ayez à recruter. L'essentiel tient à des accords clairs sur la confidentialité, les droits et la protection des données. Un petit mandat test en dit plus que n'importe quel portfolio.",
+  "sections": [
+    { "h": "Quand la marque blanche est intéressante", "p": ["La marque blanche convient lorsque la charge de travail fluctue ou que certaines disciplines, comme la 3D, manquent. Votre agence reste responsable de la stratégie et de la relation client, la production est assurée par le partenaire."] },
+    { "h": "Ce que le contrat doit régler", "list": ["Confidentialité : NDA avant le premier briefing", "Droits d'utilisation : transfert complet à l'agence", "Contact client : expressément exclu", "Tours de corrections et délais de livraison", "Responsabilité et gestion des erreurs"] },
+    { "h": "Protection des données avec des partenaires à l'étranger", "p": ["Dès que des données personnelles sont concernées, il faut un contrat de traitement des données. Si le partenaire se trouve dans un pays sans niveau de protection reconnu comme adéquat, des clauses contractuelles types s'y ajoutent en règle générale. Clarifiez ce point avant tout transfert de données clients et ne communiquez que ce qui est nécessaire à la tâche."] },
+    { "h": "Comment tester un partenaire", "p": ["Confiez une tâche réelle et modeste, avec un briefing normal. Observez trois choses : les questions posées, le respect du délai et le nombre de corrections nécessaires. Le résultat montre à quoi ressemblera la collaboration sous pression."] }
+  ]
+}

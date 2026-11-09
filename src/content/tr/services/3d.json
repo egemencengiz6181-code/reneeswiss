@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "3D görselleştirme",
+  "meta": { "title": "3D ürün görselleştirme {{price.3d}} | Renee", "description": "Üreticiler ve ajanslar için fotogerçekçi 3D ürün render'ları ve animasyon. Fiyat: {{price.3d}}, standart teslim 48–72 saat." },
+  "name": "3D görselleştirme",
+  "short": "Ürün render'ları ve animasyon.",
+  "h1": "Fotoğraf çekimine gerek kalmadan ürün görselleri.",
+  "lead": "CAD verilerinden veya referanslardan fotogerçekçi render ve animasyon üretiyoruz. Varyasyonlar kısa sürede hazırlanır.",
+  "facts": { "who": "Üreticiler, e-ticaret ve ajanslar", "what": "Render, varyasyon, ürün animasyonu" },
+  "timeline": "Standart render başına 48–72 saat",
+  "problem": "Fotoğraf çekimleri pahalıdır; her yeni renk veya ambalaj yeni bir çekim demektir. Prototipler çoğu zaman henüz hazır bile değildir.",
+  "included": ["CAD, eskiz veya fotoğraftan 3D model", "Malzeme, ışık ve sahne", "Dekupe görseller ve yaşam tarzı sahneleri", "Renk ve ambalaj varyasyonları", "Talep üzerine ürün animasyonu"],
+  "deliverables": ["Yüksek çözünürlüklü render'lar (PNG, TIFF, JPG)", "İhtiyaca göre varyasyonlar", "İsteğe bağlı 3D kaynak dosyası"],
+  "process": [
+    { "t": "Veriler", "d": "CAD, referanslar ve hedef görsel." },
+    { "t": "Model", "d": "Geometri ve malzeme." },
+    { "t": "Sahne", "d": "Işık, kompozisyon, deneme render'ı." },
+    { "t": "Son hâl", "d": "Düzeltmeler ve çıktı." }
+  ],
+  "relatedCase": "deru",
+  "faq": [
+    { "q": "Hangi verilere ihtiyacınız var?", "a": "İdeal olan CAD verileridir (STEP, OBJ). İyi fotoğraflar ve ölçüler de çoğu zaman yeterlidir." },
+    { "q": "Bir varyasyon ne kadar?", "a": "Renk ve malzeme varyasyonları ilk render'dan belirgin biçimde daha ucuzdur. Kesin fiyat teklifte yer alır." },
+    { "q": "Animasyon da yapıyor musunuz?", "a": "Evet, ürün animasyonlarını ayrı olarak teklif ediyoruz." }
+  ]
+}

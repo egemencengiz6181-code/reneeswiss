@@ -1,0 +1,22 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Deru",
+  "meta": { "title": "Deru: Marke und Verpackung für Kaffee | Renee", "description": "Logo, Figuren und Verpackungssystem für eine Kaffeemarke: auf Becher, Deckel, Boxen und Glacebecher übertragen, ohne Mehrkosten." },
+  "name": "Deru",
+  "industry": "Kaffee & Detailhandel",
+  "year": "2024",
+  "summary": "Eine Kaffeemarke mit eigenen Figuren, die vom Becher bis zur Geschenkbox wiedererkennbar bleibt.",
+  "challenge": "Die Marke sollte auf vielen Verpackungsformaten funktionieren, ohne die Produktion zu verteuern.",
+  "solution": "Rennende, greifende und lachende Kaffeebecher bilden ein Figurensystem, das sich frei auf jedes Format übertragen lässt.",
+  "result": "Das System wurde ohne Mehrkosten auf Becher, Deckel, Box, Glacebecher und Gebäckverpackung übertragen.",
+  "services": ["Logo", "Corporate Identity", "Verpackung", "Illustration"],
+  "cover": { "src": "deru/1", "alt": "Deru: bedruckte Kaffeebecher in Grün und Violett" },
+  "gallery": [
+    { "src": "deru/5", "alt": "Deru: geöffnete Versandbox mit Becher und Kaffeebeutel" },
+    { "src": "deru/3", "alt": "Deru: vier Figuren auf farbigen Feldern" },
+    { "src": "deru/7", "alt": "Deru: Glacebecher vor grünem Hintergrund" },
+    { "src": "deru/4", "alt": "Deru: Muster aus Kaffeebecher-Figuren" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}

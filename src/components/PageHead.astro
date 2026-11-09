@@ -1,0 +1,10 @@
+---
+import Eyebrow from './Eyebrow.astro';
+const { eyebrow, title, lead } = Astro.props as { eyebrow?: string; title: string; lead?: string };
+---
+<section class="wrap pt-10 lg:pt-16 pb-12 lg:pb-20">
+  {eyebrow && <Eyebrow text={eyebrow} />}
+  <h1 class="display mt-6 max-w-[20ch]">{title}</h1>
+  {lead && <p class="lead mt-8 measure">{lead}</p>}
+  <slot />
+</section>

@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import PageHead from '../components/PageHead.astro';
+import Section from '../components/Section.astro';
+import Process from '../components/Process.astro';
+import Form from '../components/Form.astro';
+import Faq from '../components/Faq.astro';
+import CalButton from '../components/CalButton.astro';
+import { common } from '../lib/content';
+import { faqLd } from '../lib/schema';
+const c = common(locale);
+---
+<Layout locale={locale} route={route} meta={p.meta} jsonLd={[faqLd(p.faq.items)]}>
+  <PageHead eyebrow={p.eyebrow} title={p.h1} lead={p.lead}>
+    <div class="flex flex-wrap gap-3 mt-8"><CalButton locale={locale} label={c.cta.agency} /><a class="btn btn-outline" href="#form">{p.pilot.cta}</a></div>
+  </PageHead>
+  <Section eyebrow={p.deliver.eyebrow} title={p.deliver.title} tone="mist">
+    <ul class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6">
+      {p.deliver.items.map((d: any) => <li class="border-t border-ink pt-4 pb-8"><h3 class="subtitle">{d.t}</h3><p class="muted mt-2 text-[16px]">{d.d}</p></li>)}
+    </ul>
+  </Section>
+  <Section eyebrow={p.how.eyebrow} title={p.how.title}><Process steps={p.how.steps} /></Section>
+  <Section eyebrow={p.rules.eyebrow} title={p.rules.title} tone="black">
+    <ul class="dash-list max-w-[80ch]">{p.rules.items.map((b: string) => <li>{b}</li>)}</ul>
+  </Section>
+  <Section eyebrow={p.pricing.eyebrow} title={p.pricing.title}>
+    <ul class="grid lg:grid-cols-3 gap-6">
+      {p.pricing.models.map((m: any) => (
+        <li class="border border-line p-6 flex flex-col">
+          <h3 class="subtitle">{m.t}</h3>
+          <p class="title mt-6">{m.price}</p>
+          <p class="muted mt-4 text-[16px]">{m.d}</p>
+        </li>
+      ))}
+    </ul>
+    <p class="muted text-[15px] mt-6">{p.pricing.note}</p>
+  </Section>
+  <Section id="pilot" tone="mist">
+    <div class="grid-12">
+      <div class="col-span-12 lg:col-span-5">
+        <h2 class="title">{p.pilot.title}</h2>
+        <p class="lead mt-6">{p.pilot.text}</p>
+        <ul class="dash-list mt-8">{p.pilot.items.map((b: string) => <li>{b}</li>)}</ul>
+      </div>
+      <div class="col-span-12 lg:col-start-7 lg:col-span-6 mt-10 lg:mt-0"><Form locale={locale} type="agency" routeId={route.id} /></div>
+    </div>
+  </Section>
+  <Section eyebrow={p.faq.eyebrow} title={p.faq.title}><Faq items={p.faq.items} /></Section>
+</Layout>

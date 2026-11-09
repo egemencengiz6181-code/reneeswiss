@@ -1,0 +1,18 @@
+{
+  "_review": "",
+  "breadcrumb": "Privacy",
+  "meta": { "title": "Privacy policy | Renee", "description": "How Renee processes personal data under the Swiss FADP (revDSG) and the GDPR: purposes, service providers, disclosure abroad and your rights." },
+  "h1": "Privacy policy",
+  "intro": "This policy describes how we process personal data under the Swiss Federal Act on Data Protection (FADP, revDSG) and, where applicable, the GDPR.",
+  "sections": [
+    { "h": "Controller", "p": ["{{legal.legalName}}, {{legal.street}}, {{legal.postalCode}} {{legal.city}}, Turkey. Email: {{email}}"] },
+    { "h": "Data we process", "list": ["Details from forms: name, company, email, phone, website, city, industry, message", "Technical details when a page is accessed: IP address, browser, time (server logs)", "Source details from links (utm parameters), language and page visited, together with your enquiry", "Appointment details if you book a call"] },
+    { "h": "Purposes", "list": ["Answering your enquiry and preparing quotes", "Carrying out the AI visibility check", "Contract performance and collaboration", "Operation, security and abuse protection of the website", "Newsletter, only with your express consent"] },
+    { "h": "Service providers", "p": ["We use the following processors. The list is updated before each service goes into operation:"], "list": ["Cloudflare, Inc. (USA): hosting, spam protection (Turnstile), cookieless audience measurement (Web Analytics)", "Form forwarding: {{legal.formProcessor}}", "Cal.com, Inc. (USA): appointment booking. Only loaded when you open the booking.", "Brevo (Sendinblue SAS, France): newsletter, only with consent", "Email: {{legal.mailProcessor}}"] },
+    { "h": "Disclosure abroad", "p": ["Our studio is located in Turkey. In the assessment of the Swiss Federal Council, Turkey does not have a recognised adequate level of data protection. We base the disclosure on standard contractual clauses or, where you send us an enquiry, on the performance of a contract or pre-contractual measures.", "We use service providers in the USA on the basis of the Swiss-U.S. Data Privacy Framework or standard contractual clauses."] },
+    { "h": "Cookies and analytics", "p": ["We do not use tracking cookies or Google Analytics. Audience measurement is cookieless and without profiling. Source details are stored in the browser only for the duration of the session."] },
+    { "h": "Retention", "p": ["We delete enquiries that do not lead to a contract after 24 months at the latest. We keep contract data for as long as statutory retention obligations apply."] },
+    { "h": "Your rights", "p": ["You can request access to, correction, deletion or handover of your data, and withdraw consent. Write to {{email}}. You can also contact the Federal Data Protection and Information Commissioner (FDPIC) or a competent EU supervisory authority."] }
+  ],
+  "updated": "Last updated: 08.11.2026"
+}

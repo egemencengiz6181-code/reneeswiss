@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "SEO + KI-Sichtbarkeit",
+  "meta": { "title": "SEO und KI-Sichtbarkeit (GEO) {{price.seo}} | Renee", "description": "Gefunden werden in Google und in ChatGPT, Gemini und Perplexity. SEO und GEO für Schweizer KMU {{price.seo}}, mit klarem Monatsbericht." },
+  "name": "SEO + KI-Sichtbarkeit (GEO)",
+  "short": "Sichtbar in Google und in ChatGPT, Gemini, Perplexity.",
+  "h1": "Gefunden werden. In Google und in KI-Antworten.",
+  "lead": "Wir verbinden klassisches SEO mit GEO, der Optimierung für KI-Assistenten. Technik, Inhalte und Erwähnungen greifen ineinander.",
+  "facts": { "who": "KMU, die lokal oder national gefunden werden wollen", "what": "Technik, Inhalte, strukturierte Daten, KI-Monitoring" },
+  "timeline": "Audit in 10 Arbeitstagen, Wirkung meist nach 3–6 Monaten",
+  "problem": "Wer auf Seite zwei steht oder in KI-Antworten fehlt, wird nicht angefragt. Oft fehlen klare Inhalte und strukturierte Daten.",
+  "included": ["Technisches Audit und Umsetzung", "Keyword- und Fragenanalyse", "Service-Seiten und Fachartikel", "Strukturierte Daten und llms.txt", "Verzeichnisse und Erwähnungen", "Monatliches KI-Monitoring"],
+  "deliverables": ["Audit mit priorisierter Massnahmenliste", "Umgesetzte Inhalte und Technik", "Monatsbericht zu Rankings und KI-Nennungen"],
+  "process": [
+    { "t": "Audit", "d": "Technik, Inhalte und KI-Sichtbarkeit messen." },
+    { "t": "Plan", "d": "Massnahmen nach Wirkung sortieren." },
+    { "t": "Umsetzung", "d": "Technik, Texte und Einträge." },
+    { "t": "Messung", "d": "Monatlich dieselben Fragen testen." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "Was ist GEO?", "a": "Generative Engine Optimization: Inhalte so aufbereiten, dass KI-Assistenten sie finden, verstehen und zitieren können." },
+    { "q": "Können Sie Platz 1 garantieren?", "a": "Nein, das kann niemand seriös. Wir arbeiten an messbaren Zielen und zeigen die Entwicklung offen." },
+    { "q": "Wie lange dauert es bis zu ersten Ergebnissen?", "a": "Technische Verbesserungen wirken oft innert Wochen. Bei Rankings und KI-Nennungen rechnen Sie mit 3 bis 6 Monaten." }
+  ]
+}

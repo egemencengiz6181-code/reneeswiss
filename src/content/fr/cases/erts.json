@@ -1,0 +1,22 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "ERTS",
+  "meta": { "title": "ERTS : marque pour l'énergie renouvelable | Renee", "description": "Signe alliant éolienne et feuille, système de pictogrammes et campagne pour le producteur d'énergie ERTS, déployés en affichage, social et print." },
+  "name": "ERTS",
+  "industry": "Énergie renouvelable",
+  "year": "2024",
+  "summary": "Un signe qui associe éolienne et feuille, et un système de pictogrammes pour toute la communication.",
+  "challenge": "Le producteur d'énergie propre avait besoin d'une marque claire et d'un langage valable sur tous les canaux.",
+  "solution": "Le signe réunit pale de rotor et feuille en une seule forme. Un système de pictogrammes porte la communication.",
+  "result": "La signature « Empowering Green Future » a été déployée en affichage, sur les réseaux sociaux et en print.",
+  "services": ["Logo", "Identité visuelle", "Charte de marque", "Campagne"],
+  "cover": { "src": "erts/6c", "alt": "ERTS : sac en tissu avec le signe de la marque dans l'eau" },
+  "gallery": [
+    { "src": "erts/5", "alt": "ERTS : logo avec symbole et logotype" },
+    { "src": "erts/8", "alt": "ERTS : six pictogrammes sur fond vert" },
+    { "src": "erts/9", "alt": "ERTS : publications pour les réseaux sociaux en grille" },
+    { "src": "erts/10", "alt": "ERTS : supports de campagne et gourde" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}

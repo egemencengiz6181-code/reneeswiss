@@ -1,0 +1,18 @@
+---
+import '../styles/global.css';
+import { LOCALES, HREFLANG } from '../lib/routes';
+import { common } from '../lib/content';
+---
+<!doctype html>
+<html lang="de-CH">
+  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>404 – Renee</title><meta name="robots" content="noindex" /></head>
+  <body class="on-dark bg-ink text-white min-h-screen">
+    <main class="wrap py-24">
+      <img src="/brand/renee-logo-white-trim.webp" alt="Renee" width="110" height="48" class="h-10 w-auto" />
+      <h1 class="display mt-16">404</h1>
+      <ul class="mt-12 grid gap-4">
+        {LOCALES.map((l) => <li lang={HREFLANG[l]}><a class="arrow-link" href={`/${l}/`}>{common(l).notFound} →</a></li>)}
+      </ul>
+    </main>
+  </body>
+</html>

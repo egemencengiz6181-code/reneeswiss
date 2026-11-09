@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "3D visualisation",
+  "meta": { "title": "3D product visualisation {{price.3d}} | Renee", "description": "Photorealistic 3D product renders and animations for manufacturers and agencies. Price: {{price.3d}}, standard delivery in 48–72 h." },
+  "name": "3D visualisation",
+  "short": "Product renders and animation.",
+  "h1": "Product images without a photo shoot.",
+  "lead": "We create photorealistic renders and animations from CAD data or references. Variants are quick to produce.",
+  "facts": { "who": "Manufacturers, e-commerce and agencies", "what": "Renders, variants, product animation" },
+  "timeline": "48–72 hours per standard render",
+  "problem": "Photo shoots are expensive, and every new colour or package means another session. Prototypes often aren't even available yet.",
+  "included": ["3D model from CAD, sketches or photos", "Materials, lighting and scene", "Cut-outs and lifestyle scenes", "Colour and packaging variants", "Product animation on request"],
+  "deliverables": ["High-resolution renders (PNG, TIFF, JPG)", "Variants as needed", "3D source file on request"],
+  "process": [
+    { "t": "Data", "d": "CAD, references and target look." },
+    { "t": "Model", "d": "Geometry and materials." },
+    { "t": "Scene", "d": "Lighting, composition, test render." },
+    { "t": "Final", "d": "Corrections and output." }
+  ],
+  "relatedCase": "deru",
+  "faq": [
+    { "q": "What data do you need?", "a": "Ideally CAD data (STEP, OBJ). Good photos and dimensions are often enough." },
+    { "q": "What does a variant cost?", "a": "Colour and material variants cost significantly less than the first render. The exact price is in the quote." },
+    { "q": "Can you also animate?", "a": "Yes, we quote product animations separately." }
+  ]
+}

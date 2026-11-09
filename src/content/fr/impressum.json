@@ -1,0 +1,14 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Mentions légales",
+  "meta": { "title": "Mentions légales | Renee", "description": "Mentions légales de Renee Design Lab, ODTÜ Teknokent, Ankara, Turquie : informations sur l'entreprise et contact." },
+  "h1": "Mentions légales",
+  "sections": [
+    { "h": "Prestataire", "p": ["{{legal.legalName}}", "{{legal.street}}", "{{legal.postalCode}} {{legal.city}}", "Turquie"] },
+    { "h": "Contact", "p": ["E-mail : {{email}}", "Téléphone : {{phone}}"] },
+    { "h": "Personne habilitée à représenter l'entreprise", "p": ["{{legal.representative}}"] },
+    { "h": "Registre", "p": ["Registre du commerce : {{legal.registry}}", "Numéro fiscal : {{legal.taxId}}"] },
+    { "h": "Précision sur le lieu d'établissement", "p": ["Renee est le studio à distance de {{legal.name}}. Nous n'avons ni siège ni succursale en Suisse."] },
+    { "h": "Responsabilité", "p": ["Nous vérifions soigneusement le contenu de ce site, mais n'offrons aucune garantie quant à son exhaustivité et à son actualité. Les exploitants des sites liés sont responsables de leur contenu."] }
+  ]
+}

@@ -1,0 +1,8 @@
+---
+import site from '../config/site.json';
+import { href, type Locale } from '../lib/routes';
+interface Props { locale: Locale; label: string; variant?: 'primary' | 'outline'; size?: 'sm' | 'md'; class?: string }
+const { locale, label, variant = 'primary', size = 'md', class: cls = '' } = Astro.props;
+const target = site.calLink || `${href(locale, 'contact')}#form`;
+---
+<a href={target} class:list={['btn', `btn-${variant}`, size === 'sm' && 'btn-sm', cls]} {...(site.calLink ? { 'data-cal': '' } : {})}>{label}</a>

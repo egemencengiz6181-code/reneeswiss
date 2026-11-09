@@ -1,0 +1,22 @@
+{
+  "_review": "",
+  "breadcrumb": "Arni",
+  "meta": { "title": "Arni: corporate identity for industry | Renee", "description": "Modular brand mark and corporate identity for an industrial company: from facade to stationery in one system." },
+  "name": "Arni",
+  "industry": "Industrial manufacturing",
+  "year": "2024",
+  "summary": "A calm, distinctive identity for an industrial company, derived from a modular mark.",
+  "challenge": "The manufacturer needed an identity that works on the facade as well as on the business card.",
+  "solution": "The mark consists of four interlocking modules. These produced the logo, a pattern system and the complete stationery.",
+  "result": "Business card, notebook, company folder and facade design are now managed in a single system.",
+  "services": ["Logo", "Corporate identity", "Print materials", "Pattern system"],
+  "cover": { "src": "arni/5", "alt": "Arni: blue folders and white stationery with logo" },
+  "gallery": [
+    { "src": "arni/2", "alt": "Arni: grey business cards with logo" },
+    { "src": "arni/3", "alt": "Arni: pattern made from the four logo modules in blue and grey-green" },
+    { "src": "arni/4", "alt": "Arni: logo on the building facade" },
+    { "src": "arni/1", "alt": "Arni: smartphone showing the brand mark on a blue screen" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}

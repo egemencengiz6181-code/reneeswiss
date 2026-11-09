@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import site from '../config/site.json';
+import PageHead from '../components/PageHead.astro';
+import Section from '../components/Section.astro';
+import FinalCta from '../components/FinalCta.astro';
+import Process from '../components/Process.astro';
+---
+<Layout locale={locale} route={route} meta={p.meta}>
+  <PageHead eyebrow={p.eyebrow} title={p.h1} lead={p.lead} />
+  <Section tone="mist"><div class="grid-12"><h2 class="title col-span-12 lg:col-span-4">{p.story.title}</h2><div class="col-span-12 lg:col-start-6 lg:col-span-7 measure mt-4 lg:mt-0 space-y-4">{p.story.paragraphs.map((t: string) => <p>{t}</p>)}</div></div></Section>
+  <Section title={p.team.title}>
+    <p class="lead measure mb-10">{p.team.text}</p>
+    <ul class="grid md:grid-cols-2 lg:grid-cols-4 gap-x-6">{p.team.roles.map((r: any) => <li class="border-t border-ink pt-4 pb-8"><h3 class="subtitle">{r.t}</h3><p class="muted mt-2 text-[16px]">{r.d}</p></li>)}</ul>
+  </Section>
+  <Section title={p.remote.title} tone="black"><Process steps={p.remote.steps} dark /></Section>
+  <Section title={p.proof.title}>
+    <div class="grid-12">
+      <p class="lead col-span-12 lg:col-span-7">{p.proof.text}</p>
+      <ul class="col-span-12 lg:col-start-9 lg:col-span-4 space-y-3 mt-6 lg:mt-0">
+        <li><a class="arrow-link" href={site.identityGuide} rel="noopener" hreflang="tr">{p.proof.guide} →</a></li>
+        <li><a class="arrow-link" href={site.existingSite} rel="noopener" hreflang="tr">{p.proof.site} →</a></li>
+      </ul>
+    </div>
+  </Section>
+  <FinalCta locale={locale} />
+</Layout>

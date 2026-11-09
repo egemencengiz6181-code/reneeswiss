@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "SEO + yapay zekâ görünürlüğü",
+  "meta": { "title": "SEO ve yapay zekâ görünürlüğü {{price.seo}} | Renee", "description": "Google'da ve ChatGPT, Gemini, Perplexity'de bulunun. İsviçre'deki KOBİ'ler için SEO ve GEO, {{price.seo}}, net aylık raporla." },
+  "name": "SEO + yapay zekâ görünürlüğü (GEO)",
+  "short": "Google'da ve ChatGPT, Gemini, Perplexity'de görünür olun.",
+  "h1": "Bulunun. Google'da ve yapay zekâ yanıtlarında.",
+  "lead": "Klasik SEO'yu, yapay zekâ asistanları için optimizasyon olan GEO ile birleştiriyoruz. Teknik altyapı, içerik ve anılmalar birlikte çalışır.",
+  "facts": { "who": "Yerel veya ulusal düzeyde bulunmak isteyen KOBİ'ler", "what": "Teknik, içerik, yapılandırılmış veri, yapay zekâ izleme" },
+  "timeline": "10 iş gününde denetim, etkisi genellikle 3–6 ayda",
+  "problem": "İkinci sayfada kalan veya yapay zekâ yanıtlarında yer almayan işletmeye talep gelmez. Çoğu zaman net içerikler ve yapılandırılmış veriler eksiktir.",
+  "included": ["Teknik denetim ve uygulama", "Anahtar kelime ve soru analizi", "Hizmet sayfaları ve uzmanlık yazıları", "Yapılandırılmış veri ve llms.txt", "Rehberler ve anılmalar", "Aylık yapay zekâ izleme"],
+  "deliverables": ["Önceliklendirilmiş önlem listesiyle denetim", "Uygulanmış içerik ve teknik işler", "Sıralamalar ve yapay zekâ anılmaları hakkında aylık rapor"],
+  "process": [
+    { "t": "Denetim", "d": "Teknik, içerik ve yapay zekâ görünürlüğünü ölçme." },
+    { "t": "Plan", "d": "Önlemleri etkiye göre sıralama." },
+    { "t": "Uygulama", "d": "Teknik, metinler ve kayıtlar." },
+    { "t": "Ölçüm", "d": "Her ay aynı soruları test etme." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "GEO nedir?", "a": "Generative Engine Optimization: İçerikleri yapay zekâ asistanlarının bulabileceği, anlayabileceği ve aktarabileceği şekilde hazırlamak." },
+    { "q": "1. sırayı garanti edebilir misiniz?", "a": "Hayır, bunu ciddi hiç kimse garanti edemez. Ölçülebilir hedefler üzerinde çalışıyor, gelişimi açıkça gösteriyoruz." },
+    { "q": "İlk sonuçlar ne kadar sürede görülür?", "a": "Teknik iyileştirmeler çoğu zaman haftalar içinde etkisini gösterir. Sıralamalar ve yapay zekâ anılmaları için 3 ila 6 ay öngörün." }
+  ]
+}

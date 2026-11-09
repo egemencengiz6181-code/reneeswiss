@@ -1,0 +1,18 @@
+{
+  "_review": "TODO: native review needed. Legal review required before launch.",
+  "breadcrumb": "Protection des données",
+  "meta": { "title": "Déclaration de protection des données | Renee", "description": "Comment Renee traite les données personnelles selon la LPD révisée (nLPD) et le RGPD : finalités, prestataires, communication à l'étranger et vos droits." },
+  "h1": "Déclaration de protection des données",
+  "intro": "La présente déclaration décrit comment nous traitons les données personnelles conformément à la loi suisse sur la protection des données, la LPD révisée (nLPD), et, dans la mesure où il est applicable, au RGPD.",
+  "sections": [
+    { "h": "Responsable du traitement", "p": ["{{legal.legalName}}, {{legal.street}}, {{legal.postalCode}} {{legal.city}}, Turquie. E-mail : {{email}}"] },
+    { "h": "Données que nous traitons", "list": ["Données issues des formulaires : nom, entreprise, e-mail, téléphone, site web, localité, secteur, message", "Données techniques lors de la consultation du site : adresse IP, navigateur, date et heure (journaux du serveur)", "Données de provenance issues des liens (paramètres utm), langue et page consultée, avec votre demande", "Données de rendez-vous, lorsque vous réservez un entretien"] },
+    { "h": "Finalités", "list": ["Réponse à votre demande et établissement d'offres", "Réalisation du diagnostic de visibilité IA", "Exécution des contrats et collaboration", "Exploitation, sécurité et protection du site contre les abus", "Newsletter, uniquement avec votre consentement exprès"] },
+    { "h": "Prestataires", "p": ["Nous faisons appel aux sous-traitants suivants. La liste est mise à jour avant la mise en service de chaque service :"], "list": ["Cloudflare, Inc. (États-Unis) : hébergement, protection contre le spam (Turnstile), mesure d'audience sans cookies (Web Analytics)", "Transmission des formulaires : {{legal.formProcessor}}", "Cal.com, Inc. (États-Unis) : prise de rendez-vous. Chargé uniquement lorsque vous ouvrez la réservation.", "Brevo (Sendinblue SAS, France) : newsletter, uniquement avec consentement", "E-mail : {{legal.mailProcessor}}"] },
+    { "h": "Communication à l'étranger", "p": ["Notre studio se trouve en Turquie. Selon l'évaluation du Conseil fédéral suisse, la Turquie ne bénéficie pas d'un niveau de protection des données reconnu comme adéquat. Nous fondons la communication sur des clauses contractuelles types ou, lorsque vous nous adressez une demande, sur l'exécution d'un contrat ou de mesures précontractuelles.", "Nous recourons à des prestataires aux États-Unis sur la base du Swiss-U.S. Data Privacy Framework ou de clauses contractuelles types."] },
+    { "h": "Cookies et analyse", "p": ["Nous n'utilisons ni cookies de suivi ni Google Analytics. La mesure d'audience s'effectue sans cookies et sans profilage. Les données de provenance sont enregistrées dans le navigateur uniquement pour la durée de la session."] },
+    { "h": "Conservation", "p": ["Nous effaçons les demandes n'ayant pas abouti à un contrat au plus tard après 24 mois. Nous conservons les données contractuelles aussi longtemps que des obligations légales de conservation s'appliquent."] },
+    { "h": "Vos droits", "p": ["Vous pouvez demander l'accès à vos données, leur rectification, leur effacement et leur remise, et révoquer un consentement. Écrivez à {{email}}. Vous pouvez également vous adresser au Préposé fédéral à la protection des données et à la transparence (PFPDT) ou à une autorité de contrôle compétente de l'UE."] }
+  ],
+  "updated": "État au 08.11.2026"
+}

@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "Social media content",
+  "meta": { "title": "Social media content {{price.social}} | Renee", "description": "Strategy, content calendar and production of posts, Reels and carousels for Swiss SMEs and agencies. Price: {{price.social}} {{vat}}" },
+  "name": "Social media content",
+  "short": "Posts, Reels and carousels with a content calendar.",
+  "h1": "Regular content, without you having to think about it.",
+  "lead": "We plan and produce content for Instagram, LinkedIn and Facebook. You approve, we deliver.",
+  "facts": { "who": "SMEs and agencies with ongoing content needs", "what": "Strategy, content calendar, posts, Reels, carousels" },
+  "timeline": "First monthly plan in 10 working days",
+  "problem": "Social media gets left behind in day-to-day work. Posting is irregular, with no plan and no consistent look.",
+  "included": ["Content strategy and topic areas", "Monthly content calendar", "Graphics, carousels and short videos", "Copy in German, French or English", "Approval in a set process"],
+  "deliverables": ["Monthly plan with dates", "Finished posts and source files", "Short monthly report"],
+  "process": [
+    { "t": "Strategy", "d": "Goals, audience and topics." },
+    { "t": "Plan", "d": "Content calendar for the next month." },
+    { "t": "Production", "d": "Design and write the posts." },
+    { "t": "Approval", "d": "You review; we schedule or hand over." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "How many posts are included?", "a": "The starter package covers eight posts per month, two of them short videos. The exact mix is set out in the quote." },
+    { "q": "Do you also shoot on location?", "a": "No. We work with your material, graphics and animation. Shoots are possible on request through partners." },
+    { "q": "Do you also publish directly?", "a": "Yes, if you give us permission. Otherwise we hand over the finished posts." }
+  ]
+}

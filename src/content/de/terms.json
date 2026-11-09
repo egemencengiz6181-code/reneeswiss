@@ -1,0 +1,10 @@
+{
+  "_review": "TODO: native review needed. Placeholder, legal review required.",
+  "breadcrumb": "AGB",
+  "meta": { "title": "Allgemeine Geschäftsbedingungen | Renee", "description": "Allgemeine Geschäftsbedingungen von Renee Design Lab für Design-, Web- und Marketingleistungen." },
+  "h1": "Allgemeine Geschäftsbedingungen",
+  "intro": "Die vollständigen AGB werden derzeit erarbeitet. Bis dahin gelten die in Ihrer Offerte festgehaltenen Bedingungen.",
+  "sections": [
+    { "h": "Grundsätze", "list": ["Umfang, Preis und Termine ergeben sich aus der schriftlichen Offerte.", "Alle Preise verstehen sich in CHF, {{vat}}", "Nutzungsrechte gehen nach vollständiger Bezahlung über."] }
+  ]
+}

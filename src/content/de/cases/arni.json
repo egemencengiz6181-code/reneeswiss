@@ -1,0 +1,22 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Arni",
+  "meta": { "title": "Arni: Corporate Identity für Industrie | Renee", "description": "Modulares Markenzeichen und Corporate Identity für einen Industriebetrieb: von der Fassade bis zur Geschäftsausstattung in einem System." },
+  "name": "Arni",
+  "industry": "Industrielle Fertigung",
+  "year": "2024",
+  "summary": "Eine ruhige, eigenständige Identität für einen Industriebetrieb, abgeleitet aus einem modularen Zeichen.",
+  "challenge": "Der Hersteller brauchte ein Erscheinungsbild, das auf der Fassade ebenso funktioniert wie auf der Visitenkarte.",
+  "solution": "Das Zeichen besteht aus vier ineinandergreifenden Modulen. Daraus entstanden das Logo, ein Mustersystem und die gesamte Geschäftsausstattung.",
+  "result": "Visitenkarte, Notizbuch, Firmenmappe und Fassadengestaltung werden heute in einem einzigen System geführt.",
+  "services": ["Logo", "Corporate Identity", "Drucksachen", "Mustersystem"],
+  "cover": { "src": "arni/5", "alt": "Arni: blaue Mappen und weisse Geschäftspapiere mit Logo" },
+  "gallery": [
+    { "src": "arni/2", "alt": "Arni: Visitenkarten in Grau mit Logo" },
+    { "src": "arni/3", "alt": "Arni: Muster aus den vier Logomodulen in Blau und Graugrün" },
+    { "src": "arni/4", "alt": "Arni: Logo an der Gebäudefassade" },
+    { "src": "arni/1", "alt": "Arni: Smartphone mit Markenzeichen auf blauem Bildschirm" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}

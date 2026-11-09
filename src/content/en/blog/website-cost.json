@@ -1,0 +1,15 @@
+{
+  "_review": "",
+  "breadcrumb": "Website costs",
+  "meta": { "title": "What does a website cost in Switzerland in 2026? | Renee", "description": "Web design price in Switzerland: what drives it, which follow-up costs to expect and how to compare quotes fairly." },
+  "title": "What does a website cost in Switzerland in 2026? An honest price comparison",
+  "author": "Renee Editorial",
+  "date": "2026-11-08",
+  "summary": "The price of a website depends mainly on the number of pages, languages, design and features. Quotes can only be compared if the scope is identical. Our websites start {{price.website}} {{vat}}",
+  "sections": [
+    { "h": "What determines the price", "list": ["Number of pages and page types", "Number of languages and who writes the copy", "Custom design or adapted template", "Features such as booking, shop or customer login", "Photography, video and illustration", "SEO basics and structured data"] },
+    { "h": "Costs that often get forgotten", "p": ["A website is not finished at launch. Factor in domain, hosting, security updates and content maintenance. Static websites have an advantage here: they need no database and hardly any maintenance."] },
+    { "h": "How to compare quotes fairly", "p": ["We deliberately do not publish market averages here, because reliable, comparable figures are lacking and scope varies widely. Instead, get three quotes based on the same briefing and check:"], "list": ["Are copy and translations included?", "How many correction rounds are included?", "Who owns the code, design and access?", "What does it cost to run per year?"] },
+    { "h": "Our prices", "p": ["At Renee, websites start {{price.website}} {{vat}} The Start package covers up to five pages in one language. After the intro call you receive a fixed price within {{stat.offer}} hours."] }
+  ]
+}

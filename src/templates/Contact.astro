@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import site from '../config/site.json';
+import PageHead from '../components/PageHead.astro';
+import Form from '../components/Form.astro';
+import CalButton from '../components/CalButton.astro';
+import { common } from '../lib/content';
+const c = common(locale);
+---
+<Layout locale={locale} route={route} meta={p.meta}>
+  <PageHead eyebrow={p.eyebrow} title={p.h1} lead={p.lead} />
+  <div class="wrap grid-12 pb-24">
+    <div class="col-span-12 lg:col-span-5">
+      <dl class="border-t border-ink">
+        <div class="py-4 border-b border-line"><dt class="muted text-[15px]">{p.labels.email}</dt><dd class="mt-1"><a class="link" href={`mailto:${site.email}`}>{site.email}</a></dd></div>
+        <div class="py-4 border-b border-line"><dt class="muted text-[15px]">{p.labels.phone}</dt><dd class="mt-1"><a class="link" href={`tel:${site.phoneHref}`}>{site.phone}</a></dd></div>
+        <div class="py-4 border-b border-line"><dt class="muted text-[15px]">{p.labels.hours}</dt><dd class="mt-1">{c.footer.hours}</dd></div>
+        <div class="py-4 border-b border-line"><dt class="muted text-[15px]">{p.labels.location}</dt><dd class="mt-1">{p.location}</dd></div>
+      </dl>
+      <div class="flex flex-wrap gap-3 mt-8">
+        <CalButton locale={locale} label={c.cta.primary} />
+        {site.whatsapp && <a class="btn btn-outline" href={`https://wa.me/${site.whatsapp}`} rel="noopener">WhatsApp</a>}
+      </div>
+    </div>
+    <div class="col-span-12 lg:col-start-7 lg:col-span-6 mt-12 lg:mt-0"><Form locale={locale} type="contact" routeId={route.id} /></div>
+  </div>
+</Layout>

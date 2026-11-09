@@ -1,0 +1,34 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Über uns",
+  "meta": { "title": "Über Renee: Remote-Studio aus Ankara", "description": "Renee ist das Remote-Studio von Renee Design Lab im ODTÜ Teknokent, Ankara: über {{stat.brands}} Marken, {{stat.identities}} Identitäten, Zusammenarbeit zu Schweizer Bürozeiten." },
+  "eyebrow": "Über uns",
+  "h1": "Ein Studio in Ankara, das für die Schweiz arbeitet.",
+  "lead": "Wir sagen offen, wo wir sitzen. Entscheidend sind Erreichbarkeit, Qualität und klare Abläufe.",
+  "story": {
+    "title": "Unsere Geschichte",
+    "paragraphs": [
+      "Renee Design Lab ist eine Design- und Werbeagentur im ODTÜ Teknokent in Ankara. Wir haben für über {{stat.brands}} Marken gearbeitet und mehr als {{stat.identities}} Corporate-Identity-Projekte umgesetzt, unter anderem für Bayer, Yataş Bedding und Medicana sowie für Privatschulen und Kliniken.",
+      "Renee ist unser Remote-Studio für den Schweizer Markt. Unsere Hausschrift ist die Helvetica Neue, deren Ursprung die Neue Haas Grotesk ist, 1957 in Münchenstein bei Basel entstanden. Die Schweizer Typografie prägt unsere Arbeit seit jeher: Raster, Klarheit, wenig Dekoration."
+    ]
+  },
+  "team": {
+    "title": "Das Team",
+    "text": "Ihr Projekt betreut ein festes Team mit einer Ansprechperson.",
+    "roles": [
+      { "t": "Kreativdirektion", "d": "Konzept, Marke und Qualitätskontrolle." },
+      { "t": "Grafikdesign", "d": "Identität, Layout, 3D und Content." },
+      { "t": "Strategie", "d": "Positionierung, Kampagnen und Auswertung." },
+      { "t": "UI/UX", "d": "Websites, Interfaces und Automatisierung." }
+    ]
+  },
+  "remote": {
+    "title": "So arbeiten wir remote zusammen.",
+    "steps": [
+      { "t": "Gleiche Bürozeiten", "d": "Mo–Fr {{hours.from}}–{{hours.to}} Schweizer Zeit. Zeitunterschied: 1 Stunde im Sommer, 2 im Winter." },
+      { "t": "Ihre Tools", "d": "Figma, Asana oder Trello, Slack oder Teams, Google Workspace." },
+      { "t": "Feste Termine", "d": "Kurze Videocalls zu vereinbarten Zeitpunkten, Antwort innert {{stat.response}} Stunden." }
+    ]
+  },
+  "proof": { "title": "Unser eigenes Handwerk", "text": "Wir legen unser eigenes Markenhandbuch offen. Dort sehen Sie, wie wir arbeiten. Unsere türkische Website zeigt das gesamte Portfolio.", "guide": "Markenhandbuch ansehen (TR)", "site": "reneedesignlab.com (TR)" }
+}

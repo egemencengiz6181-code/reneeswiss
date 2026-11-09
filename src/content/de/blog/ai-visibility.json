@@ -1,0 +1,15 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "KI-Sichtbarkeit für KMU",
+  "meta": { "title": "KI-Sichtbarkeit für KMU: In ChatGPT erscheinen | Renee", "description": "Was KI-Assistenten für lokale Empfehlungen auswerten und welche fünf Schritte Schweizer KMU für ihre Sichtbarkeit in ChatGPT & Co. umsetzen können." },
+  "title": "KI-Sichtbarkeit für KMU: So erscheint Ihr Unternehmen in ChatGPT-Antworten",
+  "author": "Renee Redaktion",
+  "date": "2026-11-08",
+  "summary": "KI-Assistenten nennen oft nur wenige Anbieter pro Frage. Sie stützen sich auf öffentlich auffindbare, eindeutige Angaben. Wer Leistungen, Standort und Preise sauber beschreibt und in Verzeichnissen konsistent auftritt, verbessert seine Chancen.",
+  "sections": [
+    { "h": "Was sich verändert", "p": ["Bei einer klassischen Suche sehen Menschen eine Liste von Treffern. Ein KI-Assistent formuliert dagegen eine Antwort und nennt darin meist nur wenige Unternehmen. Wer nicht vorkommt, wird gar nicht erst verglichen."] },
+    { "h": "Worauf KI-Assistenten achten", "p": ["Die genaue Gewichtung legen die Anbieter nicht offen. Aus eigenen Tests sehen wir aber immer wieder dieselben Muster:"], "list": ["Klar beschriebene Leistungen auf der eigenen Website", "Eindeutige Angaben zu Standort und Einzugsgebiet", "Einheitliche Einträge in Branchenverzeichnissen", "Bewertungen und Erwähnungen auf Drittseiten", "Strukturierte Daten, die Maschinen lesen können"] },
+    { "h": "Fünf Schritte für den Anfang", "list": ["Stellen Sie zehn typische Kundenfragen in ChatGPT, Gemini und Perplexity und notieren Sie die Antworten.", "Beschreiben Sie jede Leistung auf einer eigenen Seite: für wen, was, Preis ab, Dauer.", "Vereinheitlichen Sie Firmenname, Adresse und Telefonnummer in allen Verzeichnissen.", "Ergänzen Sie strukturierte Daten und eine FAQ mit echten Kundenfragen.", "Wiederholen Sie den Test monatlich und halten Sie die Ergebnisse fest."] },
+    { "h": "Was realistisch ist", "p": ["Niemand kann eine Nennung in KI-Antworten garantieren. Die Antworten schwanken zudem von Abfrage zu Abfrage. Aufbauarbeit wirkt meist nach mehreren Monaten, ähnlich wie bei SEO. Deshalb lohnt es sich, Veränderungen regelmässig mit denselben Fragen zu messen."] }
+  ]
+}

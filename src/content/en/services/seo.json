@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "SEO + AI visibility",
+  "meta": { "title": "SEO & GEO for Switzerland {{price.seo}} | Renee", "description": "Get found in Google and in ChatGPT, Gemini and Perplexity. SEO and GEO for Swiss SMEs {{price.seo}}, with a clear monthly report." },
+  "name": "SEO + AI visibility (GEO)",
+  "short": "Visible in Google and in ChatGPT, Gemini, Perplexity.",
+  "h1": "Get found. In Google and in AI answers.",
+  "lead": "We combine classic SEO with GEO, optimisation for AI assistants. Technology, content and mentions work together.",
+  "facts": { "who": "SMEs that want to be found locally or nationally", "what": "Technical work, content, structured data, AI monitoring" },
+  "timeline": "Audit in 10 working days, results usually after 3–6 months",
+  "problem": "If you are on page two or missing from AI answers, you don't get enquiries. Clear content and structured data are often what's lacking.",
+  "included": ["Technical audit and implementation", "Keyword and question analysis", "Service pages and expert articles", "Structured data and llms.txt", "Directories and mentions", "Monthly AI monitoring"],
+  "deliverables": ["Audit with prioritised list of measures", "Implemented content and technical work", "Monthly report on rankings and AI mentions"],
+  "process": [
+    { "t": "Audit", "d": "Measure technical state, content and AI visibility." },
+    { "t": "Plan", "d": "Rank measures by impact." },
+    { "t": "Implementation", "d": "Technical work, copy and listings." },
+    { "t": "Measurement", "d": "Test the same questions every month." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "What is GEO?", "a": "Generative Engine Optimisation: preparing content so that AI assistants can find, understand and cite it." },
+    { "q": "Can you guarantee first place?", "a": "No, nobody can honestly do that. We work towards measurable goals and show progress openly." },
+    { "q": "How long until the first results?", "a": "Technical improvements often take effect within weeks. For rankings and AI mentions, expect 3 to 6 months." }
+  ]
+}

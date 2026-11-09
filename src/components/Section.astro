@@ -1,0 +1,16 @@
+---
+import Eyebrow from './Eyebrow.astro';
+const { eyebrow, title, tone = 'white', id } = Astro.props as { eyebrow?: string; title?: string; tone?: 'white' | 'mist' | 'black'; id?: string };
+const dark = tone === 'black';
+---
+<section id={id} class:list={['section', tone === 'mist' && 'bg-mist', dark && 'on-dark bg-ink text-white']}>
+  <div class="wrap">
+    {(eyebrow || title) && (
+      <div class="mb-10 lg:mb-16">
+        {eyebrow && <Eyebrow text={eyebrow} dark={dark} />}
+        {title && <h2 class="title mt-5 max-w-[24ch]">{title}</h2>}
+      </div>
+    )}
+    <slot />
+  </div>
+</section>

@@ -1,0 +1,28 @@
+---
+import { LOCALES, ROUTES, pathOf, type Locale, type Route } from '../lib/routes';
+import { pageContent } from '../lib/content';
+import Home from '../templates/Home.astro';
+import Agencies from '../templates/Agencies.astro';
+import Services from '../templates/Services.astro';
+import Service from '../templates/Service.astro';
+import Work from '../templates/Work.astro';
+import Case from '../templates/Case.astro';
+import Pricing from '../templates/Pricing.astro';
+import KiCheck from '../templates/KiCheck.astro';
+import About from '../templates/About.astro';
+import Blog from '../templates/Blog.astro';
+import Article from '../templates/Article.astro';
+import Contact from '../templates/Contact.astro';
+import Legal from '../templates/Legal.astro';
+import Thanks from '../templates/Thanks.astro';
+
+export function getStaticPaths() {
+  return LOCALES.flatMap((locale) =>
+    ROUTES.map((route) => ({ params: { path: pathOf(route, locale).slice(1, -1) }, props: { locale, route } })),
+  );
+}
+const T: Record<string, any> = { home: Home, agencies: Agencies, services: Services, service: Service, work: Work, case: Case, pricing: Pricing, kicheck: KiCheck, about: About, blog: Blog, article: Article, contact: Contact, legal: Legal, thanks: Thanks };
+const { locale, route } = Astro.props as { locale: Locale; route: Route };
+const Page = T[route.template];
+---
+<Page locale={locale} route={route} c={pageContent(locale, route)} />

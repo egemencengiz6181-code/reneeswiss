@@ -1,0 +1,22 @@
+{
+  "_review": "",
+  "breadcrumb": "ERTS",
+  "meta": { "title": "ERTS: brand for renewable energy | Renee", "description": "Brand mark combining wind turbine and leaf, pictogram system and campaign for energy producer ERTS, rolled out across outdoor, social and print." },
+  "name": "ERTS",
+  "industry": "Renewable energy",
+  "year": "2024",
+  "summary": "A brand mark that combines wind turbine and leaf, plus a pictogram system for all communication.",
+  "challenge": "The clean energy producer needed a clear brand and a language that holds across all channels.",
+  "solution": "The mark unites rotor blade and leaf in a single form. A pictogram system carries the communication.",
+  "result": "The line “Empowering Green Future” was rolled out across outdoor advertising, social media and print.",
+  "services": ["Logo", "Corporate identity", "Brand guidelines", "Campaign"],
+  "cover": { "src": "erts/6c", "alt": "ERTS: tote bag with brand mark in water" },
+  "gallery": [
+    { "src": "erts/5", "alt": "ERTS: logo with symbol and wordmark" },
+    { "src": "erts/8", "alt": "ERTS: six pictograms on a green background" },
+    { "src": "erts/9", "alt": "ERTS: social media posts in a grid" },
+    { "src": "erts/10", "alt": "ERTS: campaign materials and water bottle" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}

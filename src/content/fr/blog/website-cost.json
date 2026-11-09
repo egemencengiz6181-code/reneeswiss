@@ -1,0 +1,15 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Coût d'un site web",
+  "meta": { "title": "Quel prix pour un site web en Suisse en 2026 ? | Renee", "description": "Ce qui détermine le prix d'un site web, les coûts qui s'y ajoutent ensuite et comment comparer équitablement des offres en Suisse." },
+  "title": "Combien coûte un site web en Suisse en 2026 ? Un comparatif de prix honnête",
+  "author": "Rédaction Renee",
+  "date": "2026-11-08",
+  "summary": "Le prix d'un site web dépend surtout du nombre de pages, des langues, du design et des fonctionnalités. Des offres ne se comparent que si le périmètre est identique. Chez nous, les sites web sont proposés {{price.website}} {{vat}}",
+  "sections": [
+    { "h": "Ce qui détermine le prix", "list": ["Nombre de pages et de types de pages", "Nombre de langues et rédaction des textes", "Design sur mesure ou modèle adapté", "Fonctionnalités comme réservation, boutique ou espace client", "Photographie, vidéo et illustration", "Bases SEO et données structurées"] },
+    { "h": "Les coûts souvent oubliés", "p": ["Un site web n'est pas terminé après sa mise en ligne. Prévoyez le domaine, l'hébergement, les mises à jour de sécurité et l'entretien des contenus. Les sites statiques ont ici un avantage : ils n'ont pas besoin de base de données et ne demandent presque aucune maintenance."] },
+    { "h": "Comparer équitablement des offres", "p": ["Nous ne publions délibérément pas ici de moyennes du marché : les chiffres fiables et comparables manquent, et le périmètre varie fortement. Demandez plutôt trois offres sur la base du même briefing et vérifiez :"], "list": ["Les textes et les traductions sont-ils inclus ?", "Combien de tours de corrections sont compris ?", "À qui appartiennent le code, le design et les accès ?", "Combien coûte l'exploitation par an ?"] },
+    { "h": "Nos prix", "p": ["Chez Renee, les sites web sont proposés {{price.website}} {{vat}} Le forfait Start comprend jusqu'à cinq pages dans une langue. Après le premier entretien, vous recevez un prix fixe sous {{stat.offer}} heures."] }
+  ]
+}

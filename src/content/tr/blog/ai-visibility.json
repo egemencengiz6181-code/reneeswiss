@@ -1,0 +1,15 @@
+{
+  "_review": "",
+  "breadcrumb": "KOBİ'ler için yapay zekâ görünürlüğü",
+  "meta": { "title": "ChatGPT'de görünmek: KOBİ'ler için rehber | Renee", "description": "Yapay zekâ asistanları yerel önerilerde neye bakıyor ve İsviçre'deki KOBİ'ler ChatGPT ve benzerlerinde görünür olmak için hangi beş adımı atabilir?" },
+  "title": "KOBİ'ler için yapay zekâ görünürlüğü: İşletmeniz ChatGPT yanıtlarında nasıl yer alır",
+  "author": "Renee Editör Ekibi",
+  "date": "2026-11-08",
+  "summary": "Yapay zekâ asistanları her soruda çoğu zaman yalnızca birkaç işletmenin adını verir ve herkese açık, net bilgilere dayanır. Hizmetlerini, konumunu ve fiyatlarını düzgün anlatan, rehberlerde tutarlı görünen işletmelerin şansı artar.",
+  "sections": [
+    { "h": "Ne değişiyor", "p": ["Klasik aramada insanlar bir sonuç listesi görür. Yapay zekâ asistanı ise bir yanıt yazar ve bu yanıtta genellikle yalnızca birkaç işletmenin adını verir. Yanıtta yer almayan işletme karşılaştırmaya bile giremez."] },
+    { "h": "Yapay zekâ asistanları neye bakıyor", "p": ["Sağlayıcılar ağırlıkları tam olarak açıklamıyor. Ancak kendi testlerimizde aynı örüntüleri tekrar tekrar görüyoruz:"], "list": ["Kendi web sitenizde net anlatılmış hizmetler", "Konum ve hizmet bölgesi hakkında açık bilgiler", "Sektör rehberlerinde tutarlı kayıtlar", "Üçüncü taraf sitelerdeki değerlendirmeler ve anılmalar", "Makinelerin okuyabildiği yapılandırılmış veriler"] },
+    { "h": "Başlangıç için beş adım", "list": ["Müşterilerinizin soracağı on tipik soruyu ChatGPT, Gemini ve Perplexity'de sorun, yanıtları not edin.", "Her hizmeti ayrı bir sayfada anlatın: kimin için, ne, başlangıç fiyatı, süre.", "Şirket adını, adresi ve telefon numarasını tüm rehberlerde aynı hale getirin.", "Yapılandırılmış veri ve gerçek müşteri sorularından oluşan bir SSS ekleyin.", "Testi her ay tekrarlayın ve sonuçları kaydedin."] },
+    { "h": "Gerçekçi beklenti", "p": ["Yapay zekâ yanıtlarında yer almayı kimse garanti edemez. Yanıtlar sorgudan sorguya da değişir. Bu çalışmalar, SEO'da olduğu gibi genellikle birkaç ay sonra etkisini gösterir. Bu nedenle değişimleri düzenli olarak aynı sorularla ölçmek işe yarar."] }
+  ]
+}

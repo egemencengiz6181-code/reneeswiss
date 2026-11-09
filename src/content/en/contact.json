@@ -1,0 +1,10 @@
+{
+  "_review": "",
+  "breadcrumb": "Contact",
+  "meta": { "title": "Contact and intro call | Renee", "description": "Book a free 20-minute intro call or write to us. We reply within {{stat.response}} hours during office hours." },
+  "eyebrow": "Contact",
+  "h1": "Let's talk about your project.",
+  "lead": "Book a time directly or write to us. We reply within {{stat.response}} hours during office hours.",
+  "labels": { "email": "Email", "phone": "Phone", "hours": "Office hours", "location": "Location" },
+  "location": "{{legal.city}}, Turkey. Working remotely for Switzerland."
+}

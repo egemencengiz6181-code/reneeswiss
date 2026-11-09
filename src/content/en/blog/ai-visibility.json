@@ -1,0 +1,15 @@
+{
+  "_review": "",
+  "breadcrumb": "AI visibility for SMEs",
+  "meta": { "title": "AI visibility for SMEs: appearing in ChatGPT | Renee", "description": "What AI assistants draw on for local recommendations, and five steps Swiss SMEs can take to become visible in ChatGPT and similar tools." },
+  "title": "AI visibility for SMEs: how your company appears in ChatGPT answers",
+  "author": "Renee Editorial",
+  "date": "2026-11-08",
+  "summary": "AI assistants often name only a few providers per question. They rely on information that is public and unambiguous. Companies that describe their services, location and prices clearly and appear consistently in directories improve their chances.",
+  "sections": [
+    { "h": "What is changing", "p": ["In a classic search, people see a list of results. An AI assistant, by contrast, writes an answer and usually names only a few companies in it. If you are not mentioned, you are not even compared."] },
+    { "h": "What AI assistants look at", "p": ["The providers do not disclose the exact weighting. In our own tests, however, we keep seeing the same patterns:"], "list": ["Clearly described services on your own website", "Unambiguous details on location and catchment area", "Consistent entries in industry directories", "Reviews and mentions on third-party sites", "Structured data that machines can read"] },
+    { "h": "Five steps to get started", "list": ["Ask ChatGPT, Gemini and Perplexity ten typical customer questions and note the answers.", "Describe each service on its own page: who it's for, what it is, starting price, duration.", "Standardise your company name, address and phone number across all directories.", "Add structured data and an FAQ with real customer questions.", "Repeat the test every month and record the results."] },
+    { "h": "What is realistic", "p": ["Nobody can guarantee a mention in AI answers. The answers also vary from one query to the next. Groundwork usually takes several months to have an effect, much like SEO. That is why it pays to measure changes regularly with the same questions."] }
+  ]
+}

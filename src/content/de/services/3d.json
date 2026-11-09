@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "3D-Visualisierung",
+  "meta": { "title": "3D-Visualisierung Produkt {{price.3d}} | Renee", "description": "Fotorealistische 3D-Produktrenderings und Animationen für Hersteller und Agenturen. Preis: {{price.3d}}, Lieferung standardmässig in 48–72 h." },
+  "name": "3D-Visualisierung",
+  "short": "Produktrenderings und Animation.",
+  "h1": "Produktbilder, ohne dass ein Fotoshooting nötig ist.",
+  "lead": "Wir erstellen fotorealistische Renderings und Animationen aus CAD-Daten oder Referenzen. Varianten sind schnell gemacht.",
+  "facts": { "who": "Hersteller, E-Commerce und Agenturen", "what": "Renderings, Varianten, Produktanimation" },
+  "timeline": "48–72 Stunden pro Standard-Rendering",
+  "problem": "Fotoshootings sind teuer, und jede neue Farbe oder Verpackung bedeutet einen neuen Termin. Prototypen sind oft noch gar nicht verfügbar.",
+  "included": ["3D-Modell aus CAD, Skizzen oder Fotos", "Material, Licht und Szene", "Freisteller und Lifestyle-Szenen", "Farb- und Verpackungsvarianten", "Produktanimation auf Anfrage"],
+  "deliverables": ["Renderings in hoher Auflösung (PNG, TIFF, JPG)", "Varianten nach Bedarf", "3D-Quelldatei auf Wunsch"],
+  "process": [
+    { "t": "Daten", "d": "CAD, Referenzen und Zielbild." },
+    { "t": "Modell", "d": "Geometrie und Material." },
+    { "t": "Szene", "d": "Licht, Komposition, Probe-Rendering." },
+    { "t": "Final", "d": "Korrekturen und Ausgabe." }
+  ],
+  "relatedCase": "deru",
+  "faq": [
+    { "q": "Welche Daten brauchen Sie?", "a": "Idealerweise CAD-Daten (STEP, OBJ). Gute Fotos und Masse reichen oft auch." },
+    { "q": "Was kostet eine Variante?", "a": "Farb- und Materialvarianten kosten deutlich weniger als das erste Rendering. Der genaue Preis steht in der Offerte." },
+    { "q": "Können Sie auch animieren?", "a": "Ja, Produktanimationen offerieren wir separat." }
+  ]
+}

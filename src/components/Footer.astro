@@ -1,0 +1,43 @@
+---
+import site from '../config/site.json';
+import { href, type Locale } from '../lib/routes';
+import { common, services } from '../lib/content';
+const { locale } = Astro.props as { locale: Locale };
+const c = common(locale);
+const col = 'col-span-6 lg:col-span-2 mt-10 lg:mt-0';
+const a = 'link no-underline hover:underline';
+---
+<footer class="on-dark bg-ink text-white">
+  <div class="wrap pt-16 lg:pt-24 pb-8">
+    <div class="grid-12">
+      <div class="col-span-12 lg:col-span-4">
+        <img src="/brand/renee-logo-white-trim.webp" alt="Renee" width="110" height="48" class="h-10 w-auto" loading="lazy" />
+        <p class="subtitle mt-8 max-w-[22ch]">{c.brand.tagline}</p>
+        <p class="muted mt-4 text-[15px] max-w-[40ch]">{c.footer.honesty}</p>
+      </div>
+      <nav class={col} aria-label={c.footer.servicesTitle}>
+        <h2 class="text-[15px] muted mb-3">{c.footer.servicesTitle}</h2>
+        <ul class="space-y-2 text-[15px]">{services(locale).map((s) => <li><a class={a} href={href(locale, `service-${s.id}`)}>{s.name}</a></li>)}</ul>
+      </nav>
+      <nav class={col} aria-label={c.footer.companyTitle}>
+        <h2 class="text-[15px] muted mb-3">{c.footer.companyTitle}</h2>
+        <ul class="space-y-2 text-[15px]">
+          {[['agencies', c.nav.agencies], ['work', c.nav.work], ['pricing', c.nav.pricing], ['ki-check', c.nav.kiCheck], ['about', c.nav.about], ['blog', c.nav.blog], ['contact', c.nav.contact]].map(([id, l]) => <li><a class={a} href={href(locale, id)}>{l}</a></li>)}
+        </ul>
+      </nav>
+      <div class="col-span-12 lg:col-span-4 mt-10 lg:mt-0">
+        <h2 class="text-[15px] muted mb-3">{c.nav.contact}</h2>
+        <p class="text-[15px]"><a class="link" href={`mailto:${site.email}`}>{site.email}</a><br /><a class="link" href={`tel:${site.phoneHref}`}>{site.phone}</a></p>
+        <p class="text-[15px] mt-3">{c.footer.hours}</p>
+        <p class="text-[15px] mt-3">{site.legal.city}</p>
+        <p class="text-[15px] mt-3 flex gap-4"><a class="link" href={site.social.linkedin} rel="noopener">LinkedIn</a><a class="link" href={site.social.instagram} rel="noopener">Instagram</a></p>
+      </div>
+    </div>
+    <div class="mt-16 pt-6 border-t border-coal flex flex-wrap gap-x-6 gap-y-2 text-[14px] muted">
+      <span>© {new Date().getFullYear()} {site.legal.name}</span>
+      <a class={a} href={href(locale, 'impressum')}>{c.footer.impressum}</a>
+      <a class={a} href={href(locale, 'privacy')}>{c.footer.privacy}</a>
+      <a class={a} href={href(locale, 'terms')}>{c.footer.terms}</a>
+    </div>
+  </div>
+</footer>

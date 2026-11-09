@@ -1,0 +1,6 @@
+{
+  "_review": "TODO: native review needed",
+  "contact": { "breadcrumb": "Danke", "meta": { "title": "Vielen Dank | Renee", "description": "Ihre Nachricht ist bei uns eingegangen." }, "eyebrow": "Nachricht erhalten", "h1": "Vielen Dank für Ihre Nachricht.", "text": "Wir antworten innert {{stat.response}} Stunden während der Bürozeiten. Sie können auch gleich einen Termin wählen." },
+  "agency": { "breadcrumb": "Danke", "meta": { "title": "Vielen Dank, Partner-Anfrage erhalten | Renee", "description": "Ihre Partner-Anfrage ist bei uns eingegangen." }, "eyebrow": "Anfrage erhalten", "h1": "Danke. Als Nächstes kommt das NDA.", "text": "Wir melden uns innert {{stat.response}} Stunden während der Bürozeiten mit unserem NDA und dem Briefing-Formular für den Testauftrag." },
+  "ki": { "breadcrumb": "Danke", "meta": { "title": "Vielen Dank, KI-Check angefordert | Renee", "description": "Ihr KI-Sichtbarkeits-Check ist angefordert." }, "eyebrow": "Check angefordert", "h1": "Ihr KI-Check ist in Arbeit.", "text": "Sie erhalten den Bericht innert {{stat.report}} Stunden per E-Mail. Möchten Sie ihn direkt gemeinsam anschauen? Buchen Sie gleich einen Termin." }
+}

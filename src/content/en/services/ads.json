@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "Google & Meta Ads",
+  "meta": { "title": "Google & Meta Ads {{price.ads}} | Renee", "description": "Google Ads and Meta Ads management for Swiss SMEs: set-up, optimisation and clear monthly reports. Price: {{price.ads}}." },
+  "name": "Google & Meta Ads",
+  "short": "Campaign set-up, optimisation and reporting.",
+  "h1": "Advertising with results you can see in numbers.",
+  "lead": "We set up Google and Meta campaigns properly, optimise them continuously and report every month on the enquiries they generated.",
+  "facts": { "who": "SMEs with a clear offer and an advertising budget", "what": "Set-up, management, conversion tracking, reporting" },
+  "timeline": "Live in 5–10 working days",
+  "problem": "Many campaigns run without proper tracking. The budget drains away, but nobody can say which ad generated which enquiry.",
+  "included": ["Account audit and goal-setting", "Keyword and audience structure", "Ad copy and creatives", "Conversion tracking with consent solution", "Ongoing optimisation"],
+  "deliverables": ["Campaigns in your own account", "Monthly report with cost per enquiry", "Short monthly update"],
+  "process": [
+    { "t": "Audit", "d": "Review existing accounts and goals." },
+    { "t": "Set-up", "d": "Structure, tracking and ads." },
+    { "t": "Launch", "d": "Campaigns go live with close monitoring." },
+    { "t": "Optimisation", "d": "Monthly adjustments and reporting." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "How high should the media budget be?", "a": "That depends on industry and region. We give you a reasoned recommendation in the intro call." },
+    { "q": "Who owns the ad account?", "a": "You, always. We work in your account with access rights." },
+    { "q": "Do you guarantee results?", "a": "No. We set goals and metrics and report openly on what works and what doesn't." }
+  ]
+}

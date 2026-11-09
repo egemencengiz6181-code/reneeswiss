@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import PageHead from '../components/PageHead.astro';
+import Section from '../components/Section.astro';
+import ServiceGrid from '../components/ServiceGrid.astro';
+import FinalCta from '../components/FinalCta.astro';
+---
+<Layout locale={locale} route={route} meta={p.meta}>
+  <PageHead eyebrow={p.eyebrow} title={p.h1} lead={p.lead} />
+  <div class="wrap pb-16"><ServiceGrid locale={locale} /><p class="muted mt-8 text-[16px]">{p.production}</p><p class="muted mt-2 text-[15px]">{p.vat}</p></div>
+  <FinalCta locale={locale} />
+</Layout>

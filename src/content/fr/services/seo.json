@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "SEO + visibilité IA",
+  "meta": { "title": "SEO et visibilité IA pour PME {{price.seo}} | Renee", "description": "Être trouvé sur Google et dans ChatGPT, Gemini et Perplexity. SEO et GEO pour PME suisses {{price.seo}}, avec rapport mensuel clair." },
+  "name": "SEO + visibilité IA (GEO)",
+  "short": "Visible sur Google et dans ChatGPT, Gemini, Perplexity.",
+  "h1": "Être trouvé. Sur Google et dans les réponses de l'IA.",
+  "lead": "Nous combinons le SEO classique et le GEO, l'optimisation pour les assistants IA. Technique, contenus et mentions s'articulent entre eux.",
+  "facts": { "who": "PME qui veulent être trouvées localement ou à l'échelle nationale", "what": "Technique, contenus, données structurées, monitoring IA" },
+  "timeline": "Audit en 10 jours ouvrables, effet généralement après 3–6 mois",
+  "problem": "Qui se trouve en page deux ou manque dans les réponses de l'IA ne reçoit pas de demandes. Il manque souvent des contenus clairs et des données structurées.",
+  "included": ["Audit technique et mise en œuvre", "Analyse des mots-clés et des questions", "Pages de prestations et articles spécialisés", "Données structurées et llms.txt", "Annuaires et mentions", "Monitoring IA mensuel"],
+  "deliverables": ["Audit avec liste de mesures priorisée", "Contenus et technique mis en œuvre", "Rapport mensuel sur les positions et les citations IA"],
+  "process": [
+    { "t": "Audit", "d": "Mesurer la technique, les contenus et la visibilité IA." },
+    { "t": "Plan", "d": "Classer les mesures selon leur effet." },
+    { "t": "Mise en œuvre", "d": "Technique, textes et inscriptions." },
+    { "t": "Mesure", "d": "Tester chaque mois les mêmes questions." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "Qu'est-ce que le GEO ?", "a": "Generative Engine Optimization : préparer les contenus de sorte que les assistants IA puissent les trouver, les comprendre et les citer." },
+    { "q": "Pouvez-vous garantir la première place ?", "a": "Non, personne de sérieux ne le peut. Nous travaillons sur des objectifs mesurables et montrons ouvertement l'évolution." },
+    { "q": "Combien de temps faut-il pour voir de premiers résultats ?", "a": "Les améliorations techniques agissent souvent en quelques semaines. Pour les positions et les citations IA, comptez 3 à 6 mois." }
+  ]
+}

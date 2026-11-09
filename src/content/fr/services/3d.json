@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Visualisation 3D",
+  "meta": { "title": "Visualisation 3D de produits {{price.3d}} | Renee", "description": "Rendus 3D photoréalistes de produits et animations pour fabricants et agences. Prix : {{price.3d}}, livraison standard en 48–72 h." },
+  "name": "Visualisation 3D",
+  "short": "Rendus de produits et animation.",
+  "h1": "Des images de produits, sans séance photo.",
+  "lead": "Nous créons des rendus photoréalistes et des animations à partir de données CAO ou de références. Les variantes se font rapidement.",
+  "facts": { "who": "Fabricants, e-commerce et agences", "what": "Rendus, variantes, animation de produits" },
+  "timeline": "48–72 heures par rendu standard",
+  "problem": "Les séances photo coûtent cher, et chaque nouvelle couleur ou chaque nouvel emballage implique un nouveau rendez-vous. Souvent, les prototypes ne sont même pas encore disponibles.",
+  "included": ["Modèle 3D à partir de CAO, de croquis ou de photos", "Matière, lumière et scène", "Détourages et mises en situation", "Variantes de couleur et d'emballage", "Animation de produits sur demande"],
+  "deliverables": ["Rendus en haute résolution (PNG, TIFF, JPG)", "Variantes selon vos besoins", "Fichier source 3D sur demande"],
+  "process": [
+    { "t": "Données", "d": "CAO, références et image cible." },
+    { "t": "Modèle", "d": "Géométrie et matière." },
+    { "t": "Scène", "d": "Lumière, composition, rendu d'essai." },
+    { "t": "Finalisation", "d": "Corrections et export." }
+  ],
+  "relatedCase": "deru",
+  "faq": [
+    { "q": "De quelles données avez-vous besoin ?", "a": "Idéalement de données CAO (STEP, OBJ). De bonnes photos et des dimensions suffisent souvent aussi." },
+    { "q": "Combien coûte une variante ?", "a": "Les variantes de couleur et de matière coûtent nettement moins que le premier rendu. Le prix exact figure dans l'offre." },
+    { "q": "Réalisez-vous aussi des animations ?", "a": "Oui, nous établissons une offre séparée pour les animations de produits." }
+  ]
+}

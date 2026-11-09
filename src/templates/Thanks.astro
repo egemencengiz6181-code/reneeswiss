@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import { href } from '../lib/routes';
+import { common } from '../lib/content';
+import CalButton from '../components/CalButton.astro';
+import Eyebrow from '../components/Eyebrow.astro';
+const c = common(locale);
+---
+<Layout locale={locale} route={route} meta={p.meta}>
+  <section class="wrap pt-16 lg:pt-28 pb-32">
+    <Eyebrow text={p.eyebrow} />
+    <h1 class="display mt-6 max-w-[18ch]">{p.h1}</h1>
+    <p class="lead mt-8 measure">{p.text}</p>
+    <div class="flex flex-wrap items-center gap-6 mt-10">
+      <CalButton locale={locale} label={c.cta.primary} />
+      <a class="arrow-link" href={href(locale, 'home')}>{c.nav.home} →</a>
+    </div>
+  </section>
+</Layout>

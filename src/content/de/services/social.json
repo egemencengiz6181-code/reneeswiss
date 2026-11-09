@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Social Media Content",
+  "meta": { "title": "Social Media Content {{price.social}} | Renee", "description": "Strategie, Redaktionsplan und Produktion von Posts, Reels und Carousels für Schweizer KMU und Agenturen. Preis: {{price.social}} {{vat}}" },
+  "name": "Social Media Content",
+  "short": "Posts, Reels und Carousels mit Redaktionsplan.",
+  "h1": "Regelmässiger Content, ohne dass Sie daran denken müssen.",
+  "lead": "Wir planen und produzieren Inhalte für Instagram, LinkedIn und Facebook. Sie geben frei, wir liefern.",
+  "facts": { "who": "KMU und Agenturen mit laufendem Content-Bedarf", "what": "Strategie, Redaktionsplan, Posts, Reels, Carousels" },
+  "timeline": "Erster Monatsplan in 10 Arbeitstagen",
+  "problem": "Social Media bleibt im Alltag liegen. Es wird unregelmässig gepostet, ohne Plan und ohne einheitlichen Auftritt.",
+  "included": ["Content-Strategie und Themenfelder", "Monatlicher Redaktionsplan", "Grafiken, Carousels und Kurzvideos", "Texte auf Deutsch, Französisch oder Englisch", "Freigabe in einem festen Ablauf"],
+  "deliverables": ["Monatsplan mit Terminen", "Fertige Beiträge und Quelldateien", "Kurzer Monatsbericht"],
+  "process": [
+    { "t": "Strategie", "d": "Ziele, Zielgruppe und Themen." },
+    { "t": "Plan", "d": "Redaktionsplan für den nächsten Monat." },
+    { "t": "Produktion", "d": "Beiträge gestalten und texten." },
+    { "t": "Freigabe", "d": "Sie prüfen, wir planen ein oder übergeben." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "Wie viele Beiträge sind enthalten?", "a": "Das Einstiegspaket umfasst acht Beiträge pro Monat, davon zwei Kurzvideos. Der genaue Mix wird in der Offerte festgehalten." },
+    { "q": "Drehen Sie auch vor Ort?", "a": "Nein. Wir arbeiten mit Ihrem Material, Grafik und Animation. Dreharbeiten sind auf Anfrage über Partner möglich." },
+    { "q": "Veröffentlichen Sie auch direkt?", "a": "Ja, wenn Sie uns die Berechtigung erteilen. Sonst übergeben wir die fertigen Beiträge." }
+  ]
+}

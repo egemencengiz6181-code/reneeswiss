@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Google et Meta Ads",
+  "meta": { "title": "Google et Meta Ads {{price.ads}} | Renee", "description": "Gestion de Google Ads et Meta Ads pour PME suisses : mise en place, optimisation et rapports mensuels clairs. Prix : {{price.ads}}." },
+  "name": "Google et Meta Ads",
+  "short": "Mise en place de campagnes, optimisation et reporting.",
+  "h1": "De la publicité dont vous voyez le résultat en chiffres.",
+  "lead": "Nous configurons proprement vos campagnes Google et Meta, les optimisons en continu et indiquons chaque mois combien de demandes elles ont générées.",
+  "facts": { "who": "PME avec une offre claire et un budget publicitaire", "what": "Mise en place, gestion, suivi des conversions, reporting" },
+  "timeline": "En ligne en 5–10 jours ouvrables",
+  "problem": "Beaucoup de campagnes tournent sans suivi fiable. Le budget s'écoule, mais personne ne peut dire quelle annonce a généré quelle demande.",
+  "included": ["Audit du compte et définition des objectifs", "Structure des mots-clés et des audiences", "Textes d'annonces et visuels", "Suivi des conversions avec solution de consentement", "Optimisation continue"],
+  "deliverables": ["Campagnes dans votre propre compte", "Rapport mensuel avec coût par demande", "Bref point mensuel"],
+  "process": [
+    { "t": "Audit", "d": "Examen des comptes existants et des objectifs." },
+    { "t": "Mise en place", "d": "Structure, suivi et annonces." },
+    { "t": "Lancement", "d": "Campagnes en ligne sous surveillance étroite." },
+    { "t": "Optimisation", "d": "Ajustements et rapport chaque mois." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "Quel budget média prévoir ?", "a": "Cela dépend du secteur et de la région. Nous vous donnons une recommandation motivée lors du premier entretien." },
+    { "q": "À qui appartient le compte publicitaire ?", "a": "Toujours à vous. Nous travaillons dans votre compte avec des droits d'accès." },
+    { "q": "Garantissez-vous des résultats ?", "a": "Non. Nous fixons des objectifs et des indicateurs, et nous disons ouvertement ce qui fonctionne et ce qui ne fonctionne pas." }
+  ]
+}

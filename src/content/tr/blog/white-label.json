@@ -1,0 +1,15 @@
+{
+  "_review": "",
+  "breadcrumb": "White-label iş ortağı",
+  "meta": { "title": "Ajanslar için white-label kontrol listesi | Renee", "description": "İsviçre'deki ajanslar white-label iş ortağında nelere dikkat etmeli: NDA, müşteri teması, kalite, veri koruma ve anlamlı bir deneme işi." },
+  "title": "Ajanslar için white-label iş ortağı: Nelere dikkat etmelisiniz",
+  "author": "Renee Editör Ekibi",
+  "date": "2026-11-08",
+  "summary": "White-label iş ortağı, kadro kurmadan kapasite sağlar. Belirleyici olan gizlilik, haklar ve veri koruma konusundaki net anlaşmalardır. Küçük bir deneme işi, herhangi bir portföyden daha çok şey gösterir.",
+  "sections": [
+    { "h": "White-label ne zaman mantıklı", "p": ["White-label, iş yoğunluğu dalgalanıyorsa veya 3D gibi bazı alanlar eksikse uygundur. Strateji ve müşteri ilişkisinin sorumluluğu ajansınızda kalır, üretimi iş ortağı yürütür."] },
+    { "h": "Sözleşmede neler yer almalı", "list": ["Gizlilik: ilk brief'ten önce NDA", "Kullanım hakları: ajansa tam devir", "Müşteri teması: açıkça hariç", "Düzeltme turları ve teslim süreleri", "Sorumluluk ve hataların ele alınışı"] },
+    { "h": "Yurt dışındaki iş ortaklarında veri koruma", "p": ["Kişisel veri söz konusu olduğunda veri işleme sözleşmesi gerekir. İş ortağı, yeterli veri koruma düzeyine sahip olduğu kabul edilmeyen bir ülkedeyse genellikle standart sözleşme hükümleri de eklenir. Müşteri verileri paylaşılmadan önce bunu netleştirin ve yalnızca iş için gerekli olanı iletin."] },
+    { "h": "İş ortağını nasıl sınarsınız", "p": ["Normal bir brief ile gerçek, küçük bir iş verin. Üç şeye bakın: sorulan sorular, teslim tarihine uyum ve kaç düzeltme gerektiği. Sonuç, zaman baskısı altında iş birliğinin nasıl olacağını gösterir."] }
+  ]
+}

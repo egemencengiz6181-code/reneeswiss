@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "Yapay zekâ otomasyonu",
+  "meta": { "title": "Yapay zekâ otomasyonu {{price.automation}} | Renee", "description": "İsviçre'deki KOBİ'ler için chatbot, içerik iş akışları, e-posta ve CRM otomasyonu. Fiyat: {{price.automation}}, 2–4 haftada uygulama." },
+  "name": "Yapay zekâ otomasyonu",
+  "short": "Chatbot, iş akışları, e-posta ve CRM otomasyonu.",
+  "h1": "Rutin işleri sistemlere devredin.",
+  "lead": "Müşteri hizmetleri, içerik ve satıştaki tekrarlayan süreçleri, net sınırlar ve insan kontrolüyle otomatikleştiriyoruz.",
+  "facts": { "who": "Tekrarlayan süreçleri olan KOBİ'ler", "what": "Chatbot, içerik iş akışları, e-posta ve CRM otomasyonu" },
+  "timeline": "Proje başına 2–4 hafta",
+  "problem": "Talepleri yanıtlamak, veri aktarmak, metin hazırlamak: Hep aynı şekilde işlemesine rağmen birçok iş elle yapılıyor.",
+  "included": ["Süreç analizi ve kullanım senaryosu seçimi", "İçeriklerinize dayalı web sitesi chatbot'u", "E-posta ve CRM süreçleri", "Onay adımlı içerik iş akışları", "Dokümantasyon ve eğitim"],
+  "deliverables": ["Hesaplarınızda çalışan iş akışı", "Dokümantasyon", "Ekibiniz için tanıtım"],
+  "process": [
+    { "t": "Analiz", "d": "Süreçleri çıkarma, faydayı tahmin etme." },
+    { "t": "Prototip", "d": "Hızlıca test edilebilen tek senaryo." },
+    { "t": "Uygulama", "d": "Sistemlerinize bağlama." },
+    { "t": "Teslim", "d": "Eğitim ve izleme." }
+  ],
+  "relatedCase": "arni",
+  "faq": [
+    { "q": "Verilerimiz güvende mi?", "a": "Hizmetleri ve ayarları veri koruma gereksinimlerinize göre seçiyor, veri işleme sözleşmesi yapıyoruz. Hassas veriler herkese açık yapay zekâ hizmetlerinin dışında kalır." },
+    { "q": "Hangi araçları kullanıyorsunuz?", "a": "Duruma göre n8n, Make, HubSpot, Brevo ile Anthropic, OpenAI veya Google modelleri." },
+    { "q": "İşletme maliyeti ne kadar?", "a": "Araç ve kullanım maliyetleri doğrudan sizin hesaplarınızdan ödenir ve önceden tahmin edilir." }
+  ]
+}

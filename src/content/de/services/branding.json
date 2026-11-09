@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Branding & Corporate Identity",
+  "meta": { "title": "Branding und Corporate Identity {{price.branding}} | Renee", "description": "Logo, Markensystem und Guidelines für Schweizer KMU und Agenturen. Remote, {{price.branding}}, in 3 bis 5 Wochen. Über {{stat.identities}} CI-Projekte." },
+  "name": "Branding & Corporate Identity",
+  "short": "Logo, Markensystem und Guidelines.",
+  "h1": "Eine Marke, die in jedem Format funktioniert.",
+  "lead": "Wir entwickeln Logos und Markensysteme, die vom Briefbogen bis zur Fassade halten. Über {{stat.identities}} Projekte, nachvollziehbar dokumentiert.",
+  "facts": { "who": "KMU und Agenturen, die neu auftreten oder ihre Marke ordnen wollen", "what": "Logo, Markensystem, Guidelines" },
+  "timeline": "3–5 Wochen",
+  "problem": "Viele KMU haben ein Logo, aber kein System. Jede neue Drucksache und jeder Post sieht anders aus. Das kostet Zeit und schwächt die Wiedererkennung.",
+  "included": ["Positionierung und Marken-Workshop per Video", "Logo in drei Konzeptrichtungen", "Farben, Typografie und Bildsprache", "Vorlagen für die wichtigsten Anwendungen", "Markenhandbuch"],
+  "deliverables": ["Logo-Dateien (SVG, PDF, PNG)", "Markenhandbuch als PDF", "Vorlagen in Figma oder Office", "Alle Nutzungsrechte nach Bezahlung"],
+  "process": [
+    { "t": "Workshop", "d": "Ziele, Zielgruppe und Wettbewerb klären." },
+    { "t": "Konzepte", "d": "Drei Richtungen mit Begründung." },
+    { "t": "Ausarbeitung", "d": "Die gewählte Richtung in zwei Feedbackrunden." },
+    { "t": "Übergabe", "d": "Handbuch, Dateien, kurze Einführung." }
+  ],
+  "relatedCase": "arni",
+  "faq": [
+    { "q": "Wie viele Korrekturrunden sind enthalten?", "a": "Zwei Runden im Festpreis. Weitere Runden vereinbaren wir transparent nach Aufwand." },
+    { "q": "Können Sie auch nur das bestehende Logo überarbeiten?", "a": "Ja. Wir prüfen im Erstgespräch, ob eine Überarbeitung reicht." },
+    { "q": "Prüfen Sie Markenrechte?", "a": "Wir machen eine erste Recherche. Eine rechtliche Markenprüfung empfehlen wir über das IGE oder eine Fachperson." }
+  ]
+}

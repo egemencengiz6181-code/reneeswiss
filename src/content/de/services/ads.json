@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Google & Meta Ads",
+  "meta": { "title": "Google und Meta Ads {{price.ads}} | Renee", "description": "Betreuung von Google Ads und Meta Ads für Schweizer KMU: Setup, Optimierung und klare Monatsberichte. Preis: {{price.ads}}." },
+  "name": "Google & Meta Ads",
+  "short": "Kampagnen-Setup, Optimierung und Reporting.",
+  "h1": "Werbung, deren Ergebnis Sie in Zahlen sehen.",
+  "lead": "Wir richten Google- und Meta-Kampagnen sauber ein, optimieren laufend und berichten monatlich, was Anfragen gebracht hat.",
+  "facts": { "who": "KMU mit einem klaren Angebot und Budget für Werbung", "what": "Setup, Betreuung, Conversion-Tracking, Reporting" },
+  "timeline": "Live in 5–10 Arbeitstagen",
+  "problem": "Viele Kampagnen laufen ohne sauberes Tracking. Das Budget fliesst ab, aber niemand kann sagen, welche Anzeige welche Anfrage gebracht hat.",
+  "included": ["Konto-Audit und Zielsetzung", "Keyword- und Zielgruppenstruktur", "Anzeigentexte und Creatives", "Conversion-Tracking mit Consent-Lösung", "Laufende Optimierung"],
+  "deliverables": ["Kampagnen in Ihrem eigenen Konto", "Monatsbericht mit Kosten pro Anfrage", "Kurzes monatliches Update"],
+  "process": [
+    { "t": "Audit", "d": "Bestehende Konten und Ziele prüfen." },
+    { "t": "Setup", "d": "Struktur, Tracking und Anzeigen." },
+    { "t": "Start", "d": "Kampagnen live mit engem Monitoring." },
+    { "t": "Optimierung", "d": "Monatlich anpassen und berichten." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "Wie hoch sollte das Mediabudget sein?", "a": "Das hängt von Branche und Region ab. Wir geben Ihnen im Erstgespräch eine begründete Empfehlung." },
+    { "q": "Wem gehört das Werbekonto?", "a": "Immer Ihnen. Wir arbeiten mit Zugriffsrechten in Ihrem Konto." },
+    { "q": "Garantieren Sie Ergebnisse?", "a": "Nein. Wir legen Ziele und Messgrössen fest und berichten offen, was funktioniert und was nicht." }
+  ]
+}

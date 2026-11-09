@@ -1,0 +1,74 @@
+{
+  "_review": "",
+  "meta": { "title": "Renee – Design and web for Swiss agencies and SMEs", "description": "Remote studio for design, web, content and performance marketing. Swiss office hours, fixed prices, replies within {{stat.response}} hours. Based in Ankara." },
+  "hero": {
+    "eyebrow": "Remote studio · Swiss office hours",
+    "h1": "Design, web and performance marketing for Swiss agencies and SMEs.",
+    "sub": "We work from Ankara, during your office hours and with AI-assisted workflows. That shortens delivery times and keeps prices low. You have one dedicated point of contact.",
+    "ctaAgency": "For agencies: white-label partner",
+    "ctaSme": "For businesses: free intro call",
+    "images": [
+      { "src": "arni/4", "alt": "Arni: logo on the facade of an industrial building" },
+      { "src": "deru/5", "alt": "Deru: packaging box with coffee cup and bag" },
+      { "src": "erts/6c", "alt": "ERTS: tote bag with brand mark against a sea background" },
+      { "src": "arni/5", "alt": "Arni: folders and stationery in blue and white" }
+    ]
+  },
+  "trust": {
+    "label": "Brands we have worked with",
+    "stats": [
+      { "value": "{{stat.brands}}+", "label": "Brands" },
+      { "value": "{{stat.identities}}+", "label": "Corporate identity projects" },
+      { "value": "{{stat.response}} h", "label": "Reply within {{stat.response}} hours during office hours" }
+    ]
+  },
+  "doors": {
+    "agency": {
+      "eyebrow": "For agencies",
+      "title": "Your extra capacity. Under your name.",
+      "bullets": ["NDA before the first briefing, no client contact", "Standard tasks in 48–72 hours, in your tools", "{{price.agencyHour}}, first job of up to 4 hours free"],
+      "link": "See the white-label partnership"
+    },
+    "sme": {
+      "eyebrow": "For businesses",
+      "title": "One team for brand, website and marketing.",
+      "bullets": ["One point of contact, communication in German or English", "Clear prices instead of open-ended hourly billing", "Quote within {{stat.offer}} hours of the intro call"],
+      "link": "See services and pricing"
+    }
+  },
+  "services": { "eyebrow": "Services", "title": "Seven services. All deliverable remotely." },
+  "why": {
+    "eyebrow": "Why Renee",
+    "title": "Four reasons you can check.",
+    "items": [
+      { "t": "One team for everything", "d": "Design, web, content, ads and SEO from one source. You don't have to coordinate several providers." },
+      { "t": "AI-assisted workflows", "d": "AI handles routine work; people decide and review. The result is shorter delivery times." },
+      { "t": "Swiss office hours", "d": "Available Mon–Fri {{hours.from}}–{{hours.to}}. Communication in German, French and English. Time difference: 1 to 2 hours." },
+      { "t": "Data protection in place", "d": "We work in line with the Swiss FADP (revDSG). Data processing agreement included, with standard contractual clauses for processing in Turkey." }
+    ]
+  },
+  "work": { "eyebrow": "Selected work", "title": "Brands that work in everyday use." },
+  "process": {
+    "eyebrow": "Process",
+    "title": "From first call to handover in four steps.",
+    "steps": [
+      { "t": "Intro call", "d": "20 minutes by video. We clarify goal, scope and timeline." },
+      { "t": "Quote in {{stat.offer}} h", "d": "You receive a written quote with a fixed price and dates." },
+      { "t": "Production", "d": "With set feedback rounds. You see work in progress before we move on." },
+      { "t": "Handover & reporting", "d": "All files and access belong to you. Ongoing engagements receive a monthly report." }
+    ]
+  },
+  "lead": { "eyebrow": "Free", "title": "How visible is your company in ChatGPT, Gemini and Google?", "text": "We test ten typical customer questions and send you a short report with three concrete improvements." },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "What Swiss clients ask us first.",
+    "items": [
+      { "q": "Where is Renee based?", "a": "Our studio is at ODTÜ Teknokent in Ankara, Turkey. We have no Swiss office. We work fully remotely during Swiss office hours; the time difference is 1 to 2 hours depending on the season." },
+      { "q": "Which language do we work in?", "a": "German, French, English or Turkish. You get one dedicated point of contact for your project." },
+      { "q": "How quickly do you reply?", "a": "Within {{stat.response}} hours during office hours. You receive a quote within {{stat.offer}} hours of the intro call." },
+      { "q": "What do prices “from CHF” mean?", "a": "These are starting prices for a clearly defined scope, all {{vat}} After the intro call you receive a fixed price for your project." },
+      { "q": "How do you handle data?", "a": "We work in line with the Swiss FADP (revDSG) and the GDPR. For every engagement involving personal data we sign a data processing agreement including standard contractual clauses, because processing takes place in Turkey." },
+      { "q": "What do you use AI for?", "a": "Research, drafts, variants and routine tasks. Every output is reviewed by specialists. We do not enter confidential client data into public AI services." }
+    ]
+  }
+}

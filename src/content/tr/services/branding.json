@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "Marka ve kurumsal kimlik",
+  "meta": { "title": "Marka ve kurumsal kimlik {{price.branding}} | Renee", "description": "İsviçre'deki KOBİ'ler ve ajanslar için logo, marka sistemi ve kılavuz. Uzaktan, {{price.branding}}, 3–5 hafta. {{stat.identities}}+ proje." },
+  "name": "Marka ve kurumsal kimlik",
+  "short": "Logo, marka sistemi ve kılavuzlar.",
+  "h1": "Her formatta işleyen bir marka.",
+  "lead": "Antetli kâğıttan cepheye kadar dayanan logolar ve marka sistemleri geliştiriyoruz. {{stat.identities}} üzeri proje, izlenebilir biçimde belgelenmiş.",
+  "facts": { "who": "Yeni bir görünüm isteyen veya markasını düzenlemek isteyen KOBİ'ler ve ajanslar", "what": "Logo, marka sistemi, kılavuzlar" },
+  "timeline": "3–5 hafta",
+  "problem": "Birçok KOBİ'nin logosu var ama sistemi yok. Her yeni basılı iş ve her gönderi farklı görünüyor. Bu hem zaman kaybettiriyor hem de tanınırlığı zayıflatıyor.",
+  "included": ["Görüntülü konumlandırma ve marka atölyesi", "Üç konsept yönünde logo", "Renkler, tipografi ve görsel dil", "En önemli kullanımlar için şablonlar", "Marka kılavuzu"],
+  "deliverables": ["Logo dosyaları (SVG, PDF, PNG)", "PDF marka kılavuzu", "Figma veya Office şablonları", "Ödeme sonrası tüm kullanım hakları"],
+  "process": [
+    { "t": "Atölye", "d": "Hedefleri, hedef kitleyi ve rekabeti netleştirme." },
+    { "t": "Konseptler", "d": "Gerekçeleriyle üç yön." },
+    { "t": "Geliştirme", "d": "Seçilen yön, iki geri bildirim turunda." },
+    { "t": "Teslim", "d": "Kılavuz, dosyalar, kısa tanıtım." }
+  ],
+  "relatedCase": "arni",
+  "faq": [
+    { "q": "Kaç düzeltme turu dahil?", "a": "Sabit fiyata iki tur dahil. Ek turları harcanan emeğe göre şeffaf biçimde kararlaştırıyoruz." },
+    { "q": "Yalnızca mevcut logoyu da yenileyebilir misiniz?", "a": "Evet. İlk görüşmede yenilemenin yeterli olup olmadığına bakıyoruz." },
+    { "q": "Marka haklarını kontrol ediyor musunuz?", "a": "İlk bir araştırma yapıyoruz. Hukuki marka incelemesi için İsviçre Fikri Mülkiyet Enstitüsü'nü (IGE) veya bir uzmanı öneriyoruz." }
+  ]
+}

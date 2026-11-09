@@ -1,0 +1,15 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "White-Label-Partner",
+  "meta": { "title": "White-Label-Partner für Agenturen: Checkliste | Renee", "description": "Worauf Schweizer Agenturen bei White-Label-Partnern achten sollten: NDA, Kundenkontakt, Qualität, Datenschutz und ein sinnvoller Testauftrag." },
+  "title": "White-Label-Partner für Agenturen: Worauf Sie achten sollten",
+  "author": "Renee Redaktion",
+  "date": "2026-11-08",
+  "summary": "Ein White-Label-Partner schafft Kapazität, ohne dass Sie Personal aufbauen. Entscheidend sind klare Vereinbarungen zu Vertraulichkeit, Rechten und Datenschutz. Ein kleiner Testauftrag zeigt mehr als jedes Portfolio.",
+  "sections": [
+    { "h": "Wann sich White-Label lohnt", "p": ["White-Label passt, wenn Auslastung schwankt oder einzelne Disziplinen wie 3D fehlen. Ihre Agentur bleibt für Strategie und Kundenbeziehung verantwortlich, die Produktion läuft beim Partner."] },
+    { "h": "Was vertraglich geregelt sein muss", "list": ["Vertraulichkeit: NDA vor dem ersten Briefing", "Nutzungsrechte: vollständiger Übergang an die Agentur", "Kundenkontakt: ausdrücklich ausgeschlossen", "Korrekturrunden und Lieferzeiten", "Haftung und Umgang mit Fehlern"] },
+    { "h": "Datenschutz bei Partnern im Ausland", "p": ["Sobald Personendaten im Spiel sind, braucht es einen Auftragsverarbeitungsvertrag. Liegt der Partner in einem Land ohne anerkannt angemessenes Datenschutzniveau, kommen in der Regel Standardvertragsklauseln dazu. Klären Sie das, bevor Kundendaten fliessen, und geben Sie nur weiter, was für die Aufgabe nötig ist."] },
+    { "h": "So testen Sie einen Partner", "p": ["Vergeben Sie eine echte, kleine Aufgabe mit normalem Briefing. Achten Sie auf drei Dinge: Rückfragen, Einhaltung der Frist und wie viele Korrekturen nötig sind. Das Ergebnis zeigt, wie die Zusammenarbeit unter Zeitdruck aussehen wird."] }
+  ]
+}

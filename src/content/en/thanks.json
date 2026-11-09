@@ -1,0 +1,6 @@
+{
+  "_review": "",
+  "contact": { "breadcrumb": "Thank you", "meta": { "title": "Thank you | Renee", "description": "We have received your message." }, "eyebrow": "Message received", "h1": "Thank you for your message.", "text": "We reply within {{stat.response}} hours during office hours. You can also choose a time now." },
+  "agency": { "breadcrumb": "Thank you", "meta": { "title": "Thank you, partner enquiry received | Renee", "description": "We have received your partner enquiry." }, "eyebrow": "Enquiry received", "h1": "Thank you. The NDA comes next.", "text": "We will be in touch within {{stat.response}} hours during office hours with our NDA and the briefing form for the test job." },
+  "ki": { "breadcrumb": "Thank you", "meta": { "title": "Thank you, AI check requested | Renee", "description": "Your AI visibility check has been requested." }, "eyebrow": "Check requested", "h1": "Your AI check is under way.", "text": "You will receive the report by email within {{stat.report}} hours. Would you like to go through it together? Book a time now." }
+}

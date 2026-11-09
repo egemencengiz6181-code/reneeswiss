@@ -1,0 +1,22 @@
+{
+  "_review": "",
+  "breadcrumb": "Deru",
+  "meta": { "title": "Deru: brand and packaging for coffee | Renee", "description": "Logo, characters and packaging system for a coffee brand: applied to cups, lids, boxes and ice-cream cups at no extra cost." },
+  "name": "Deru",
+  "industry": "Coffee & retail",
+  "year": "2024",
+  "summary": "A coffee brand with its own characters that stays recognisable from cup to gift box.",
+  "challenge": "The brand had to work across many packaging formats without making production more expensive.",
+  "solution": "Running, grabbing and laughing coffee cups form a character system that can be applied freely to any format.",
+  "result": "The system was applied to cups, lids, boxes, ice-cream cups and pastry packaging at no extra cost.",
+  "services": ["Logo", "Corporate identity", "Packaging", "Illustration"],
+  "cover": { "src": "deru/1", "alt": "Deru: printed coffee cups in green and violet" },
+  "gallery": [
+    { "src": "deru/5", "alt": "Deru: open shipping box with cup and coffee bag" },
+    { "src": "deru/3", "alt": "Deru: four characters on coloured panels" },
+    { "src": "deru/7", "alt": "Deru: ice-cream cup against a green background" },
+    { "src": "deru/4", "alt": "Deru: pattern of coffee-cup characters" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}

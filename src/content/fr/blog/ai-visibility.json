@@ -1,0 +1,15 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Visibilité IA pour PME",
+  "meta": { "title": "Visibilité IA PME : apparaître dans ChatGPT | Renee", "description": "Ce que les assistants IA évaluent pour leurs recommandations locales et cinq étapes pour rendre une PME suisse visible dans ChatGPT et les autres." },
+  "title": "Visibilité IA pour PME : comment faire apparaître votre entreprise dans les réponses de ChatGPT",
+  "author": "Rédaction Renee",
+  "date": "2026-11-08",
+  "summary": "Les assistants IA ne citent souvent que quelques prestataires par question. Ils s'appuient sur des informations publiques et sans ambiguïté. Décrire clairement ses prestations, son adresse et ses prix, et figurer de façon cohérente dans les annuaires, améliore vos chances.",
+  "sections": [
+    { "h": "Ce qui change", "p": ["Dans une recherche classique, on voit une liste de résultats. Un assistant IA, lui, formule une réponse et n'y cite généralement que quelques entreprises. Qui n'y figure pas n'est même pas comparé."] },
+    { "h": "Ce que regardent les assistants IA", "p": ["Les éditeurs ne publient pas la pondération exacte. Nos propres tests font toutefois ressortir les mêmes constantes :"], "list": ["Des prestations clairement décrites sur votre propre site", "Des indications précises sur l'adresse et la zone desservie", "Des inscriptions cohérentes dans les annuaires professionnels", "Des avis et des mentions sur des sites tiers", "Des données structurées lisibles par les machines"] },
+    { "h": "Cinq étapes pour commencer", "list": ["Posez dix questions types de vos clients dans ChatGPT, Gemini et Perplexity et notez les réponses.", "Décrivez chaque prestation sur sa propre page : pour qui, quoi, prix de départ, durée.", "Harmonisez le nom de l'entreprise, l'adresse et le numéro de téléphone dans tous les annuaires.", "Ajoutez des données structurées et une FAQ fondée sur de vraies questions de clients.", "Répétez le test chaque mois et consignez les résultats."] },
+    { "h": "Ce qui est réaliste", "p": ["Personne ne peut garantir une citation dans les réponses de l'IA. Celles-ci varient d'ailleurs d'une requête à l'autre. Comme pour le SEO, le travail de fond produit généralement ses effets après plusieurs mois. Il vaut donc la peine de mesurer régulièrement l'évolution avec les mêmes questions."] }
+  ]
+}

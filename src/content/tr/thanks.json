@@ -1,0 +1,6 @@
+{
+  "_review": "",
+  "contact": { "breadcrumb": "Teşekkürler", "meta": { "title": "Teşekkürler | Renee", "description": "Mesajınız bize ulaştı." }, "eyebrow": "Mesaj alındı", "h1": "Mesajınız için teşekkürler.", "text": "Mesai saatlerinde {{stat.response}} saat içinde yanıt veriyoruz. İsterseniz şimdiden bir randevu da seçebilirsiniz." },
+  "agency": { "breadcrumb": "Teşekkürler", "meta": { "title": "Teşekkürler, iş ortaklığı talebiniz alındı | Renee", "description": "İş ortaklığı talebiniz bize ulaştı." }, "eyebrow": "Talep alındı", "h1": "Teşekkürler. Sıradaki adım NDA.", "text": "Mesai saatlerinde {{stat.response}} saat içinde NDA'mızı ve deneme işi için brief formunu size iletiyoruz." },
+  "ki": { "breadcrumb": "Teşekkürler", "meta": { "title": "Teşekkürler, kontrol talebiniz alındı | Renee", "description": "Yapay zekâ görünürlük kontrolü talebiniz alındı." }, "eyebrow": "Kontrol istendi", "h1": "Yapay zekâ kontrolünüz hazırlanıyor.", "text": "Raporu {{stat.report}} saat içinde e-postayla alırsınız. Birlikte incelemek isterseniz hemen bir randevu alın." }
+}

@@ -1,0 +1,13 @@
+---
+import Pic from './Pic.astro';
+import { href, type Locale } from '../lib/routes';
+import { load } from '../lib/content';
+const { locale, id, sizes = '(min-width: 1024px) 30vw, (min-width:768px) 45vw, 92vw' } = Astro.props as { locale: Locale; id: string; sizes?: string };
+const c = load(locale, `cases/${id}`);
+---
+<a href={href(locale, `case-${id}`)} class="block no-underline group">
+  <div class="card-img aspect-[4/5]"><Pic src={c.cover.src} alt={c.cover.alt} sizes={sizes} class="w-full h-full" /></div>
+  <h3 class="subtitle mt-4 group-hover:text-purple-ink transition-colors duration-150">{c.name}</h3>
+  <p class="muted text-[15px] mt-1">{c.industry} · {c.year}</p>
+  <p class="mt-2 text-[16px]">{c.summary}</p>
+</a>

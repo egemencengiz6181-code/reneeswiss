@@ -1,0 +1,28 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Tarifs",
+  "meta": { "title": "Tarifs design, web et marketing | Renee", "description": "Prix transparents en CHF : trois forfaits pour PME et des forfaits mensuels de capacité pour agences. Tous les prix hors TVA, offre sous {{stat.offer}} heures." },
+  "eyebrow": "Tarifs",
+  "h1": "Des prix clairs avant de commencer.",
+  "lead": "Les forfaits indiquent le point d'entrée habituel. Après le premier entretien, vous recevez un prix fixe pour votre périmètre.",
+  "sme": {
+    "eyebrow": "Pour les entreprises",
+    "title": "Trois forfaits pour les PME.",
+    "packages": [
+      { "name": "Start", "for": "Pour une présence web soignée.", "price": "{{price.pkgStart}}", "items": ["Site web jusqu'à 5 pages, une langue", "SEO technique et données structurées", "Formulaire de contact et prise de rendez-vous", "Prise en main et remise"] },
+      { "name": "Croissance", "for": "Pour une visibilité et des demandes régulières.", "price": "{{price.pkgGrowth}}", "items": ["Contenu pour les réseaux sociaux selon calendrier éditorial", "Gestion de Google Ads ou Meta Ads", "Rapport mensuel avec des chiffres clairs", "Une personne de contact attitrée"] },
+      { "name": "Complet", "for": "Pour tout votre marketing au même endroit.", "price": "{{price.pkgFull}}", "items": ["Tout le contenu du forfait Croissance", "SEO et visibilité IA (GEO)", "Google et Meta combinés", "Entretien stratégique trimestriel"] }
+    ]
+  },
+  "agency": {
+    "eyebrow": "Pour les agences",
+    "title": "Une capacité mensuelle réservée.",
+    "link": "Le modèle en marque blanche en détail",
+    "packages": [
+      { "name": "20 heures par mois", "price": "{{price.cap20}}", "rate": "{{price.cap20Rate}}" },
+      { "name": "40 heures par mois", "price": "{{price.cap40}}", "rate": "{{price.cap40Rate}}" },
+      { "name": "80 heures par mois", "price": "{{price.cap80}}", "rate": "{{price.cap80Rate}}" }
+    ]
+  },
+  "note": "Tous les prix s'entendent {{vat}} Offre individuelle sous {{stat.offer}} heures."
+}

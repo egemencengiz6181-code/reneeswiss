@@ -1,0 +1,34 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "À propos",
+  "meta": { "title": "À propos de Renee : studio à distance basé à Ankara", "description": "Renee est le studio à distance de Renee Design Lab, à l'ODTÜ Teknokent d'Ankara : plus de {{stat.brands}} marques, {{stat.identities}} identités, travail aux horaires suisses." },
+  "eyebrow": "À propos",
+  "h1": "Un studio à Ankara qui travaille pour la Suisse.",
+  "lead": "Nous disons ouvertement où nous sommes. Ce qui compte, c'est la disponibilité, la qualité et des processus clairs.",
+  "story": {
+    "title": "Notre histoire",
+    "paragraphs": [
+      "Renee Design Lab est une agence de design et de publicité installée à l'ODTÜ Teknokent, à Ankara. Nous avons travaillé pour plus de {{stat.brands}} marques et réalisé plus de {{stat.identities}} projets d'identité visuelle, notamment pour Bayer, Yataş Bedding et Medicana, ainsi que pour des écoles privées et des cliniques.",
+      "Renee est notre studio à distance pour le marché suisse. Notre police maison est la Helvetica Neue, issue de la Neue Haas Grotesk, créée en 1957 à Münchenstein, près de Bâle. La typographie suisse marque notre travail depuis toujours : grille, clarté, peu d'ornement."
+    ]
+  },
+  "team": {
+    "title": "L'équipe",
+    "text": "Une équipe fixe et une personne de contact s'occupent de votre projet.",
+    "roles": [
+      { "t": "Direction créative", "d": "Concept, marque et contrôle qualité." },
+      { "t": "Graphisme", "d": "Identité, mise en page, 3D et contenu." },
+      { "t": "Stratégie", "d": "Positionnement, campagnes et analyse." },
+      { "t": "UI/UX", "d": "Sites web, interfaces et automatisation." }
+    ]
+  },
+  "remote": {
+    "title": "Notre façon de collaborer à distance.",
+    "steps": [
+      { "t": "Mêmes horaires de bureau", "d": "Lu–ve {{hours.from}}–{{hours.to}}, heure suisse. Décalage horaire : 1 heure en été, 2 en hiver." },
+      { "t": "Vos outils", "d": "Figma, Asana ou Trello, Slack ou Teams, Google Workspace." },
+      { "t": "Rendez-vous fixes", "d": "De courts échanges vidéo à des moments convenus, réponse sous {{stat.response}} heures." }
+    ]
+  },
+  "proof": { "title": "Notre propre savoir-faire", "text": "Nous rendons publique notre propre charte de marque. Vous y voyez comment nous travaillons. Notre site turc présente l'ensemble du portfolio.", "guide": "Voir la charte de marque (TR)", "site": "reneedesignlab.com (TR)" }
+}

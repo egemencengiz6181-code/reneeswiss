@@ -1,0 +1,26 @@
+{
+  "_review": "",
+  "breadcrumb": "Branding & corporate identity",
+  "meta": { "title": "Branding and corporate identity {{price.branding}} | Renee", "description": "Logo, brand system and guidelines for Swiss SMEs and agencies. Remote, {{price.branding}}, in 3 to 5 weeks. Over {{stat.identities}} CI projects." },
+  "name": "Branding & corporate identity",
+  "short": "Logo, brand system and guidelines.",
+  "h1": "A brand that works in every format.",
+  "lead": "We develop logos and brand systems that hold up from letterhead to facade. Over {{stat.identities}} projects, documented so you can follow them.",
+  "facts": { "who": "SMEs and agencies launching a new identity or putting their brand in order", "what": "Logo, brand system, guidelines" },
+  "timeline": "3–5 weeks",
+  "problem": "Many SMEs have a logo but no system. Every new print item and post looks different. That costs time and weakens recognition.",
+  "included": ["Positioning and brand workshop by video", "Logo in three concept directions", "Colours, typography and imagery", "Templates for the main applications", "Brand guidelines"],
+  "deliverables": ["Logo files (SVG, PDF, PNG)", "Brand guidelines as PDF", "Templates in Figma or Office", "All usage rights after payment"],
+  "process": [
+    { "t": "Workshop", "d": "Clarify goals, audience and competition." },
+    { "t": "Concepts", "d": "Three directions with rationale." },
+    { "t": "Refinement", "d": "The chosen direction in two feedback rounds." },
+    { "t": "Handover", "d": "Guidelines, files, short introduction." }
+  ],
+  "relatedCase": "arni",
+  "faq": [
+    { "q": "How many correction rounds are included?", "a": "Two rounds in the fixed price. Further rounds are agreed transparently and charged by effort." },
+    { "q": "Can you just rework our existing logo?", "a": "Yes. In the intro call we check whether a rework is enough." },
+    { "q": "Do you check trademark rights?", "a": "We do an initial search. For a legal trademark check, we recommend the IPI (Swiss Federal Institute of Intellectual Property) or a specialist." }
+  ]
+}

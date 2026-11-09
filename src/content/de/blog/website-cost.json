@@ -1,0 +1,15 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Website-Kosten",
+  "meta": { "title": "Was kostet eine Website in der Schweiz 2026? | Renee", "description": "Welche Faktoren den Preis einer Website bestimmen, welche Folgekosten dazukommen und wie Sie Offerten in der Schweiz fair miteinander vergleichen." },
+  "title": "Was kostet eine Website in der Schweiz 2026? Ein ehrlicher Preisvergleich",
+  "author": "Renee Redaktion",
+  "date": "2026-11-08",
+  "summary": "Den Preis einer Website bestimmen vor allem Seitenzahl, Sprachen, Design und Funktionen. Offerten lassen sich nur vergleichen, wenn der Umfang identisch ist. Bei uns beginnen Websites {{price.website}} {{vat}}",
+  "sections": [
+    { "h": "Was den Preis bestimmt", "list": ["Anzahl Seiten und Seitentypen", "Anzahl Sprachen und wer die Texte schreibt", "Individuelles Design oder angepasste Vorlage", "Funktionen wie Buchung, Shop oder Kundenlogin", "Fotografie, Video und Illustration", "SEO-Grundlagen und strukturierte Daten"] },
+    { "h": "Kosten, die oft vergessen gehen", "p": ["Eine Website ist nach dem Launch nicht fertig. Rechnen Sie Domain, Hosting, Sicherheitsupdates und Inhaltspflege mit ein. Statische Websites haben hier einen Vorteil: Sie brauchen keine Datenbank und kaum Wartung."] },
+    { "h": "So vergleichen Sie Offerten fair", "p": ["Wir veröffentlichen hier bewusst keine Marktdurchschnitte, weil belastbare, vergleichbare Zahlen fehlen und der Umfang stark variiert. Holen Sie stattdessen drei Offerten auf Basis desselben Briefings ein und prüfen Sie:"], "list": ["Sind Texte und Übersetzungen enthalten?", "Wie viele Korrekturrunden sind eingeschlossen?", "Wem gehören Code, Design und Zugänge?", "Was kostet der Betrieb pro Jahr?"] },
+    { "h": "Unsere Preise", "p": ["Bei Renee beginnen Websites {{price.website}} {{vat}} Das Paket Start umfasst bis zu fünf Seiten in einer Sprache. Nach dem Erstgespräch erhalten Sie innert {{stat.offer}} Stunden einen Festpreis."] }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "_review": "TODO: native review needed",
+  "meta": { "title": "Renee – Design und Web für Schweizer Agenturen und KMU", "description": "Remote-Studio für Design, Web, Content und Performance-Marketing. Schweizer Bürozeiten, feste Preise, Antwort innert {{stat.response}} Stunden. Sitz in Ankara." },
+  "hero": {
+    "eyebrow": "Remote-Studio · Schweizer Bürozeiten",
+    "h1": "Design, Web und Performance-Marketing für Schweizer Agenturen und KMU.",
+    "sub": "Wir arbeiten von Ankara aus, zu Ihren Bürozeiten und mit KI-gestützten Abläufen. Das verkürzt die Lieferzeiten und hält die Preise tief. Sie haben eine feste Ansprechperson.",
+    "ctaAgency": "Für Agenturen: White-Label-Partner",
+    "ctaSme": "Für Unternehmen: Kostenloses Erstgespräch",
+    "images": [
+      { "src": "arni/4", "alt": "Arni: Logo an der Fassade eines Industriegebäudes" },
+      { "src": "deru/5", "alt": "Deru: Verpackungsbox mit Kaffeebecher und Beutel" },
+      { "src": "erts/6c", "alt": "ERTS: Stofftasche mit Markenzeichen vor Meereshintergrund" },
+      { "src": "arni/5", "alt": "Arni: Mappen und Geschäftspapiere in Blau und Weiss" }
+    ]
+  },
+  "trust": {
+    "label": "Marken, mit denen wir gearbeitet haben",
+    "stats": [
+      { "value": "{{stat.brands}}+", "label": "Marken" },
+      { "value": "{{stat.identities}}+", "label": "Corporate-Identity-Projekte" },
+      { "value": "{{stat.response}} h", "label": "Antwort innert {{stat.response}} Stunden während der Bürozeiten" }
+    ]
+  },
+  "doors": {
+    "agency": {
+      "eyebrow": "Für Agenturen",
+      "title": "Ihre zusätzliche Kapazität. Unter Ihrem Namen.",
+      "bullets": ["NDA vor dem ersten Briefing, kein Kundenkontakt", "Standardaufgaben in 48–72 Stunden, in Ihren Tools", "{{price.agencyHour}}, erster Auftrag bis 4 Stunden kostenlos"],
+      "link": "White-Label-Partnerschaft ansehen"
+    },
+    "sme": {
+      "eyebrow": "Für Unternehmen",
+      "title": "Ein Team für Marke, Website und Marketing.",
+      "bullets": ["Eine Ansprechperson, Kommunikation auf Deutsch", "Klare Preise statt Stundenrechnung ohne Ende", "Offerte innert {{stat.offer}} Stunden nach dem Erstgespräch"],
+      "link": "Leistungen und Preise ansehen"
+    }
+  },
+  "services": { "eyebrow": "Leistungen", "title": "Sieben Leistungen. Alle remote lieferbar." },
+  "why": {
+    "eyebrow": "Warum Renee",
+    "title": "Vier Gründe, die sich überprüfen lassen.",
+    "items": [
+      { "t": "Ein Team für alles", "d": "Design, Web, Content, Ads und SEO aus einer Hand. Sie koordinieren nicht mehrere Dienstleister." },
+      { "t": "KI-gestützte Abläufe", "d": "KI übernimmt Routinearbeit, Menschen entscheiden und prüfen. Das Ergebnis sind kürzere Lieferzeiten." },
+      { "t": "Schweizer Bürozeiten", "d": "Erreichbar Mo–Fr {{hours.from}}–{{hours.to}}. Kommunikation auf Deutsch und Französisch. Zeitunterschied: 1 bis 2 Stunden." },
+      { "t": "Datenschutz geregelt", "d": "Arbeit nach revDSG. Auftragsverarbeitungsvertrag inklusive, mit Standardvertragsklauseln für die Bearbeitung in der Türkei." }
+    ]
+  },
+  "work": { "eyebrow": "Ausgewählte Arbeiten", "title": "Marken, die im Alltag funktionieren." },
+  "process": {
+    "eyebrow": "Ablauf",
+    "title": "Vom Gespräch zur Übergabe in vier Schritten.",
+    "steps": [
+      { "t": "Erstgespräch", "d": "20 Minuten per Video. Wir klären Ziel, Umfang und Zeitrahmen." },
+      { "t": "Angebot in {{stat.offer}} h", "d": "Sie erhalten eine schriftliche Offerte mit Festpreis und Terminen." },
+      { "t": "Umsetzung", "d": "Mit festen Feedbackrunden. Sie sehen Zwischenstände, bevor es weitergeht." },
+      { "t": "Übergabe & Reporting", "d": "Alle Dateien und Zugänge gehören Ihnen. Laufende Mandate erhalten einen Monatsbericht." }
+    ]
+  },
+  "lead": { "eyebrow": "Kostenlos", "title": "Wie sichtbar ist Ihr Unternehmen in ChatGPT, Gemini und Google?", "text": "Wir testen zehn typische Kundenfragen und senden Ihnen einen kurzen Bericht mit drei konkreten Verbesserungen." },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Was Schweizer Kunden uns zuerst fragen.",
+    "items": [
+      { "q": "Wo sitzt Renee?", "a": "Unser Studio ist im ODTÜ Teknokent in Ankara, Türkei. Ein Schweizer Büro haben wir nicht. Wir arbeiten vollständig remote zu Schweizer Bürozeiten, der Zeitunterschied beträgt je nach Jahreszeit 1 bis 2 Stunden." },
+      { "q": "Auf welcher Sprache läuft die Zusammenarbeit?", "a": "Auf Deutsch, Französisch, Englisch oder Türkisch. Sie erhalten eine feste Ansprechperson für Ihr Projekt." },
+      { "q": "Wie schnell antworten Sie?", "a": "Während der Bürozeiten innert {{stat.response}} Stunden. Eine Offerte erhalten Sie innert {{stat.offer}} Stunden nach dem Erstgespräch." },
+      { "q": "Was bedeuten die Preise «ab CHF»?", "a": "Das sind Einstiegspreise für einen klar begrenzten Umfang, jeweils {{vat}} Nach dem Erstgespräch erhalten Sie einen Festpreis für Ihr Projekt." },
+      { "q": "Wie gehen Sie mit Daten um?", "a": "Wir arbeiten nach dem Schweizer revDSG und der DSGVO. Für jedes Mandat mit Personendaten schliessen wir einen Auftragsverarbeitungsvertrag inklusive Standardvertragsklauseln ab, weil die Bearbeitung in der Türkei stattfindet." },
+      { "q": "Wofür setzen Sie KI ein?", "a": "Für Recherche, Entwürfe, Varianten und Routineaufgaben. Jedes Ergebnis wird von Fachleuten geprüft. Vertrauliche Kundendaten geben wir nicht in öffentliche KI-Dienste ein." }
+    ]
+  }
+}

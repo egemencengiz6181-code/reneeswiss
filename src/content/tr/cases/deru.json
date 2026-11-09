@@ -1,0 +1,22 @@
+{
+  "_review": "",
+  "breadcrumb": "Deru",
+  "meta": { "title": "Deru: Kahve için marka ve ambalaj | Renee", "description": "Bir kahve markası için logo, karakterler ve ambalaj sistemi: bardak, kapak, kutu ve dondurma kabına ek maliyet olmadan uyarlandı." },
+  "name": "Deru",
+  "industry": "Kahve ve perakende",
+  "year": "2024",
+  "summary": "Kendi karakterleriyle bardaktan hediye kutusuna kadar tanınır kalan bir kahve markası.",
+  "challenge": "Marka, üretimi pahalılaştırmadan birçok ambalaj formatında işlemeliydi.",
+  "solution": "Koşan, kavrayan ve gülen kahve bardakları, her formata serbestçe uyarlanabilen bir karakter sistemi oluşturuyor.",
+  "result": "Sistem ek maliyet olmadan bardak, kapak, kutu, dondurma kabı ve unlu mamul ambalajına uyarlandı.",
+  "services": ["Logo", "Kurumsal kimlik", "Ambalaj", "İllüstrasyon"],
+  "cover": { "src": "deru/1", "alt": "Deru: yeşil ve mor baskılı kahve bardakları" },
+  "gallery": [
+    { "src": "deru/5", "alt": "Deru: bardak ve kahve poşetiyle açık kargo kutusu" },
+    { "src": "deru/3", "alt": "Deru: renkli alanlar üzerinde dört karakter" },
+    { "src": "deru/7", "alt": "Deru: yeşil fonda dondurma kabı" },
+    { "src": "deru/4", "alt": "Deru: kahve bardağı karakterlerinden desen" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}

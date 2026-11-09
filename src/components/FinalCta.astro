@@ -1,0 +1,21 @@
+---
+import { href, type Locale } from '../lib/routes';
+import { common } from '../lib/content';
+import CalButton from './CalButton.astro';
+import Eyebrow from './Eyebrow.astro';
+const { locale } = Astro.props as { locale: Locale };
+const c = common(locale);
+---
+<section class="on-dark bg-ink text-white section">
+  <div class="wrap grid-12">
+    <div class="col-span-12 lg:col-span-8">
+      <Eyebrow text={c.finalCta.eyebrow} dark />
+      <h2 class="title mt-6">{c.finalCta.title}</h2>
+      <p class="lead muted mt-6 measure">{c.finalCta.text}</p>
+    </div>
+    <div class="col-span-12 lg:col-span-4 lg:self-end flex flex-col items-start gap-4 mt-10 lg:mt-0">
+      <CalButton locale={locale} label={c.cta.primary} />
+      <a class="arrow-link" href={href(locale, 'ki-check')}>{c.cta.checkLink} →</a>
+    </div>
+  </div>
+</section>

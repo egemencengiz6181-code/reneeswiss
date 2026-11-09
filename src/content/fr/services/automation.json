@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Automatisation IA",
+  "meta": { "title": "Automatisation IA pour PME {{price.automation}} | Renee", "description": "Chatbots, workflows de contenu, automatisation des e-mails et du CRM pour PME suisses. Prix : {{price.automation}}, réalisation en 2–4 semaines." },
+  "name": "Automatisation IA",
+  "short": "Chatbots, workflows, automatisation des e-mails et du CRM.",
+  "h1": "Confiez le travail répétitif à des systèmes.",
+  "lead": "Nous automatisons les processus récurrents du service client, du contenu et de la vente, avec des limites claires et un contrôle humain.",
+  "facts": { "who": "PME avec des processus récurrents", "what": "Chatbots, workflows de contenu, automatisation des e-mails et du CRM" },
+  "timeline": "2–4 semaines par projet",
+  "problem": "Répondre aux demandes, transférer des données, préparer des textes : beaucoup de tâches se font à la main alors qu'elles se déroulent toujours de la même façon.",
+  "included": ["Analyse des processus et choix du cas d'usage", "Chatbot de site web basé sur vos contenus", "Processus e-mail et CRM", "Workflows de contenu avec validation", "Documentation et formation"],
+  "deliverables": ["Workflow opérationnel dans vos comptes", "Documentation", "Prise en main pour votre équipe"],
+  "process": [
+    { "t": "Analyse", "d": "Relever les processus, estimer le gain." },
+    { "t": "Prototype", "d": "Un cas d'usage, vite testable." },
+    { "t": "Réalisation", "d": "Connexion à vos systèmes." },
+    { "t": "Remise", "d": "Formation et monitoring." }
+  ],
+  "relatedCase": "arni",
+  "faq": [
+    { "q": "Nos données sont-elles en sécurité ?", "a": "Nous choisissons les services et les réglages selon vos exigences en matière de protection des données et concluons un contrat de traitement des données. Les données sensibles restent hors des services d'IA publics." },
+    { "q": "Quels outils utilisez-vous ?", "a": "Selon le cas, n8n, Make, HubSpot, Brevo ainsi que des modèles d'Anthropic, d'OpenAI ou de Google." },
+    { "q": "Combien coûte l'exploitation ?", "a": "Les coûts d'outils et d'utilisation passent directement par vos comptes et sont estimés à l'avance." }
+  ]
+}

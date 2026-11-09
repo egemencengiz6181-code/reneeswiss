@@ -1,0 +1,61 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Für Agenturen",
+  "meta": { "title": "White-Label Agentur-Partner für die Schweiz | Renee", "description": "White-Label-Partner für Schweizer Agenturen: Design, Web, 3D, Content, Ads. NDA, kein Kundenkontakt, 48–72 h, {{price.agencyHour}}. Test bis 4 h kostenlos." },
+  "eyebrow": "White-Label für Agenturen",
+  "h1": "Ihre zusätzliche Kapazität. Unter Ihrem Namen.",
+  "lead": "Wir übernehmen Produktionsarbeit für Schweizer Agenturen mit 1 bis 30 Personen. Sie behalten die Kundenbeziehung, wir liefern in Ihrem Branding und in Ihren Tools.",
+  "deliver": {
+    "eyebrow": "Was wir liefern",
+    "title": "Alles, was sich remote produzieren lässt.",
+    "items": [
+      { "t": "Design", "d": "Präsentationen, Kampagnenmittel, Layouts, Reinzeichnung." },
+      { "t": "Corporate Identity", "d": "Logos, Markensysteme und Guidelines nach Ihrem Konzept." },
+      { "t": "Web", "d": "Design und Entwicklung, mehrsprachig und SEO-ready." },
+      { "t": "Social Content", "d": "Posts, Reels und Carousels nach Ihrem Redaktionsplan." },
+      { "t": "3D-Renderings", "d": "Produktvisualisierung und Animation aus CAD oder Referenzen." },
+      { "t": "Ads Ops", "d": "Setup und Betreuung von Google- und Meta-Kampagnen." },
+      { "t": "SEO & GEO", "d": "Technische Umsetzung, Inhalte und KI-Sichtbarkeit." }
+    ]
+  },
+  "how": {
+    "eyebrow": "So funktioniert es",
+    "title": "Klar geregelt, bevor die Arbeit beginnt.",
+    "steps": [
+      { "t": "NDA", "d": "Unterzeichnet vor dem ersten Briefing." },
+      { "t": "Briefing", "d": "In Ihren Vorlagen und Tools, mit einer festen Ansprechperson." },
+      { "t": "Lieferung", "d": "Standardaufgaben in 48–72 Stunden." },
+      { "t": "Revision", "d": "Korrekturrunden sind im Umfang festgelegt. Die Dateien gehören Ihnen." }
+    ]
+  },
+  "rules": {
+    "eyebrow": "Unsere Regeln",
+    "title": "Was Sie von uns erwarten können.",
+    "items": ["Kein direkter Kontakt zu Ihren Kunden. Unser Name erscheint nirgends.", "Wir arbeiten in Ihren Tools: Figma, Asana oder Trello, Slack oder Teams.", "Eine feste Ansprechperson, erreichbar zu Schweizer Bürozeiten.", "Auftragsverarbeitungsvertrag mit Standardvertragsklauseln, wenn Personendaten im Spiel sind."]
+  },
+  "pricing": {
+    "eyebrow": "Preismodelle",
+    "title": "Drei Modelle, je nach Auslastung.",
+    "models": [
+      { "t": "Stundensatz", "price": "{{price.agencyHour}}", "d": "Für einzelne Aufgaben ohne feste Bindung." },
+      { "t": "Kapazitätspaket", "price": "20 / 40 / 80 h", "d": "Reservierte Stunden pro Monat. Details auf der Preisseite." },
+      { "t": "Festpreis", "price": "Pro Lieferobjekt", "d": "Fixer Preis pro Rendering, Layout oder Landingpage." }
+    ],
+    "note": "Alle Preise {{vat}}"
+  },
+  "pilot": {
+    "title": "Testauftrag: Wir liefern eine erste Aufgabe bis 4 Stunden kostenlos.",
+    "text": "So prüfen Sie Qualität und Zusammenarbeit ohne Risiko.",
+    "cta": "Testauftrag anfragen",
+    "items": ["Unverbindlich, ohne Folgeauftrag", "NDA auch für den Testauftrag", "Lieferung innert {{stat.pilot}} Stunden nach vollständigem Briefing"]
+  },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Fragen von Agenturen.",
+    "items": [
+      { "q": "Erfahren unsere Kunden von Ihnen?", "a": "Nein. Wir treten nicht in Erscheinung, und das NDA regelt das schriftlich. Die Dateien und Metadaten liefern wir neutral." },
+      { "q": "Wem gehören die Nutzungsrechte?", "a": "Nach Bezahlung gehen alle Rechte an den gelieferten Arbeiten an Ihre Agentur über." },
+      { "q": "Was passiert bei einem Engpass auf unserer Seite am Wochenende?", "a": "Standard ist Mo–Fr. Dringende Aufträge am Wochenende vereinbaren wir im Voraus." }
+    ]
+  }
+}

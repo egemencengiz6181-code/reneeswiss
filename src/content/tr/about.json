@@ -1,0 +1,34 @@
+{
+  "_review": "",
+  "breadcrumb": "Hakkımızda",
+  "meta": { "title": "Renee hakkında: Ankara'dan uzaktan çalışan stüdyo", "description": "Renee, Ankara ODTÜ Teknokent'teki Renee Design Lab'in uzaktan çalışan stüdyosu: {{stat.brands}}+ marka, {{stat.identities}}+ kimlik projesi, İsviçre mesai saatleri." },
+  "eyebrow": "Hakkımızda",
+  "h1": "Ankara'da, İsviçre için çalışan bir stüdyo.",
+  "lead": "Nerede olduğumuzu açıkça söylüyoruz. Asıl önemli olan ulaşılabilirlik, kalite ve net süreçler.",
+  "story": {
+    "title": "Hikâyemiz",
+    "paragraphs": [
+      "Renee Design Lab, Ankara ODTÜ Teknokent'te bir tasarım ve reklam ajansıdır. {{stat.brands}} üzeri markayla çalıştık ve {{stat.identities}} üzeri kurumsal kimlik projesini hayata geçirdik; aralarında Bayer, Yataş Bedding ve Medicana'nın yanı sıra özel okullar ve klinikler var.",
+      "Renee, İsviçre pazarı için kurduğumuz uzaktan çalışan stüdyodur. Kurumsal yazı tipimiz Helvetica Neue; kökeni 1957'de Basel yakınlarındaki Münchenstein'da ortaya çıkan Neue Haas Grotesk'e dayanıyor. İsviçre tipografisi işimizi baştan beri şekillendiriyor: grid, açıklık, az süsleme."
+    ]
+  },
+  "team": {
+    "title": "Ekip",
+    "text": "Projenizle sabit bir ekip ve tek bir irtibat kişisi ilgilenir.",
+    "roles": [
+      { "t": "Kreatif direktörlük", "d": "Konsept, marka ve kalite kontrol." },
+      { "t": "Grafik tasarım", "d": "Kimlik, mizanpaj, 3D ve içerik." },
+      { "t": "Strateji", "d": "Konumlandırma, kampanyalar ve analiz." },
+      { "t": "UI/UX", "d": "Web siteleri, arayüzler ve otomasyon." }
+    ]
+  },
+  "remote": {
+    "title": "Uzaktan nasıl çalışıyoruz?",
+    "steps": [
+      { "t": "Aynı mesai saatleri", "d": "Pzt–Cum {{hours.from}}–{{hours.to}} İsviçre saati. Saat farkı: yazın 1, kışın 2 saat." },
+      { "t": "Sizin araçlarınız", "d": "Figma, Asana veya Trello, Slack veya Teams, Google Workspace." },
+      { "t": "Belirli görüşmeler", "d": "Kararlaştırılan zamanlarda kısa görüntülü görüşmeler, {{stat.response}} saat içinde yanıt." }
+    ]
+  },
+  "proof": { "title": "Kendi işçiliğimiz", "text": "Kendi marka kılavuzumuzu açıkça paylaşıyoruz. Nasıl çalıştığımızı orada görebilirsiniz. Türkçe web sitemizde portföyün tamamı yer alıyor.", "guide": "Marka kılavuzunu inceleyin (TR)", "site": "reneedesignlab.com (TR)" }
+}

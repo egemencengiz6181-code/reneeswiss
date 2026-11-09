@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import { pathOf } from '../lib/routes';
+import { common, formatDate, articleWords } from '../lib/content';
+import { articleLd } from '../lib/schema';
+import FinalCta from '../components/FinalCta.astro';
+const L = common(locale).articleLabels;
+const minutes = Math.max(1, Math.round(articleWords(p) / 200));
+const anchor = (i: number) => `s${i + 1}`;
+---
+<Layout locale={locale} route={route} meta={p.meta} jsonLd={[articleLd(Astro.site!.origin, pathOf(route, locale), { ...p, id: route.param }, locale)]}>
+  <article class="wrap pt-10 lg:pt-16 pb-20">
+    <h1 class="title max-w-[26ch]">{p.title}</h1>
+    <p class="muted text-[15px] mt-6">{p.author} · <time datetime={p.date}>{formatDate(p.date)}</time> · {L.reading.replace('{n}', String(minutes))}</p>
+    <div class="grid-12 mt-10 pt-8 border-t border-ink">
+      <nav class="col-span-12 lg:col-span-3 mb-8 lg:mb-0 lg:sticky lg:top-28 lg:self-start text-[15px]" aria-label={L.toc}>
+        <p class="muted mb-2">{L.toc}</p>
+        <ol class="space-y-2">{p.sections.map((s: any, i: number) => <li><a class="link no-underline hover:underline" href={`#${anchor(i)}`}>{s.h}</a></li>)}</ol>
+      </nav>
+      <div class="col-span-12 lg:col-start-5 lg:col-span-7 measure prose-rn">
+        <p class="lead !mb-10">{p.summary}</p>
+        {p.sections.map((s: any, i: number) => (
+          <>
+            <h2 id={anchor(i)}>{s.h}</h2>
+            {s.p?.map((t: string) => <p>{t}</p>)}
+            {s.list && <ul>{s.list.map((t: string) => <li>{t}</li>)}</ul>}
+          </>
+        ))}
+      </div>
+    </div>
+  </article>
+  <FinalCta locale={locale} />
+</Layout>

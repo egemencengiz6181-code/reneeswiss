@@ -1,0 +1,10 @@
+{
+  "_review": "",
+  "breadcrumb": "İletişim",
+  "meta": { "title": "İletişim ve ilk görüşme | Renee", "description": "20 dakikalık ücretsiz ilk görüşme planlayın veya bize yazın. Mesai saatlerinde {{stat.response}} saat içinde yanıt veriyoruz." },
+  "eyebrow": "İletişim",
+  "h1": "Projenizi konuşalım.",
+  "lead": "Doğrudan randevu alın veya bize yazın. Mesai saatlerinde {{stat.response}} saat içinde yanıt veriyoruz.",
+  "labels": { "email": "E-posta", "phone": "Telefon", "hours": "Mesai saatleri", "location": "Konum" },
+  "location": "{{legal.city}}, Türkiye. İsviçre için uzaktan çalışıyoruz."
+}

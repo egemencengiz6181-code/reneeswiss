@@ -1,0 +1,10 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Contact",
+  "meta": { "title": "Contact et premier entretien | Renee", "description": "Réservez un premier entretien gratuit de 20 minutes ou écrivez-nous. Réponse sous {{stat.response}} heures pendant les horaires de bureau." },
+  "eyebrow": "Contact",
+  "h1": "Parlons de votre projet.",
+  "lead": "Réservez directement un rendez-vous ou écrivez-nous. Nous répondons sous {{stat.response}} heures pendant les horaires de bureau.",
+  "labels": { "email": "E-mail", "phone": "Téléphone", "hours": "Horaires de bureau", "location": "Adresse" },
+  "location": "{{legal.city}}, Turquie. À distance pour la Suisse."
+}

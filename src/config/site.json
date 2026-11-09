@@ -1,0 +1,144 @@
+{
+  "domain": "https://renee.example",
+  "calLink": "",
+  "email": "info@reneedesignlab.com",
+  "phone": "+90 532 504 66 06",
+  "phoneHref": "+905325046606",
+  "whatsapp": "",
+  "hours": {
+    "from": "08:00",
+    "to": "18:00"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/renee-designlab/",
+    "instagram": "https://www.instagram.com/reneedesignlab/"
+  },
+  "existingSite": "https://reneedesignlab.com",
+  "identityGuide": "https://reneedesignlab.com/kurumsal-kimlik",
+  "forms": {
+    "action": "/api/submit",
+    "turnstileSiteKey": ""
+  },
+  "analytics": {
+    "cloudflareToken": ""
+  },
+  "legal": {
+    "name": "Renee Design Lab",
+    "legalName": "",
+    "street": "",
+    "city": "ODTÜ Teknokent, Çankaya / Ankara",
+    "country": "TR",
+    "postalCode": "",
+    "registry": "",
+    "taxId": "",
+    "representative": "",
+    "formProcessor": "",
+    "mailProcessor": ""
+  },
+  "stats": {
+    "brands": 90,
+    "identities": 45,
+    "responseHours": 4,
+    "offerHours": 48,
+    "pilotHours": 48,
+    "reportHours": 48
+  },
+  "clients": [
+    {
+      "name": "Bayer"
+    },
+    {
+      "name": "Bayer CropScience"
+    },
+    {
+      "name": "Yataş Bedding"
+    },
+    {
+      "name": "Medicana"
+    },
+    {
+      "name": "Altava Group"
+    },
+    {
+      "name": "Karagülle Group"
+    },
+    {
+      "name": "Leopar Multimodal"
+    }
+  ],
+  "prices": {
+    "branding": {
+      "amount": 2500
+    },
+    "website": {
+      "amount": 3500
+    },
+    "social": {
+      "amount": 890,
+      "unit": "month"
+    },
+    "ads": {
+      "amount": 690,
+      "unit": "month",
+      "plusMedia": true
+    },
+    "seo": {
+      "amount": 990,
+      "unit": "month"
+    },
+    "3d": {
+      "amount": 290,
+      "unit": "render"
+    },
+    "automation": {
+      "amount": 1500,
+      "unit": "project"
+    },
+    "agencyHour": {
+      "amount": 65,
+      "unit": "hour"
+    },
+    "pkgStart": {
+      "amount": 3500,
+      "unit": "once"
+    },
+    "pkgGrowth": {
+      "amount": 1490,
+      "unit": "month"
+    },
+    "pkgFull": {
+      "amount": 2290,
+      "unit": "month"
+    },
+    "cap20": {
+      "amount": 1500,
+      "unit": "month",
+      "exact": true
+    },
+    "cap40": {
+      "amount": 2800,
+      "unit": "month",
+      "exact": true
+    },
+    "cap80": {
+      "amount": 5200,
+      "unit": "month",
+      "exact": true
+    },
+    "cap20Rate": {
+      "amount": 75,
+      "unit": "hour",
+      "exact": true
+    },
+    "cap40Rate": {
+      "amount": 70,
+      "unit": "hour",
+      "exact": true
+    },
+    "cap80Rate": {
+      "amount": 65,
+      "unit": "hour",
+      "exact": true
+    }
+  }
+}

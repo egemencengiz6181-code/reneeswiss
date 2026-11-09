@@ -1,0 +1,74 @@
+{
+  "_review": "",
+  "meta": { "title": "Renee | İsviçre'deki Türk işletmeleri için tasarım ve web", "description": "Tasarım, web, içerik ve performans pazarlaması için uzaktan çalışan stüdyo. İsviçre mesai saatleri, sabit fiyat, {{stat.response}} saat içinde yanıt. Merkez: Ankara." },
+  "hero": {
+    "eyebrow": "Türkçe iletişim, İsviçre standartlarında iş",
+    "h1": "İsviçre'deki Türk işletmeleri ve ajanslar için tasarım, web ve performans pazarlaması.",
+    "sub": "Ankara'dan uzaktan, sizin mesai saatlerinizde ve yapay zekâ destekli süreçlerle çalışıyoruz. Böylece teslim süreleri kısalıyor, fiyatlar düşük kalıyor. Projenizde sabit bir irtibat kişiniz olur.",
+    "ctaAgency": "Ajanslar için: White-label iş ortağı",
+    "ctaSme": "İşletmeler için: Ücretsiz ilk görüşme",
+    "images": [
+      { "src": "arni/4", "alt": "Arni: endüstriyel bir binanın cephesinde logo" },
+      { "src": "deru/5", "alt": "Deru: kahve bardağı ve poşetiyle ambalaj kutusu" },
+      { "src": "erts/6c", "alt": "ERTS: deniz manzarası önünde logolu bez çanta" },
+      { "src": "arni/5", "alt": "Arni: mavi ve beyaz dosyalar ve kurumsal kırtasiye" }
+    ]
+  },
+  "trust": {
+    "label": "Birlikte çalıştığımız markalar",
+    "stats": [
+      { "value": "{{stat.brands}}+", "label": "Marka" },
+      { "value": "{{stat.identities}}+", "label": "Kurumsal kimlik projesi" },
+      { "value": "{{stat.response}} saat", "label": "Mesai saatlerinde {{stat.response}} saat içinde yanıt" }
+    ]
+  },
+  "doors": {
+    "agency": {
+      "eyebrow": "Ajanslar için",
+      "title": "Ek kapasiteniz. Sizin adınızla.",
+      "bullets": ["İlk brief'ten önce NDA, müşterilerinizle temas yok", "Standart işler 48–72 saatte, sizin araçlarınızda", "{{price.agencyHour}}, 4 saate kadar ilk iş ücretsiz"],
+      "link": "White-label iş ortaklığını inceleyin"
+    },
+    "sme": {
+      "eyebrow": "İşletmeler için",
+      "title": "Marka, web sitesi ve pazarlama için tek ekip.",
+      "bullets": ["Tek irtibat kişisi. Türkçe iletişim, İsviçre standartlarında iş", "Bitmeyen saat hesabı yerine net fiyatlar", "İlk görüşmeden sonra {{stat.offer}} saat içinde teklif"],
+      "link": "Hizmetleri ve fiyatları inceleyin"
+    }
+  },
+  "services": { "eyebrow": "Hizmetler", "title": "Yedi hizmet. Hepsi uzaktan teslim." },
+  "why": {
+    "eyebrow": "Neden Renee",
+    "title": "Doğrulayabileceğiniz dört neden.",
+    "items": [
+      { "t": "Her şey için tek ekip", "d": "Tasarım, web, içerik, reklam ve SEO tek elden. Birden fazla hizmet sağlayıcıyı koordine etmek zorunda kalmazsınız." },
+      { "t": "Yapay zekâ destekli süreçler", "d": "Rutin işi yapay zekâ üstlenir, kararı ve kontrolü insanlar verir. Sonuç: daha kısa teslim süreleri." },
+      { "t": "İsviçre mesai saatleri", "d": "Pzt–Cum {{hours.from}}–{{hours.to}} ulaşabilirsiniz. Türkçe, Almanca ve Fransızca iletişim. Saat farkı: 1 ila 2 saat." },
+      { "t": "Veri koruma düzenli", "d": "revDSG'ye uygun çalışıyoruz. Veri işleme sözleşmesi dahil; Türkiye'deki işleme için standart sözleşme hükümleriyle." }
+    ]
+  },
+  "work": { "eyebrow": "Seçili işler", "title": "Günlük kullanımda işleyen markalar." },
+  "process": {
+    "eyebrow": "Süreç",
+    "title": "Görüşmeden teslime dört adım.",
+    "steps": [
+      { "t": "İlk görüşme", "d": "20 dakikalık görüntülü görüşme. Hedefi, kapsamı ve takvimi netleştiriyoruz." },
+      { "t": "{{stat.offer}} saat içinde teklif", "d": "Sabit fiyat ve tarihlerin yer aldığı yazılı bir teklif alırsınız." },
+      { "t": "Uygulama", "d": "Belirli geri bildirim turlarıyla. Bir sonraki aşamaya geçmeden ara sonuçları görürsünüz." },
+      { "t": "Teslim ve raporlama", "d": "Tüm dosyalar ve erişimler sizindir. Devam eden işlerde aylık rapor alırsınız." }
+    ]
+  },
+  "lead": { "eyebrow": "Ücretsiz", "title": "İşletmeniz ChatGPT, Gemini ve Google'da ne kadar görünür?", "text": "Müşterilerinizin soracağı on tipik soruyu test ediyor, üç somut iyileştirme içeren kısa bir rapor gönderiyoruz." },
+  "faq": {
+    "eyebrow": "Sık sorulan sorular",
+    "title": "İsviçre'deki müşterilerin ilk sordukları.",
+    "items": [
+      { "q": "Renee nerede?", "a": "Stüdyomuz Türkiye'de, Ankara ODTÜ Teknokent'te. İsviçre'de ofisimiz yok. Tamamen uzaktan, İsviçre mesai saatlerinde çalışıyoruz; saat farkı mevsime göre 1 ila 2 saat." },
+      { "q": "Çalışma dili ne olacak?", "a": "Türkçe, Almanca, Fransızca veya İngilizce. Projeniz için sabit bir irtibat kişiniz olur." },
+      { "q": "Ne kadar hızlı yanıt veriyorsunuz?", "a": "Mesai saatlerinde {{stat.response}} saat içinde. Teklifinizi ilk görüşmeden sonra {{stat.offer}} saat içinde alırsınız." },
+      { "q": "“Başlangıç CHF” fiyatları ne anlama geliyor?", "a": "Bunlar, kapsamı net sınırlanmış işler için giriş fiyatlarıdır; tümü {{vat}} İlk görüşmeden sonra projeniz için sabit fiyat alırsınız." },
+      { "q": "Verilerle nasıl çalışıyorsunuz?", "a": "İsviçre revDSG ve GDPR'a uygun çalışıyoruz. Veriler Türkiye'de işlendiği için kişisel veri içeren her işte, standart sözleşme hükümlerini de kapsayan bir veri işleme sözleşmesi yapıyoruz." },
+      { "q": "Yapay zekâyı ne için kullanıyorsunuz?", "a": "Araştırma, taslak, varyasyon ve rutin işler için. Her sonucu uzmanlar kontrol eder. Gizli müşteri verilerini herkese açık yapay zekâ hizmetlerine girmiyoruz." }
+    ]
+  }
+}

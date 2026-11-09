@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import { common } from '../lib/content';
+import PageHead from '../components/PageHead.astro';
+import Section from '../components/Section.astro';
+import Pic from '../components/Pic.astro';
+import FinalCta from '../components/FinalCta.astro';
+const L = common(locale).caseLabels;
+const rows = [[L.client, p.name], [L.industry, p.industry], [L.year, p.year], [L.deliverables, p.services.join(', ')]];
+const blocks = [[L.challenge, p.challenge], [L.solution, p.solution], [L.results, p.result]];
+---
+<Layout locale={locale} route={route} meta={p.meta}>
+  <PageHead eyebrow={p.industry} title={p.name} lead={p.summary} />
+  <section class="wrap"><dl class="grid md:grid-cols-4 border-t border-ink">{rows.map(([k, v]) => <div class="py-4 md:pr-6"><dt class="muted text-[15px]">{k}</dt><dd class="mt-1">{v}</dd></div>)}</dl></section>
+  <div class="wrap grid md:grid-cols-2 gap-2 md:gap-6 mt-8">
+    {p.gallery.slice(0, 2).map((g: any, i: number) => <div class="card-img"><Pic src={g.src} alt={g.alt} sizes="(min-width:768px) 48vw, 92vw" widths={[480, 800, 1080]} eager={i === 0} class="w-full h-auto" /></div>)}
+  </div>
+  <Section>
+    <div class="grid md:grid-cols-3 gap-x-6">{blocks.map(([k, v]) => <div class="border-t border-ink pt-4 pb-8"><h2 class="subtitle">{k}</h2><p class="muted mt-3">{v}</p></div>)}</div>
+    {p.metrics?.length > 0 && <ul class="grid md:grid-cols-3 gap-x-6 mt-8">{p.metrics.map((m: any) => <li class="border-t border-line py-4"><span class="title block">{m.value}</span><span class="muted text-[15px]">{m.label}</span></li>)}</ul>}
+    {p.testimonial && <figure class="mt-12 max-w-[60ch]"><blockquote class="lead">«{p.testimonial.quote}»</blockquote><figcaption class="muted mt-3 text-[15px]">{p.testimonial.author}</figcaption></figure>}
+  </Section>
+  <div class="wrap grid md:grid-cols-2 gap-2 md:gap-6 pb-16">
+    {p.gallery.slice(2).map((g: any) => <div class="card-img"><Pic src={g.src} alt={g.alt} sizes="(min-width:768px) 48vw, 92vw" widths={[480, 800, 1080]} class="w-full h-auto" /></div>)}
+  </div>
+  <FinalCta locale={locale} />
+</Layout>

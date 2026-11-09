@@ -1,0 +1,14 @@
+{
+  "_review": "",
+  "breadcrumb": "Künye",
+  "meta": { "title": "Künye | Renee", "description": "Renee Design Lab, ODTÜ Teknokent, Ankara, Türkiye künyesi: şirket bilgileri ve iletişim." },
+  "h1": "Künye",
+  "sections": [
+    { "h": "Hizmet sağlayıcı", "p": ["{{legal.legalName}}", "{{legal.street}}", "{{legal.postalCode}} {{legal.city}}", "Türkiye"] },
+    { "h": "İletişim", "p": ["E-posta: {{email}}", "Telefon: {{phone}}"] },
+    { "h": "Temsile yetkili kişi", "p": ["{{legal.representative}}"] },
+    { "h": "Sicil", "p": ["Ticaret sicili: {{legal.registry}}", "Vergi numarası: {{legal.taxId}}"] },
+    { "h": "Konum hakkında not", "p": ["Renee, {{legal.name}} bünyesinde uzaktan çalışan stüdyodur. İsviçre'de merkezimiz veya şubemiz yoktur."] },
+    { "h": "Sorumluluk", "p": ["Bu web sitesindeki içerikleri özenle kontrol ediyoruz, ancak eksiksiz ve güncel olduklarını garanti etmiyoruz. Bağlantı verilen web sitelerinin içeriklerinden o sitelerin işletmecileri sorumludur."] }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Pour les agences",
+  "meta": { "title": "Agence en marque blanche pour la Suisse | Renee", "description": "Agence en marque blanche pour agences suisses : design, web, 3D, contenu, publicité. NDA, aucun contact client, 48–72 h, {{price.agencyHour}}. Test de 4 h offert." },
+  "eyebrow": "Marque blanche pour agences",
+  "h1": "Votre capacité supplémentaire. Sous votre nom.",
+  "lead": "Nous prenons en charge la production pour des agences suisses de 1 à 30 personnes. Vous gardez la relation client, nous livrons à votre image et dans vos outils.",
+  "deliver": {
+    "eyebrow": "Ce que nous livrons",
+    "title": "Tout ce qui se produit à distance.",
+    "items": [
+      { "t": "Design", "d": "Présentations, supports de campagne, mises en page, exécution finale." },
+      { "t": "Identité visuelle", "d": "Logos, systèmes de marque et chartes selon votre concept." },
+      { "t": "Web", "d": "Design et développement, multilingue et prêt pour le SEO." },
+      { "t": "Contenu social", "d": "Publications, reels et carrousels selon votre calendrier éditorial." },
+      { "t": "Rendus 3D", "d": "Visualisation de produits et animation à partir de CAO ou de références." },
+      { "t": "Gestion publicitaire", "d": "Mise en place et suivi de campagnes Google et Meta." },
+      { "t": "SEO et GEO", "d": "Mise en œuvre technique, contenus et visibilité IA." }
+    ]
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "title": "Tout est réglé avant de commencer.",
+    "steps": [
+      { "t": "NDA", "d": "Signé avant le premier briefing." },
+      { "t": "Briefing", "d": "Dans vos modèles et vos outils, avec une personne de contact attitrée." },
+      { "t": "Livraison", "d": "Tâches standard en 48–72 heures." },
+      { "t": "Révision", "d": "Les tours de corrections sont définis dans le périmètre. Les fichiers vous appartiennent." }
+    ]
+  },
+  "rules": {
+    "eyebrow": "Nos règles",
+    "title": "Ce que vous pouvez attendre de nous.",
+    "items": ["Aucun contact direct avec vos clients. Notre nom n'apparaît nulle part.", "Nous travaillons dans vos outils : Figma, Asana ou Trello, Slack ou Teams.", "Une personne de contact attitrée, joignable aux horaires de bureau suisses.", "Contrat de traitement des données avec clauses contractuelles types dès que des données personnelles sont concernées."]
+  },
+  "pricing": {
+    "eyebrow": "Modèles de prix",
+    "title": "Trois modèles, selon votre charge.",
+    "models": [
+      { "t": "Tarif horaire", "price": "{{price.agencyHour}}", "d": "Pour des tâches ponctuelles, sans engagement." },
+      { "t": "Forfait de capacité", "price": "20 / 40 / 80 h", "d": "Heures réservées par mois. Détails sur la page des tarifs." },
+      { "t": "Prix fixe", "price": "Par livrable", "d": "Prix fixe par rendu, mise en page ou landing page." }
+    ],
+    "note": "Tous les prix s'entendent {{vat}}"
+  },
+  "pilot": {
+    "title": "Mandat test : nous livrons gratuitement une première tâche de 4 heures au maximum.",
+    "text": "Vous évaluez ainsi la qualité et la collaboration sans risque.",
+    "cta": "Demander un mandat test",
+    "items": ["Sans engagement, sans mandat de suivi", "NDA également pour le mandat test", "Livraison sous {{stat.pilot}} heures après réception du briefing complet"]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Les questions des agences.",
+    "items": [
+      { "q": "Nos clients apprendront-ils votre existence ?", "a": "Non. Nous n'apparaissons pas, et le NDA le règle par écrit. Les fichiers et les métadonnées sont livrés neutres." },
+      { "q": "À qui appartiennent les droits d'utilisation ?", "a": "Après paiement, tous les droits sur les travaux livrés sont transférés à votre agence." },
+      { "q": "Que se passe-t-il si nous sommes sous pression le week-end ?", "a": "Le standard est du lundi au vendredi. Les mandats urgents le week-end se convient à l'avance." }
+    ]
+  }
+}

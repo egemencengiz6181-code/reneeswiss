@@ -1,0 +1,18 @@
+{
+  "_review": "",
+  "breadcrumb": "Gizlilik",
+  "meta": { "title": "Gizlilik Politikası | Renee", "description": "Renee'nin kişisel verileri İsviçre revDSG ve GDPR'a göre nasıl işlediği: amaçlar, hizmet sağlayıcılar, yurt dışına aktarım ve haklarınız." },
+  "h1": "Gizlilik Politikası",
+  "intro": "Bu metin, kişisel verileri İsviçre Veri Koruma Kanunu (revDSG) ve uygulanabildiği ölçüde GDPR uyarınca nasıl işlediğimizi açıklar.",
+  "sections": [
+    { "h": "Sorumlu kuruluş", "p": ["{{legal.legalName}}, {{legal.street}}, {{legal.postalCode}} {{legal.city}}, Türkiye. E-posta: {{email}}"] },
+    { "h": "Hangi verileri işliyoruz", "list": ["Formlardaki bilgiler: ad, şirket, e-posta, telefon, web sitesi, şehir, sektör, mesaj", "Sayfa açılırken oluşan teknik bilgiler: IP adresi, tarayıcı, zaman (sunucu günlükleri)", "Bağlantılardan gelen kaynak bilgileri (utm parametreleri), dil ve açılan sayfa; talebinizle birlikte", "Görüşme planladığınızda randevu bilgileri"] },
+    { "h": "Amaçlar", "list": ["Talebinizi yanıtlamak ve teklif hazırlamak", "Yapay zekâ görünürlük kontrolünü yürütmek", "Sözleşmenin yürütülmesi ve iş birliği", "Web sitesinin işletilmesi, güvenliği ve kötüye kullanıma karşı korunması", "Bülten, yalnızca açık rızanızla"] },
+    { "h": "Hizmet sağlayıcılar", "p": ["Aşağıdaki veri işleyenlerle çalışıyoruz. Liste, her hizmet devreye alınmadan önce güncellenir:"], "list": ["Cloudflare, Inc. (ABD): barındırma, spam koruması (Turnstile), çerezsiz erişim ölçümü (Web Analytics)", "Form iletimi: {{legal.formProcessor}}", "Cal.com, Inc. (ABD): randevu alma. Yalnızca randevu ekranını açtığınızda yüklenir.", "Brevo (Sendinblue SAS, Fransa): bülten, yalnızca rızanızla", "E-posta: {{legal.mailProcessor}}"] },
+    { "h": "Yurt dışına aktarım", "p": ["Stüdyomuz Türkiye'dedir. İsviçre Federal Konseyi'nin değerlendirmesine göre Türkiye, yeterli veri koruma düzeyine sahip olduğu kabul edilen ülkeler arasında değildir. Aktarımı standart sözleşme hükümlerine veya, bize talep ilettiğinizde, bir sözleşmenin ya da sözleşme öncesi işlemlerin yürütülmesine dayandırıyoruz.", "ABD'deki hizmet sağlayıcıları Swiss-U.S. Data Privacy Framework veya standart sözleşme hükümleri temelinde kullanıyoruz."] },
+    { "h": "Çerezler ve analiz", "p": ["Takip çerezi ve Google Analytics kullanmıyoruz. Erişim ölçümü çerezsiz ve profil oluşturmadan yapılır. Kaynak bilgileri yalnızca oturum süresince tarayıcıda saklanır."] },
+    { "h": "Saklama", "p": ["Sözleşmeyle sonuçlanmayan talepleri en geç 24 ay sonra siliyoruz. Sözleşme verilerini yasal saklama yükümlülükleri sürdüğü müddetçe saklıyoruz."] },
+    { "h": "Haklarınız", "p": ["Verilerinize erişim, düzeltme, silme ve verilerinizin size verilmesini talep edebilir, verdiğiniz rızayı geri alabilirsiniz. Bunun için {{email}} adresine yazın. Ayrıca İsviçre Federal Veri Koruma ve Kamuya Açıklık Görevlisine (EDÖB) veya yetkili bir AB denetim makamına başvurabilirsiniz."] }
+  ],
+  "updated": "Güncelleme: 08.11.2026"
+}

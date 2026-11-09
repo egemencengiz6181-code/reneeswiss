@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Sites web",
+  "meta": { "title": "Agence web pour la Suisse : prix {{price.website}} | Renee", "description": "Webdesign et développement pour PME suisses : multilingue, rapide et prêt pour le SEO. Tarif {{price.website}}, première version dès 10 jours ouvrables." },
+  "name": "Sites web",
+  "short": "Design et développement, multilingue et prêt pour le SEO.",
+  "h1": "Un site web qui génère des demandes et se charge vite.",
+  "lead": "Design et développement par une seule équipe : multilingue, structuré pour les moteurs de recherche et les assistants IA, sans frais de licence récurrents.",
+  "facts": { "who": "PME, cabinets, écoles et agences", "what": "Design, développement, multilinguisme, bases SEO" },
+  "timeline": "dès 10 jours ouvrables",
+  "problem": "Les sites vieillissants se chargent lentement, sont pénibles sur mobile et n'expliquent pas clairement ce que propose l'entreprise. Les visiteurs partent avant de faire une demande.",
+  "included": ["Arborescence et concept rédactionnel", "Design sur mesure, ordinateur et mobile", "Développement en site statique rapide ou avec CMS", "Multilinguisme avec hreflang", "SEO technique et données structurées", "Formulaire de contact et prise de rendez-vous"],
+  "deliverables": ["Site web finalisé sur votre domaine", "Code source et tous les accès", "Brève notice d'entretien", "Rapport Lighthouse pour la réception"],
+  "process": [
+    { "t": "Structure", "d": "Définir les pages, les contenus et les objectifs." },
+    { "t": "Design", "d": "La page d'accueil d'abord, puis les autres gabarits." },
+    { "t": "Développement", "d": "Réalisation sur un environnement de test auquel vous avez accès." },
+    { "t": "Mise en ligne", "d": "Réception, publication, Search Console." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "Que comprend le prix d'entrée ?", "a": "Jusqu'à cinq pages dans une langue, avec un design sur mesure. Les pages et les langues supplémentaires font l'objet d'une offre séparée." },
+    { "q": "Qui rédige les textes ?", "a": "Nous pouvons les rédiger ou intégrer les vôtres. Sur demande, nous faisons relire les textes français et allemands par des locuteurs natifs." },
+    { "q": "Où le site est-il hébergé ?", "a": "Par défaut sur Cloudflare Pages. D'autres hébergeurs sont possibles." }
+  ]
+}

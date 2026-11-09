@@ -1,0 +1,28 @@
+{
+  "_review": "",
+  "breadcrumb": "Pricing",
+  "meta": { "title": "Pricing for design, web and marketing | Renee", "description": "Transparent prices in CHF: three packages for SMEs and monthly capacity packages for agencies. All prices excl. VAT, quote within {{stat.offer}} hours." },
+  "eyebrow": "Pricing",
+  "h1": "Clear prices before we start.",
+  "lead": "The packages show the usual starting point. After the intro call you receive a fixed price for your scope.",
+  "sme": {
+    "eyebrow": "For businesses",
+    "title": "Three packages for SMEs.",
+    "packages": [
+      { "name": "Start", "for": "For a clean web presence.", "price": "{{price.pkgStart}}", "items": ["Website of up to 5 pages, one language", "Technical SEO and structured data", "Contact form and appointment booking", "Onboarding and handover"] },
+      { "name": "Growth", "for": "For ongoing visibility and enquiries.", "price": "{{price.pkgGrowth}}", "items": ["Social media content based on a content calendar", "Google or Meta Ads management", "Monthly report with clear figures", "One dedicated point of contact"] },
+      { "name": "Complete", "for": "For marketing from one source.", "price": "{{price.pkgFull}}", "items": ["Everything in the Growth package", "SEO and AI visibility (GEO)", "Google and Meta combined", "Quarterly strategy call"] }
+    ]
+  },
+  "agency": {
+    "eyebrow": "For agencies",
+    "title": "Monthly capacity, firmly reserved.",
+    "link": "White-label model in detail",
+    "packages": [
+      { "name": "20 hours per month", "price": "{{price.cap20}}", "rate": "{{price.cap20Rate}}" },
+      { "name": "40 hours per month", "price": "{{price.cap40}}", "rate": "{{price.cap40Rate}}" },
+      { "name": "80 hours per month", "price": "{{price.cap80}}", "rate": "{{price.cap80Rate}}" }
+    ]
+  },
+  "note": "All prices {{vat}} Individual quote within {{stat.offer}} hours."
+}

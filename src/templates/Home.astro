@@ -1,0 +1,105 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import site from '../config/site.json';
+import { href, CASE_IDS } from '../lib/routes';
+import { common, services } from '../lib/content';
+import { faqLd } from '../lib/schema';
+import CalButton from '../components/CalButton.astro';
+import Eyebrow from '../components/Eyebrow.astro';
+import Section from '../components/Section.astro';
+import ServiceGrid from '../components/ServiceGrid.astro';
+import CaseCard from '../components/CaseCard.astro';
+import Process from '../components/Process.astro';
+import Faq from '../components/Faq.astro';
+import Form from '../components/Form.astro';
+import FinalCta from '../components/FinalCta.astro';
+import Pic from '../components/Pic.astro';
+const c = common(locale);
+const names = services(locale).map((s) => s.name);
+const door = (d: any, id: string, dark: boolean) => ({ ...d, id, dark });
+const doors = [door(p.doors.agency, 'agencies', true), door(p.doors.sme, 'services', false)];
+---
+<Layout locale={locale} route={route} meta={p.meta} jsonLd={[faqLd(p.faq.items)]}>
+  <section class="wrap pt-10 lg:pt-20 pb-12 lg:pb-16">
+    <Eyebrow text={p.hero.eyebrow} />
+    <h1 class="display mt-6 max-w-[17ch] xl:max-w-[20ch]">{p.hero.h1}</h1>
+    <div class="grid-12 mt-10 lg:mt-16 pt-6 border-t border-ink">
+      <p class="lead col-span-12 lg:col-span-6 measure">{p.hero.sub}</p>
+      <div class="col-span-12 lg:col-start-8 lg:col-span-5 flex flex-col sm:items-start gap-3 mt-8 lg:mt-0">
+        <a class="btn btn-primary" href={href(locale, 'agencies')}>{p.hero.ctaAgency}</a>
+        <CalButton locale={locale} label={p.hero.ctaSme} variant="outline" />
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-6" aria-hidden="false">
+    {p.hero.images.map((im: any) => <div class="card-img aspect-square"><Pic src={im.src} alt={im.alt} sizes="(min-width:1024px) 24vw, 46vw" class="w-full h-full" /></div>)}
+  </div>
+
+  <section class="wrap pt-12 lg:pt-16 pb-4" aria-label={p.trust.label}>
+    <div class="grid-12 border-t border-line pt-6">
+      <p class="col-span-12 lg:col-span-3 muted text-[15px]">{p.trust.label}</p>
+      <ul class="col-span-12 lg:col-span-9 flex flex-wrap gap-x-8 gap-y-2 mt-3 lg:mt-0 text-[20px] font-medium tracking-tight">
+        {site.clients.map((x) => <li>{x.name}</li>)}
+      </ul>
+    </div>
+    <ul class="grid md:grid-cols-3 gap-x-6 mt-10">
+      {p.trust.stats.map((s: any) => <li class="border-t border-line py-4"><span class="title block">{s.value}</span><span class="muted text-[15px]">{s.label}</span></li>)}
+    </ul>
+  </section>
+
+  <section class="section pb-0 lg:pb-0">
+    <div class="grid lg:grid-cols-2">
+      {doors.map((d) => (
+        <div class:list={['p-6 md:p-12 xl:p-16', d.dark ? 'on-dark bg-ink text-white' : 'bg-mist']}>
+          <Eyebrow text={d.eyebrow} dark={d.dark} />
+          <h2 class="title mt-6 max-w-[16ch]">{d.title}</h2>
+          <ul class="dash-list mt-10 mb-10">{d.bullets.map((b: string) => <li>{b}</li>)}</ul>
+          <a class="arrow-link" href={href(locale, d.id)}>{d.link} →</a>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <div class="marquee py-6 border-b border-line text-[20px] font-medium tracking-tight" aria-hidden="true">
+    {[0, 1].map(() => <div>{[...names, ...names].map((n) => <span class="inline-flex items-center gap-8 pr-8">{n}<img src="/brand/renee-star-sm.webp" width="12" height="12" alt="" loading="lazy" /></span>)}</div>)}
+  </div>
+
+  <Section eyebrow={p.services.eyebrow} title={p.services.title}><ServiceGrid locale={locale} /></Section>
+
+  <Section eyebrow={p.why.eyebrow} title={p.why.title} tone="mist">
+    <ul class="grid md:grid-cols-2 lg:grid-cols-4 gap-x-6">
+      {p.why.items.map((w: any, i: number) => (
+        <li class="border-t border-ink pt-4 pb-8">
+          <span class="muted tabular-nums text-[15px]" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+          <h3 class="subtitle mt-8">{w.t}</h3>
+          <p class="muted mt-3 text-[16px]">{w.d}</p>
+        </li>
+      ))}
+    </ul>
+  </Section>
+
+  <Section eyebrow={p.work.eyebrow} title={p.work.title}>
+    <div class="grid md:grid-cols-3 gap-x-6 gap-y-12">{CASE_IDS.map((id) => <CaseCard locale={locale} id={id} />)}</div>
+    <p class="mt-12"><a class="arrow-link" href={href(locale, 'work')}>{c.cta.allWork} →</a></p>
+  </Section>
+
+  <Section eyebrow={p.process.eyebrow} title={p.process.title} tone="mist"><Process steps={p.process.steps} /></Section>
+
+  <Section tone="black">
+    <div class="grid-12">
+      <div class="col-span-12 lg:col-span-6">
+        <Eyebrow text={p.lead.eyebrow} dark />
+        <h2 class="title mt-6">{p.lead.title}</h2>
+        <p class="lead muted mt-6">{p.lead.text}</p>
+        <p class="mt-6"><a class="arrow-link" href={href(locale, 'ki-check')}>{c.cta.more} →</a></p>
+      </div>
+      <div class="col-span-12 lg:col-start-8 lg:col-span-5 mt-10 lg:mt-0"><Form locale={locale} type="ki-short" routeId={route.id} dark /></div>
+    </div>
+  </Section>
+
+  <Section eyebrow={p.faq.eyebrow} title={p.faq.title}><Faq items={p.faq.items} /></Section>
+  <FinalCta locale={locale} />
+</Layout>

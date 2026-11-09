@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+import { MISSING } from '../lib/content';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+const known = (lines?: string[]) => lines?.filter((t) => !t.includes(MISSING)).map((t) => t.trim());
+const sections = p.sections
+  .map((s: any) => ({ ...s, p: known(s.p), list: known(s.list) }))
+  .filter((s: any) => s.p?.length || s.list?.length);
+---
+<Layout locale={locale} route={route} meta={p.meta}>
+  <div class="wrap pt-10 lg:pt-16 pb-24 prose-rn measure">
+    <h1 class="title mb-8">{p.h1}</h1>
+    {p.intro && <p class="lead">{p.intro}</p>}
+    {sections.map((s: any) => (
+      <>
+        <h2>{s.h}</h2>
+        {s.p?.map((t: string) => <p>{t}</p>)}
+        {s.list && <ul>{s.list.map((t: string) => <li>{t}</li>)}</ul>}
+      </>
+    ))}
+    {p.updated && <p class="muted text-[15px] mt-12">{p.updated}</p>}
+  </div>
+</Layout>

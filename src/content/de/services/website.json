@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Websites",
+  "meta": { "title": "Website erstellen lassen {{price.website}} | Renee", "description": "Webdesign und Entwicklung für Schweizer KMU: mehrsprachig, schnell und SEO-ready. Preis {{price.website}}, erste Version ab 10 Arbeitstagen." },
+  "name": "Websites",
+  "short": "Design und Entwicklung, mehrsprachig und SEO-ready.",
+  "h1": "Eine Website, die Anfragen bringt und schnell lädt.",
+  "lead": "Design und Entwicklung aus einer Hand: mehrsprachig, für Suchmaschinen und KI-Assistenten strukturiert, ohne laufende Lizenzkosten.",
+  "facts": { "who": "KMU, Praxen, Schulen und Agenturen", "what": "Design, Entwicklung, Mehrsprachigkeit, SEO-Basis" },
+  "timeline": "ab 10 Arbeitstagen",
+  "problem": "Veraltete Websites laden langsam, sind auf dem Handy mühsam und erklären nicht klar, was das Unternehmen anbietet. Besucher gehen, bevor sie anfragen.",
+  "included": ["Seitenstruktur und Textkonzept", "Individuelles Design, Desktop und Mobile", "Entwicklung als schnelle, statische Website oder mit CMS", "Mehrsprachigkeit mit hreflang", "Technisches SEO und strukturierte Daten", "Kontaktformular und Terminbuchung"],
+  "deliverables": ["Fertige Website auf Ihrer Domain", "Quellcode und alle Zugänge", "Kurze Anleitung zur Pflege", "Lighthouse-Bericht zur Abnahme"],
+  "process": [
+    { "t": "Struktur", "d": "Seiten, Inhalte und Ziele festlegen." },
+    { "t": "Design", "d": "Startseite zuerst, dann die weiteren Vorlagen." },
+    { "t": "Entwicklung", "d": "Umsetzung auf Testumgebung mit Zugriff für Sie." },
+    { "t": "Launch", "d": "Abnahme, Veröffentlichung, Search Console." }
+  ],
+  "relatedCase": "erts",
+  "faq": [
+    { "q": "Was ist im Einstiegspreis enthalten?", "a": "Bis zu fünf Seiten in einer Sprache mit individuellem Design. Weitere Seiten und Sprachen offerieren wir einzeln." },
+    { "q": "Wer schreibt die Texte?", "a": "Wir können sie erstellen oder Ihre Texte einbauen. Deutsche und französische Texte lassen wir auf Wunsch muttersprachlich prüfen." },
+    { "q": "Wo wird die Website gehostet?", "a": "Standardmässig auf Cloudflare Pages. Andere Anbieter sind möglich." }
+  ]
+}

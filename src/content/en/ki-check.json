@@ -1,0 +1,27 @@
+{
+  "_review": "",
+  "breadcrumb": "AI visibility check",
+  "meta": { "title": "Free AI visibility check for SMEs | Renee", "description": "How visible is your company in ChatGPT, Gemini, Perplexity and Google? We test 10 customer questions and send you a short report." },
+  "eyebrow": "Free for Swiss SMEs",
+  "h1": "How visible is your company in ChatGPT, Gemini and Google?",
+  "lead": "More and more people ask AI assistants about local providers. We check whether and how your company is mentioned there.",
+  "jump": "Request the check",
+  "why": {
+    "title": "Why it matters.",
+    "items": [
+      { "t": "An answer, not a list of results", "d": "An AI assistant often names only a few providers. If you're missing, you're not compared." },
+      { "t": "AI cites what is clearly stated", "d": "Services, location, prices and reviews need to be public and unambiguous." },
+      { "t": "It can be measured", "d": "The same questions, asked regularly, show whether your measures are working." }
+    ]
+  },
+  "includes": {
+    "title": "What the check includes.",
+    "steps": [
+      { "t": "10 customer questions", "d": "Typical questions from your industry and region." },
+      { "t": "4 systems", "d": "ChatGPT, Gemini, Perplexity and Google." },
+      { "t": "Short PDF report", "d": "Where you appear, where you don't and who is named instead." },
+      { "t": "3 quick wins", "d": "Three measures you can implement right away." }
+    ]
+  },
+  "form": { "title": "Request the check.", "text": "You will receive the report by email within {{stat.report}} hours. The check is free and without obligation." }
+}

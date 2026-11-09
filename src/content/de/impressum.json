@@ -1,0 +1,14 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Impressum",
+  "meta": { "title": "Impressum | Renee", "description": "Impressum von Renee Design Lab, ODTÜ Teknokent, Ankara, Türkei: Firmenangaben und Kontakt." },
+  "h1": "Impressum",
+  "sections": [
+    { "h": "Anbieterin", "p": ["{{legal.legalName}}", "{{legal.street}}", "{{legal.postalCode}} {{legal.city}}", "Türkei"] },
+    { "h": "Kontakt", "p": ["E-Mail: {{email}}", "Telefon: {{phone}}"] },
+    { "h": "Vertretungsberechtigte Person", "p": ["{{legal.representative}}"] },
+    { "h": "Register", "p": ["Handelsregister: {{legal.registry}}", "Steuernummer: {{legal.taxId}}"] },
+    { "h": "Hinweis zum Standort", "p": ["Renee ist das Remote-Studio von {{legal.name}}. Wir haben keinen Sitz und keine Niederlassung in der Schweiz."] },
+    { "h": "Haftung", "p": ["Wir prüfen die Inhalte dieser Website sorgfältig, übernehmen aber keine Gewähr für Vollständigkeit und Aktualität. Für Inhalte verlinkter Websites sind deren Betreiber verantwortlich."] }
+  ]
+}

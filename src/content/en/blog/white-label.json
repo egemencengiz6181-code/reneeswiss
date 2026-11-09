@@ -1,0 +1,15 @@
+{
+  "_review": "",
+  "breadcrumb": "White-label partners",
+  "meta": { "title": "White-label partners for agencies: checklist | Renee", "description": "What Swiss agencies should look for in a white-label partner: NDA, client contact, quality, data protection and a useful test job." },
+  "title": "White-label partners for agencies: what to look for",
+  "author": "Renee Editorial",
+  "date": "2026-11-08",
+  "summary": "A white-label partner creates capacity without you having to hire. What matters are clear agreements on confidentiality, rights and data protection. A small test job shows more than any portfolio.",
+  "sections": [
+    { "h": "When white label makes sense", "p": ["White label fits when workload fluctuates or individual disciplines such as 3D are missing. Your agency stays responsible for strategy and the client relationship; production sits with the partner."] },
+    { "h": "What the contract must cover", "list": ["Confidentiality: NDA before the first briefing", "Usage rights: full transfer to the agency", "Client contact: expressly excluded", "Correction rounds and delivery times", "Liability and how errors are handled"] },
+    { "h": "Data protection with partners abroad", "p": ["As soon as personal data is involved, you need a data processing agreement. If the partner is based in a country without a recognised adequate level of data protection, standard contractual clauses are usually added. Clarify this before client data starts to flow, and pass on only what the task requires."] },
+    { "h": "How to test a partner", "p": ["Assign a real, small task with a normal briefing. Look at three things: the questions they ask, whether they meet the deadline and how many corrections are needed. The result shows what collaboration will look like under time pressure."] }
+  ]
+}

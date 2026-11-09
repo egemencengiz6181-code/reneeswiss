@@ -1,0 +1,11 @@
+---
+const { items } = Astro.props as { items: { q: string; a: string }[] };
+---
+<div class="faq border-b border-line">
+  {items.map((f) => (
+    <details class="border-t border-line">
+      <summary>{f.q}</summary>
+      <p class="pb-6 measure muted">{f.a}</p>
+    </details>
+  ))}
+</div>

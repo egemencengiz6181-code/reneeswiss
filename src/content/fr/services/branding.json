@@ -1,0 +1,26 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Branding et identité visuelle",
+  "meta": { "title": "Branding et identité visuelle {{price.branding}} | Renee", "description": "Logo, système de marque et charte pour PME et agences suisses. À distance, {{price.branding}}, en 3 à 5 semaines. Plus de {{stat.identities}} projets d'identité." },
+  "name": "Branding et identité visuelle",
+  "short": "Logo, système de marque et charte.",
+  "h1": "Une marque qui fonctionne sur tous les formats.",
+  "lead": "Nous développons des logos et des systèmes de marque qui tiennent du papier à lettres à la façade. Plus de {{stat.identities}} projets, documentés de façon traçable.",
+  "facts": { "who": "PME et agences qui veulent se présenter autrement ou mettre de l'ordre dans leur marque", "what": "Logo, système de marque, charte" },
+  "timeline": "3–5 semaines",
+  "problem": "Beaucoup de PME ont un logo, mais pas de système. Chaque imprimé et chaque publication a un aspect différent. Cela coûte du temps et affaiblit la reconnaissance.",
+  "included": ["Positionnement et atelier de marque en visioconférence", "Logo en trois pistes conceptuelles", "Couleurs, typographie et langage visuel", "Modèles pour les principales applications", "Charte de marque"],
+  "deliverables": ["Fichiers du logo (SVG, PDF, PNG)", "Charte de marque en PDF", "Modèles dans Figma ou Office", "Tous les droits d'utilisation après paiement"],
+  "process": [
+    { "t": "Atelier", "d": "Clarifier les objectifs, le public cible et la concurrence." },
+    { "t": "Concepts", "d": "Trois pistes argumentées." },
+    { "t": "Développement", "d": "La piste choisie, en deux tours de retours." },
+    { "t": "Remise", "d": "Charte, fichiers, brève prise en main." }
+  ],
+  "relatedCase": "arni",
+  "faq": [
+    { "q": "Combien de tours de corrections sont inclus ?", "a": "Deux tours dans le prix fixe. Les tours supplémentaires sont convenus en toute transparence, selon le temps passé." },
+    { "q": "Pouvez-vous simplement retravailler le logo existant ?", "a": "Oui. Nous examinons lors du premier entretien si une révision suffit." },
+    { "q": "Vérifiez-vous les droits de marque ?", "a": "Nous effectuons une première recherche. Pour un examen juridique de la marque, nous recommandons de passer par l'IPI ou un spécialiste." }
+  ]
+}

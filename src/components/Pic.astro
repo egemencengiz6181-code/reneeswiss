@@ -1,0 +1,9 @@
+---
+import { Picture } from 'astro:assets';
+const all = import.meta.glob<{ default: ImageMetadata }>('/src/assets/cases/*/*.webp', { eager: true });
+interface Props { src: string; alt: string; sizes: string; eager?: boolean; class?: string; widths?: number[] }
+const { src, alt, sizes, eager = false, class: cls, widths = [360, 640, 960] } = Astro.props;
+const img = all[`/src/assets/cases/${src}.webp`];
+if (!img) throw new Error(`Missing image ${src}`);
+---
+<Picture src={img.default} alt={alt} formats={['avif', 'webp']} fallbackFormat="webp" widths={widths} sizes={sizes} loading={eager ? 'eager' : 'lazy'} decoding="async" class={cls} />

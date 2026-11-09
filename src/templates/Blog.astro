@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import type { Locale, Route } from '../lib/routes';
+const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
+import { ARTICLE_IDS, href } from '../lib/routes';
+import { load, formatDate } from '../lib/content';
+import PageHead from '../components/PageHead.astro';
+const list = ARTICLE_IDS.map((id) => ({ id, ...load(locale, `blog/${id}`) }));
+---
+<Layout locale={locale} route={route} meta={p.meta}>
+  <PageHead eyebrow={p.eyebrow} title={p.h1} lead={p.lead} />
+  <ul class="wrap pb-24 border-b-0">
+    {list.map((a) => (
+      <li class="border-t border-ink">
+        <a href={href(locale, `article-${a.id}`)} class="group grid-12 py-8 no-underline">
+          <p class="col-span-12 lg:col-span-2 muted text-[15px] tabular-nums">{formatDate(a.date)}</p>
+          <div class="col-span-12 lg:col-span-9 mt-2 lg:mt-0">
+            <h2 class="subtitle group-hover:text-purple-ink transition-colors duration-150">{a.title}</h2>
+            <p class="muted mt-2 measure text-[16px]">{a.summary}</p>
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Layout>

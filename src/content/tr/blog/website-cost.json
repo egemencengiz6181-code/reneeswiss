@@ -1,0 +1,15 @@
+{
+  "_review": "",
+  "breadcrumb": "Web sitesi maliyeti",
+  "meta": { "title": "İsviçre'de web sitesi maliyeti 2026 | Renee", "description": "Web sitesi fiyatını hangi etkenler belirler, sonradan hangi giderler eklenir ve İsviçre'de teklifleri adil biçimde nasıl karşılaştırırsınız?" },
+  "title": "İsviçre'de web sitesi 2026'da ne kadar? Dürüst bir fiyat karşılaştırması",
+  "author": "Renee Editör Ekibi",
+  "date": "2026-11-08",
+  "summary": "Web sitesi fiyatını başlıca sayfa sayısı, dil sayısı, tasarım ve işlevler belirler. Teklifler ancak kapsam aynıysa karşılaştırılabilir. Bizde web sitesi fiyatı: {{price.website}}, {{vat}}",
+  "sections": [
+    { "h": "Fiyatı neler belirler", "list": ["Sayfa sayısı ve sayfa türleri", "Dil sayısı ve metinleri kimin yazacağı", "Özel tasarım veya uyarlanmış şablon", "Rezervasyon, mağaza veya müşteri girişi gibi işlevler", "Fotoğraf, video ve illüstrasyon", "SEO temelleri ve yapılandırılmış veri"] },
+    { "h": "Sıkça unutulan giderler", "p": ["Bir web sitesi yayına alınınca bitmiş olmaz. Alan adı, barındırma, güvenlik güncellemeleri ve içerik bakımını da hesaba katın. Statik sitelerin burada bir avantajı var: Veritabanına ihtiyaç duymazlar ve neredeyse hiç bakım gerektirmezler."] },
+    { "h": "Teklifleri adil karşılaştırma", "p": ["Burada bilerek piyasa ortalaması yayımlamıyoruz; çünkü güvenilir, karşılaştırılabilir rakamlar yok ve kapsam çok değişiyor. Bunun yerine aynı brief üzerinden üç teklif alın ve şunlara bakın:"], "list": ["Metinler ve çeviriler dahil mi?", "Kaç düzeltme turu dahil?", "Kod, tasarım ve erişimler kimin?", "Yıllık işletme maliyeti ne kadar?"] },
+    { "h": "Fiyatlarımız", "p": ["Renee'de web sitesi fiyatı: {{price.website}}, {{vat}} Temel paket, tek dilde beş sayfaya kadar kapsar. İlk görüşmeden sonra {{stat.offer}} saat içinde sabit fiyat alırsınız."] }
+  ]
+}

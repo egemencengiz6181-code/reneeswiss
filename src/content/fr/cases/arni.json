@@ -1,0 +1,22 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Arni",
+  "meta": { "title": "Arni : identité visuelle pour l'industrie | Renee", "description": "Signe modulaire et identité visuelle pour une entreprise industrielle : de la façade à la papeterie, un seul système." },
+  "name": "Arni",
+  "industry": "Production industrielle",
+  "year": "2024",
+  "summary": "Une identité sobre et singulière pour une entreprise industrielle, dérivée d'un signe modulaire.",
+  "challenge": "Le fabricant avait besoin d'une image qui fonctionne aussi bien sur la façade que sur la carte de visite.",
+  "solution": "Le signe se compose de quatre modules imbriqués. Il a donné naissance au logo, à un système de motifs et à toute la papeterie d'entreprise.",
+  "result": "Carte de visite, carnet, chemise et habillage de façade sont aujourd'hui gérés dans un seul système.",
+  "services": ["Logo", "Identité visuelle", "Imprimés", "Système de motifs"],
+  "cover": { "src": "arni/5", "alt": "Arni : chemises bleues et papeterie blanche avec logo" },
+  "gallery": [
+    { "src": "arni/2", "alt": "Arni : cartes de visite grises avec logo" },
+    { "src": "arni/3", "alt": "Arni : motif formé des quatre modules du logo en bleu et gris-vert" },
+    { "src": "arni/4", "alt": "Arni : logo sur la façade du bâtiment" },
+    { "src": "arni/1", "alt": "Arni : smartphone affichant le signe de la marque sur écran bleu" }
+  ],
+  "metrics": [],
+  "testimonial": null
+}
