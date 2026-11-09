@@ -1,14 +1,14 @@
 {
   "_review": "",
   "breadcrumb": "About",
-  "meta": { "title": "About Renee: remote studio based in Ankara", "description": "Renee is the remote studio of Renee Design Lab at ODTÜ Teknokent, Ankara: over {{stat.brands}} brands, {{stat.identities}} identities, working during Swiss office hours." },
+  "meta": { "title": "About Renee: remote studio based in Ankara", "description": "Renee is the remote studio of Renee Design Lab in Ankara: over {{stat.brands}} brands, {{stat.identities}} identities, working during Swiss office hours." },
   "eyebrow": "About",
   "h1": "A studio in Ankara working for Switzerland.",
   "lead": "We are open about where we are based. What matters is availability, quality and clear processes.",
   "story": {
     "title": "Our story",
     "paragraphs": [
-      "Renee Design Lab is a design and advertising agency at ODTÜ Teknokent in Ankara. We have worked for over {{stat.brands}} brands and delivered more than {{stat.identities}} corporate identity projects, including for Bayer, Yataş Bedding and Medicana, as well as private schools and clinics.",
+      "Renee Design Lab is a design and advertising agency in Ankara. We have worked for over {{stat.brands}} brands and delivered more than {{stat.identities}} corporate identity projects, including for Bayer, Yataş Bedding and Medicana, as well as private schools and clinics.",
       "Renee is our remote studio for the Swiss market. Our house typeface is Helvetica Neue, which traces back to Neue Haas Grotesk, created in 1957 in Münchenstein near Basel. Swiss typography has always shaped our work: grids, clarity, little decoration."
     ]
   },

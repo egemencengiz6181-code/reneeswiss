@@ -1,13 +1,14 @@
 {
   "_review": "",
   "breadcrumb": "Legal notice",
-  "meta": { "title": "Legal notice | Renee", "description": "Legal notice of Renee Design Lab, ODTÜ Teknokent, Ankara, Turkey: company details and contact." },
+  "meta": { "title": "Legal notice | Renee", "description": "Legal notice of Renee Design Lab, Ankara, Turkey: company details and contact." },
   "h1": "Legal notice",
   "sections": [
-    { "h": "Provider", "p": ["{{legal.legalName}}", "{{legal.street}}", "{{legal.postalCode}} {{legal.city}}", "Turkey"] },
-    { "h": "Contact", "p": ["Email: {{email}}", "Phone: {{phone}}"] },
-    { "h": "Authorised representative", "p": ["{{legal.representative}}"] },
-    { "h": "Register", "p": ["Commercial register: {{legal.registry}}", "Tax number: {{legal.taxId}}"] },
+    { "h": "Provider", "p": ["{{legal.legalName}}", "Sole proprietorship under Turkish law (Şahıs şirketi)", "trading as “{{legal.name}}” or “Renee”"] },
+    { "h": "Address", "p": ["{{legal.street}}", "{{legal.building}}, No. {{legal.doorNumber}}", "{{legal.postalCode}} {{legal.district}} / {{legal.city}}", "Turkey"] },
+    { "h": "Responsible person", "p": ["{{legal.representative}}, Owner"] },
+    { "h": "Contact", "p": ["Email: {{legal.email}}", "Phone: {{phone}}"] },
+    { "h": "Commercial register entry", "p": ["Registered with the Ankara Trade Registry Office ({{legal.registry}})"] },
     { "h": "Note on location", "p": ["Renee is the remote studio of {{legal.name}}. We have no registered office and no branch in Switzerland."] },
     { "h": "Liability", "p": ["We check the content of this website carefully but give no guarantee that it is complete or up to date. The operators of linked websites are responsible for their content."] }
   ]

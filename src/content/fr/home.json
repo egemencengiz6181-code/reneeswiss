@@ -63,7 +63,7 @@
     "eyebrow": "Questions fréquentes",
     "title": "Ce que les clients suisses nous demandent en premier.",
     "items": [
-      { "q": "Où se trouve Renee ?", "a": "Notre studio est situé à l'ODTÜ Teknokent, à Ankara, en Turquie. Nous n'avons pas de bureau en Suisse. Nous travaillons entièrement à distance, aux horaires de bureau suisses, avec un décalage de 1 à 2 heures selon la saison." },
+      { "q": "Où se trouve Renee ?", "a": "Notre studio est à Ankara, en Turquie. Nous n'avons pas de bureau en Suisse. Nous travaillons entièrement à distance, aux horaires de bureau suisses, avec un décalage de 1 à 2 heures selon la saison." },
       { "q": "Dans quelle langue se déroule la collaboration ?", "a": "En français, en allemand ou en anglais. Vous avez une personne de contact attitrée pour votre projet." },
       { "q": "Quels sont vos délais de réponse ?", "a": "Sous {{stat.response}} heures pendant les horaires de bureau. Vous recevez une offre sous {{stat.offer}} heures après le premier entretien." },
       { "q": "Que signifient les prix « dès CHF » ?", "a": "Ce sont des prix d'entrée pour un périmètre clairement délimité, toujours {{vat}} Après le premier entretien, vous recevez un prix fixe pour votre projet." },

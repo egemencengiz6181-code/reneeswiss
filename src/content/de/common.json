@@ -14,7 +14,7 @@
   "articleLabels": { "toc": "Inhalt", "reading": "{n} Min. Lesezeit" },
   "cal": { "title": "Termin wählen", "close": "Schliessen", "note": "Terminbuchung über Cal.com" },
   "finalCta": { "eyebrow": "Nächster Schritt", "title": "20 Minuten. Danach wissen Sie, ob es passt.", "text": "Im Erstgespräch klären wir Ihren Bedarf, den Zeitrahmen und den Preisrahmen. Eine Offerte erhalten Sie innert {{stat.offer}} Stunden." },
-  "footer": { "honesty": "Unser Studio ist in Ankara. Wir arbeiten remote für die Schweiz und haben dort kein Büro.", "servicesTitle": "Leistungen", "companyTitle": "Renee", "hours": "Mo–Fr {{hours.from}}–{{hours.to}} (Schweizer Zeit)", "impressum": "Impressum", "privacy": "Datenschutz", "terms": "AGB" },
+  "footer": { "honesty": "Unser Studio ist in Ankara. Wir arbeiten remote für die Schweiz und haben dort kein Büro.", "location": "Ankara, Türkei", "servicesTitle": "Leistungen", "companyTitle": "Renee", "hours": "Mo–Fr {{hours.from}}–{{hours.to}} (Schweizer Zeit)", "impressum": "Impressum", "privacy": "Datenschutz", "terms": "AGB" },
   "forms": {
     "name": "Name", "company": "Unternehmen", "agencyName": "Name der Agentur", "website": "Website", "email": "E-Mail", "phone": "Telefon", "city": "Ort", "industry": "Branche", "message": "Ihre Nachricht", "optional": "(optional)", "send": "Nachricht senden",
     "neededServices": "Welche Leistungen brauchen Sie?", "volume": "Geschätztes Volumen pro Monat", "volumeOptions": ["Noch offen", "bis 20 Stunden", "20–40 Stunden", "40–80 Stunden", "über 80 Stunden"],

@@ -15,7 +15,7 @@ export function orgGraph(origin: string, locale: Locale) {
       email: site.email,
       telephone: site.phone,
       areaServed: { '@type': 'Country', name: 'Switzerland' },
-      address: { '@type': 'PostalAddress', addressLocality: 'Çankaya', addressRegion: 'Ankara', addressCountry: site.legal.country, streetAddress: 'ODTÜ Teknokent' },
+      address: { '@type': 'PostalAddress', streetAddress: 'Akdeniz Caddesi, Bertan Apartmanı B Blok 51/10, Yukarı Bahçelievler Mahallesi', postalCode: site.legal.postalCode, addressLocality: `${site.legal.district}, ${site.legal.city}`, addressCountry: site.legal.country },
       sameAs: [site.social.linkedin, site.social.instagram, site.existingSite],
       contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, telephone: site.phone, areaServed: 'CH', availableLanguage: ['German', 'French', 'English'] },
     },

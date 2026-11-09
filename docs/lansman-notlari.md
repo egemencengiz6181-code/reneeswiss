@@ -37,7 +37,7 @@ Yayın öncesi `npm run launch-check` bunların çoğunu yakalar.
 
 - [ ] Alan adı (`site.json` → `domain`)
 - [ ] Cal.com linki (`calLink`). Boşken CTA'lar iletişim formuna gider.
-- [ ] Impressum: tam şirket unvanı, sokak adresi, posta kodu, ticaret sicil no, vergi no, yetkili kişi
+- [x] Impressum: ad, hukuki biçim, açık adres, sicil müdürlüğü, sorumlu kişi. Vergi no ve kimlik no sitede yayınlanmaz.
 - [ ] Form alıcısı (`FORWARD_URL`) ve Turnstile anahtarları
 - [ ] Gizlilik metnindeki sağlayıcılar: `site.json` → `legal.formProcessor` ve `legal.mailProcessor`. Boş alanın satırı sayfada görünmez; form veya e-posta servisi devreye girmeden doldurun.
 - [ ] E-posta: şu an info@reneedesignlab.com, yeni alan adı alınca değiştirin

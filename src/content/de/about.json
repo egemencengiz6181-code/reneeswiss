@@ -1,14 +1,14 @@
 {
   "_review": "TODO: native review needed",
   "breadcrumb": "Über uns",
-  "meta": { "title": "Über Renee: Remote-Studio aus Ankara", "description": "Renee ist das Remote-Studio von Renee Design Lab im ODTÜ Teknokent, Ankara: über {{stat.brands}} Marken, {{stat.identities}} Identitäten, Zusammenarbeit zu Schweizer Bürozeiten." },
+  "meta": { "title": "Über Renee: Remote-Studio aus Ankara", "description": "Renee ist das Remote-Studio von Renee Design Lab in Ankara: über {{stat.brands}} Marken, {{stat.identities}} Identitäten, Zusammenarbeit zu Schweizer Bürozeiten." },
   "eyebrow": "Über uns",
   "h1": "Ein Studio in Ankara, das für die Schweiz arbeitet.",
   "lead": "Wir sagen offen, wo wir sitzen. Entscheidend sind Erreichbarkeit, Qualität und klare Abläufe.",
   "story": {
     "title": "Unsere Geschichte",
     "paragraphs": [
-      "Renee Design Lab ist eine Design- und Werbeagentur im ODTÜ Teknokent in Ankara. Wir haben für über {{stat.brands}} Marken gearbeitet und mehr als {{stat.identities}} Corporate-Identity-Projekte umgesetzt, unter anderem für Bayer, Yataş Bedding und Medicana sowie für Privatschulen und Kliniken.",
+      "Renee Design Lab ist eine Design- und Werbeagentur in Ankara. Wir haben für über {{stat.brands}} Marken gearbeitet und mehr als {{stat.identities}} Corporate-Identity-Projekte umgesetzt, unter anderem für Bayer, Yataş Bedding und Medicana sowie für Privatschulen und Kliniken.",
       "Renee ist unser Remote-Studio für den Schweizer Markt. Unsere Hausschrift ist die Helvetica Neue, deren Ursprung die Neue Haas Grotesk ist, 1957 in Münchenstein bei Basel entstanden. Die Schweizer Typografie prägt unsere Arbeit seit jeher: Raster, Klarheit, wenig Dekoration."
     ]
   },
