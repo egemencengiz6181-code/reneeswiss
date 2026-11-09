@@ -1,5 +1,5 @@
 {
-  "domain": "https://renee.example",
+  "domain": "https://www.reneestudio.ch",
   "calLink": "",
   "email": "info@reneedesignlab.com",
   "phone": "+90 532 504 66 06",
@@ -16,7 +16,7 @@
   "existingSite": "https://reneedesignlab.com",
   "identityGuide": "https://reneedesignlab.com/kurumsal-kimlik",
   "forms": {
-    "action": "/api/submit",
+    "action": "/api/submit/",
     "turnstileSiteKey": ""
   },
   "analytics": {

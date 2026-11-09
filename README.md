@@ -1,6 +1,6 @@
 # Renee Schweiz: web sitesi
 
-İsviçre pazarı için çok dilli (de-CH, en, fr-CH, tr) statik site. Astro + Tailwind, Cloudflare Pages üzerinde.
+İsviçre pazarı için çok dilli (de-CH, en, fr-CH, tr) statik site. Astro + Tailwind. Canlı ortam Vercel; Cloudflare Pages için de hazır.
 
 ## Kurulum
 
@@ -46,6 +46,10 @@ Boş bırakılan alanlar sitede görünmez. Müşteri logosu dosyaları gelene k
 2. `src/content/de` klasörünü kopyalayıp `src/content/{dil}` oluşturun, metinleri çevirin.
 3. `common.json` içindeki `price` bloğunu dile göre ayarlayın; `src/lib/content.ts` içindeki `NUM_LOCALE` ve `functions/index.ts`, `functions/api/submit.ts` içindeki dil listelerine ekleyin.
 4. `npm run build && npm run verify`.
+
+## Vercel'e yayın
+
+`main` dalına her push canlıya çıkar. Node sürümü `package.json` → `engines` ile 24'tür. Ayarlar `vercel.json` dosyasında; dil yönlendirmesi `middleware.ts`, form uç noktası `api/submit.ts`. Aşağıdaki ortam değişkenlerini Vercel → Settings → Environment Variables altına girin.
 
 ## Cloudflare Pages'e yayın
 
