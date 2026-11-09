@@ -34,6 +34,7 @@ const facts = [[c.facts.who, p.facts.who], [c.facts.what, p.facts.what], [c.fact
     </div>
   </Section>
   <Section title={L.process}><Process steps={p.process} /></Section>
+  <Section><div class="grid-12"><h2 class="title col-span-12 lg:col-span-4">{c.serviceArea.title}</h2><p class="lead col-span-12 lg:col-start-6 lg:col-span-7 measure mt-4 lg:mt-0">{c.serviceArea.text}</p></div></Section>
   <Section tone="mist">
     <div class="grid-12">
       <div class="col-span-12 md:col-span-5 lg:col-span-4"><h2 class="title mb-8">{L.related}</h2><CaseCard locale={locale} id={p.relatedCase} sizes="(min-width:768px) 30vw, 92vw" /></div>

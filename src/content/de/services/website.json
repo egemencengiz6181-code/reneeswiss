@@ -1,10 +1,10 @@
 {
   "_review": "TODO: native review needed",
   "breadcrumb": "Websites",
-  "meta": { "title": "Website erstellen lassen {{price.website}} | Renee", "description": "Webdesign und Entwicklung für Schweizer KMU: mehrsprachig, schnell und SEO-ready. Preis {{price.website}}, erste Version ab 10 Arbeitstagen." },
+  "meta": { "title": "Webdesign Schweiz: Preis {{price.website}} | Renee", "description": "Webdesign und Entwicklung für Schweizer KMU: mehrsprachig, schnell und SEO-ready. Preis {{price.website}}, erste Version ab 10 Arbeitstagen." },
   "name": "Websites",
   "short": "Design und Entwicklung, mehrsprachig und SEO-ready.",
-  "h1": "Eine Website, die Anfragen bringt und schnell lädt.",
+  "h1": "Website erstellen lassen: Webdesign für Schweizer KMU.",
   "lead": "Design und Entwicklung aus einer Hand: mehrsprachig, für Suchmaschinen und KI-Assistenten strukturiert, ohne laufende Lizenzkosten.",
   "facts": { "who": "KMU, Praxen, Schulen und Agenturen", "what": "Design, Entwicklung, Mehrsprachigkeit, SEO-Basis" },
   "timeline": "ab 10 Arbeitstagen",

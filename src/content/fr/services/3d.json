@@ -4,7 +4,7 @@
   "meta": { "title": "Visualisation 3D de produits {{price.3d}} | Renee", "description": "Rendus 3D photoréalistes de produits et animations pour fabricants et agences. Prix : {{price.3d}}, livraison standard en 48–72 h." },
   "name": "Visualisation 3D",
   "short": "Rendus de produits et animation.",
-  "h1": "Des images de produits, sans séance photo.",
+  "h1": "Visualisation 3D et rendu de produits, sans séance photo.",
   "lead": "Nous créons des rendus photoréalistes et des animations à partir de données CAO ou de références. Les variantes se font rapidement.",
   "facts": { "who": "Fabricants, e-commerce et agences", "what": "Rendus, variantes, animation de produits" },
   "timeline": "48–72 heures par rendu standard",

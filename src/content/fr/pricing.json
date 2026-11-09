@@ -1,9 +1,9 @@
 {
   "_review": "TODO: native review needed",
   "breadcrumb": "Tarifs",
-  "meta": { "title": "Tarifs design, web et marketing | Renee", "description": "Prix transparents en CHF : trois forfaits pour PME et des forfaits mensuels de capacité pour agences. Tous les prix hors TVA, offre sous {{stat.offer}} heures." },
+  "meta": { "title": "Prix site web Suisse, design et marketing | Renee", "description": "Prix transparents en CHF : trois forfaits pour PME et des forfaits mensuels de capacité pour agences. Tous les prix hors TVA, offre sous {{stat.offer}} heures." },
   "eyebrow": "Tarifs",
-  "h1": "Des prix clairs avant de commencer.",
+  "h1": "Prix d'un site web, du design et des réseaux sociaux en CHF.",
   "lead": "Les forfaits indiquent le point d'entrée habituel. Après le premier entretien, vous recevez un prix fixe pour votre périmètre.",
   "sme": {
     "eyebrow": "Pour les entreprises",

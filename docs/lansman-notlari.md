@@ -1,20 +1,22 @@
 # Lansman notları
 
+> Türkçe sürüm kaldırıldı; `/tr/` adresleri `/de/` sayfasına yönlenir.
+
 ## Bilgi mimarisi
 
-| Sayfa | DE | EN | FR | TR |
-|---|---|---|---|---|
-| Ana sayfa | /de/ | /en/ | /fr/ | /tr/ |
-| Ajanslar | /de/agenturen/ | /en/agencies/ | /fr/agences/ | /tr/ajanslar/ |
-| Hizmetler + 7 detay | /de/leistungen/… | /en/services/… | /fr/services/… | /tr/hizmetler/… |
-| Çalışmalar + 3 vaka | /de/arbeiten/… | /en/work/… | /fr/realisations/… | /tr/calismalar/… |
-| Fiyatlar | /de/preise/ | /en/pricing/ | /fr/tarifs/ | /tr/fiyatlar/ |
-| KI-Check | /de/ki-sichtbarkeits-check/ | /en/ai-visibility-check/ | /fr/check-visibilite-ia/ | /tr/yapay-zeka-gorunurluk-kontrolu/ |
-| Hakkımızda | /de/ueber-uns/ | /en/about/ | /fr/a-propos/ | /tr/hakkimizda/ |
-| Blog + 3 yazı | /de/wissen/… | /en/insights/… | /fr/ressources/… | /tr/blog/… |
-| İletişim | /de/kontakt/ | /en/contact/ | /fr/contact/ | /tr/iletisim/ |
-| Yasal | impressum, datenschutz, agb | legal-notice, privacy, terms | mentions-legales, protection-des-donnees, cgv | kunye, gizlilik, kosullar |
-| Teşekkür (noindex) | /de/danke/… | /en/thank-you/… | /fr/merci/… | /tr/tesekkurler/… |
+| Sayfa | DE | EN | FR |
+|---|---|---|---|
+| Ana sayfa | /de/ | /en/ | /fr/ |
+| Ajanslar | /de/agenturen/ | /en/agencies/ | /fr/agences/ |
+| Hizmetler + 7 detay | /de/leistungen/… | /en/services/… | /fr/services/… |
+| Çalışmalar + 3 vaka | /de/arbeiten/… | /en/work/… | /fr/realisations/… |
+| Fiyatlar | /de/preise/ | /en/pricing/ | /fr/tarifs/ |
+| KI-Check | /de/ki-sichtbarkeits-check/ | /en/ai-visibility-check/ | /fr/check-visibilite-ia/ |
+| Hakkımızda | /de/ueber-uns/ | /en/about/ | /fr/a-propos/ |
+| Blog + 3 yazı | /de/wissen/… | /en/insights/… | /fr/ressources/… |
+| İletişim | /de/kontakt/ | /en/contact/ | /fr/contact/ |
+| Yasal | impressum, datenschutz, agb | legal-notice, privacy, terms | mentions-legales, protection-des-donnees, cgv |
+| Teşekkür (noindex) | /de/danke/… | /en/thank-you/… | /fr/merci/… |
 
 ## Plana göre yapılan iyileştirmeler
 

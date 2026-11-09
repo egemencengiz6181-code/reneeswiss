@@ -14,9 +14,17 @@ export function orgGraph(origin: string, locale: Locale) {
       image: `${origin}/brand/renee-logo-trim.webp`,
       email: site.email,
       telephone: site.phone,
-      areaServed: { '@type': 'Country', name: 'CH' },
-      address: { '@type': 'PostalAddress', addressLocality: 'Ankara', addressRegion: 'Çankaya', addressCountry: site.legal.country, streetAddress: 'ODTÜ Teknokent' },
+      areaServed: { '@type': 'Country', name: 'Switzerland' },
+      address: { '@type': 'PostalAddress', addressLocality: 'Çankaya', addressRegion: 'Ankara', addressCountry: site.legal.country, streetAddress: 'ODTÜ Teknokent' },
       sameAs: [site.social.linkedin, site.social.instagram, site.existingSite],
+      contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, telephone: site.phone, areaServed: 'CH', availableLanguage: ['German', 'French', 'English'] },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${origin}/#website`,
+      name: 'Renee',
+      url: `${origin}/${locale}/`,
+      publisher: { '@id': id },
       inLanguage: HREFLANG[locale],
     },
   ];
@@ -41,7 +49,7 @@ export function serviceLd(origin: string, url: string, name: string, description
     description,
     url: origin + url,
     provider: { '@id': `${origin}/#org` },
-    areaServed: { '@type': 'Country', name: 'CH' },
+    areaServed: { '@type': 'Country', name: 'Switzerland' },
     offers: {
       '@type': 'Offer',
       priceCurrency: 'CHF',

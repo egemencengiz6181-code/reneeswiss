@@ -3,7 +3,7 @@ import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 
 const launch = process.argv.includes('--launch');
-const LOCALES = ['de', 'en', 'fr', 'tr'];
+const LOCALES = ['de', 'en', 'fr'];
 const dist = 'dist';
 const errors = [];
 const warn = [];
@@ -59,7 +59,7 @@ for (const f of html) {
   const canon = attr(h.match(/<link rel="canonical"[^>]*>/)?.[0] ?? '', 'href') ?? '';
   if (!canon.endsWith(url)) err(`${url}: canonical ${canon}`);
   const alts = [...h.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)];
-  if (alts.length !== 5) err(`${url}: ${alts.length} hreflang`);
+  if (alts.length !== LOCALES.length + 1) err(`${url}: ${alts.length} hreflang`);
   for (const [, , href] of alts) { const p = new URL(href).pathname; if (!exists(p)) err(`${url}: hreflang → missing ${p}`); }
   const lang = h.match(/<html lang="([^"]+)"/)?.[1] ?? '';
   if (!lang.startsWith(locale)) err(`${url}: html lang ${lang}`);
@@ -71,7 +71,6 @@ for (const f of html) {
     if (/ß/.test(text)) err(`${url}: ß in German text`);
     if (/CHF\s?\d{4}/.test(text)) err(`${url}: CHF without apostrophe`);
   }
-  if ((locale === 'de' || locale === 'fr') && !h.includes('native review needed')) err(`${url}: missing review marker`);
 }
 const expected = walk(dist).filter((f) => f.endsWith('index.html') && LOCALES.includes(f.split('/')[1])).length;
 

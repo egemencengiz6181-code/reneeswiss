@@ -1,5 +1,5 @@
 // Root "/" → best matching language. Vercel runs the default export; Cloudflare reuses redirect().
-const SUPPORTED = ['de', 'en', 'fr', 'tr'];
+const SUPPORTED = ['de', 'en', 'fr'];
 
 export function pickLocale(header: string | null): string {
   const ranked = (header ?? '')

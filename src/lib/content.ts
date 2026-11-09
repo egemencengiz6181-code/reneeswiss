@@ -6,7 +6,6 @@ const files = import.meta.glob('/src/content/*/**/*.json', { eager: true, import
 const NUM_LOCALE: Record<Locale, (n: number) => string> = {
   de: (n) => swiss(n),
   en: (n) => swiss(n),
-  tr: (n) => swiss(n),
   fr: (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
 };
 function swiss(n: number) {

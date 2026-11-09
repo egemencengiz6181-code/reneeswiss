@@ -1,9 +1,10 @@
 {
+  "serviceArea": {"title":"For companies across Switzerland","text":"We work remotely for SMEs and agencies in German- and French-speaking Switzerland, including Zurich, Basel, Bern, Lucerne, St. Gallen, Winterthur, Geneva and Lausanne. Meetings take place by video during Swiss office hours and you receive your quote in CHF. Our studio is in Ankara; we have no office in Switzerland."},
   "_review": "",
   "brand": { "tagline": "Design with a point of view. Delivery with a system." },
   "skip": "Skip to content",
   "notFound": "Page not found. Go to the English homepage",
-  "languageNames": { "de": "Deutsch", "en": "English", "fr": "Français", "tr": "Türkçe" },
+  "languageNames": { "de": "Deutsch", "en": "English", "fr": "Français" },
   "nav": { "agencies": "For agencies", "services": "Services", "work": "Work", "pricing": "Pricing", "kiCheck": "AI check", "about": "About", "blog": "Insights", "contact": "Contact", "home": "Home", "menu": "Menu", "languages": "Choose language", "primaryLabel": "Main navigation", "breadcrumb": "Breadcrumb" },
   "cta": { "primary": "Free intro call (20 min)", "short": "Book an intro call", "check": "Request AI check", "checkLink": "Or: free AI visibility check", "agency": "Book a partner call", "more": "Learn more", "allServices": "All services", "allWork": "All work" },
   "price": { "from": "from CHF {n}", "exact": "CHF {n}", "units": { "month": "/month", "hour": "/h", "render": " per render", "project": " per project", "once": " one-off" }, "plusMedia": " + media budget", "vat": "excl. VAT." },
@@ -28,7 +29,7 @@
       "Has worked for {{stat.brands}}+ brands.",
       "Has delivered {{stat.identities}}+ corporate identity projects.",
       "Replies within {{stat.response}} hours during office hours. Quotes within {{stat.offer}} hours of the intro call.",
-      "Working languages: German, French, English and Turkish."
+      "Working languages: German, French and English."
     ]
   }
 }

@@ -4,7 +4,7 @@
   "meta": { "title": "AI automation for SMEs {{price.automation}} | Renee", "description": "Chatbots, content workflows, email and CRM automation for Swiss SMEs. Price: {{price.automation}}, implemented in 2–4 weeks." },
   "name": "AI automation",
   "short": "Chatbots, workflows, email and CRM automation.",
-  "h1": "Hand routine work over to systems.",
+  "h1": "AI automation for SMEs: hand routine work over to systems.",
   "lead": "We automate recurring processes in customer service, content and sales, with clear limits and human oversight.",
   "facts": { "who": "SMEs with recurring processes", "what": "Chatbots, content workflows, email and CRM automation" },
   "timeline": "2–4 weeks per project",

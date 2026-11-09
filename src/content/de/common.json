@@ -1,9 +1,10 @@
 {
+  "serviceArea": {"title":"Für Unternehmen in der ganzen Schweiz","text":"Wir arbeiten remote für KMU und Agenturen in der Deutschschweiz und der Romandie, unter anderem in Zürich, Basel, Bern, Luzern, St. Gallen, Winterthur, Genf und Lausanne. Besprechungen finden per Video zu Schweizer Bürozeiten statt, die Offerte erhalten Sie in CHF. Unser Studio ist in Ankara, in der Schweiz haben wir kein Büro."},
   "_review": "TODO: native review needed",
   "brand": { "tagline": "Design mit Haltung. Umsetzung mit System." },
   "skip": "Zum Inhalt springen",
   "notFound": "Seite nicht gefunden. Zur deutschen Startseite",
-  "languageNames": { "de": "Deutsch", "en": "English", "fr": "Français", "tr": "Türkçe" },
+  "languageNames": { "de": "Deutsch", "en": "English", "fr": "Français" },
   "nav": { "agencies": "Für Agenturen", "services": "Leistungen", "work": "Arbeiten", "pricing": "Preise", "kiCheck": "KI-Check", "about": "Über uns", "blog": "Wissen", "contact": "Kontakt", "home": "Startseite", "menu": "Menü", "languages": "Sprache wählen", "primaryLabel": "Hauptnavigation", "breadcrumb": "Brotkrumen" },
   "cta": { "primary": "Kostenloses Erstgespräch (20 Min.)", "short": "Erstgespräch buchen", "check": "KI-Check anfordern", "checkLink": "Oder: Kostenloser KI-Sichtbarkeits-Check", "agency": "Partner-Gespräch buchen", "more": "Mehr erfahren", "allServices": "Alle Leistungen", "allWork": "Alle Arbeiten" },
   "price": { "from": "ab CHF {n}", "exact": "CHF {n}", "units": { "month": "/Monat", "hour": "/h", "render": " pro Rendering", "project": " pro Projekt", "once": " einmalig" }, "plusMedia": " + Mediabudget", "vat": "zzgl. MwSt." },

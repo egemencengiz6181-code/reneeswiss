@@ -23,7 +23,6 @@ if (route.id !== 'home') {
 }
 const graph = [...orgGraph(origin, locale), ...(crumbs.length ? [breadcrumbLd(origin, crumbs)] : []), ...jsonLd];
 const ld = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c');
-const review = locale === 'de' || locale === 'fr' ? '<!-- TODO: native review needed -->' : '';
 ---
 <!doctype html>
 <html lang={HREFLANG[locale]}>
@@ -51,7 +50,6 @@ const review = locale === 'de' || locale === 'fr' ? '<!-- TODO: native review ne
     <meta name="twitter:description" content={meta.description} />
     <meta name="twitter:image" content={ogImage} />
     <script type="application/ld+json" set:html={ld} />
-    <Fragment set:html={review} />
   </head>
   <body data-turnstile={site.forms.turnstileSiteKey || undefined} class="pb-[72px] lg:pb-0">
     <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-white focus:p-3">{c.skip}</a>

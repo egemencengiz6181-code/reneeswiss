@@ -16,7 +16,7 @@ interface Env {
   BREVO_LIST_KI?: string;
 }
 
-const NEXT_OK = /^\/(de|en|fr|tr)\/[a-z0-9/-]+\/$/;
+const NEXT_OK = /^\/(de|en|fr)\/[a-z0-9/-]+\/$/;
 const EMAIL_OK = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const FORMS: Record<string, { audience: 'agency' | 'sme' | 'ki-check'; list: keyof Env }> = {
   agency: { audience: 'agency', list: 'BREVO_LIST_AGENCY' },

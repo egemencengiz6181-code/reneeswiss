@@ -1,9 +1,10 @@
 {
+  "serviceArea": {"title":"Pour les entreprises de toute la Suisse","text":"Nous travaillons à distance pour des PME et des agences en Suisse romande et en Suisse alémanique, notamment à Genève, Lausanne, Fribourg, Neuchâtel, Sion, Zurich, Bâle et Berne. Les échanges se font en visio aux horaires suisses et vous recevez votre offre en CHF. Notre studio est à Ankara, nous n'avons pas de bureau en Suisse."},
   "_review": "TODO: native review needed",
   "brand": { "tagline": "Du parti pris dans le design. De la méthode dans l'exécution." },
   "skip": "Aller au contenu",
   "notFound": "Page introuvable. Aller à la page d'accueil en français",
-  "languageNames": { "de": "Deutsch", "en": "English", "fr": "Français", "tr": "Türkçe" },
+  "languageNames": { "de": "Deutsch", "en": "English", "fr": "Français" },
   "nav": { "agencies": "Pour les agences", "services": "Prestations", "work": "Réalisations", "pricing": "Tarifs", "kiCheck": "Diagnostic IA", "about": "À propos", "blog": "Ressources", "contact": "Contact", "home": "Accueil", "menu": "Menu", "languages": "Choisir la langue", "primaryLabel": "Navigation principale", "breadcrumb": "Fil d'Ariane" },
   "cta": { "primary": "Premier entretien gratuit (20 min)", "short": "Réserver un premier entretien", "check": "Demander le diagnostic IA", "checkLink": "Ou : diagnostic gratuit de votre visibilité IA", "agency": "Réserver un entretien partenaire", "more": "En savoir plus", "allServices": "Toutes les prestations", "allWork": "Toutes les réalisations" },
   "price": { "from": "dès CHF {n}", "exact": "CHF {n}", "units": { "month": "/mois", "hour": "/h", "render": " par rendu", "project": " par projet", "once": " en une fois" }, "plusMedia": " + budget média", "vat": "hors TVA." },

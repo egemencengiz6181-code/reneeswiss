@@ -1,10 +1,10 @@
 {
   "_review": "TODO: native review needed",
   "breadcrumb": "Branding et identité visuelle",
-  "meta": { "title": "Branding et identité visuelle {{price.branding}} | Renee", "description": "Logo, système de marque et charte pour PME et agences suisses. À distance, {{price.branding}}, en 3 à 5 semaines. Plus de {{stat.identities}} projets d'identité." },
+  "meta": { "title": "Agence branding Suisse {{price.branding}} | Renee", "description": "Logo, système de marque et charte pour PME et agences suisses. À distance, {{price.branding}}, en 3 à 5 semaines. Plus de {{stat.identities}} projets d'identité." },
   "name": "Branding et identité visuelle",
   "short": "Logo, système de marque et charte.",
-  "h1": "Une marque qui fonctionne sur tous les formats.",
+  "h1": "Branding et identité visuelle : une marque pour tous les formats.",
   "lead": "Nous développons des logos et des systèmes de marque qui tiennent du papier à lettres à la façade. Plus de {{stat.identities}} projets, documentés de façon traçable.",
   "facts": { "who": "PME et agences qui veulent se présenter autrement ou mettre de l'ordre dans leur marque", "what": "Logo, système de marque, charte" },
   "timeline": "3–5 semaines",

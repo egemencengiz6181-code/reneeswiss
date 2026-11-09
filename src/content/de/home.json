@@ -1,6 +1,6 @@
 {
   "_review": "TODO: native review needed",
-  "meta": { "title": "Renee – Design und Web für Schweizer Agenturen und KMU", "description": "Remote-Studio für Design, Web, Content und Performance-Marketing. Schweizer Bürozeiten, feste Preise, Antwort innert {{stat.response}} Stunden. Sitz in Ankara." },
+  "meta": { "title": "Design- und Webagentur für die Schweiz | Renee", "description": "Remote-Studio für Design, Web, Content und Performance-Marketing. Schweizer Bürozeiten, feste Preise, Antwort innert {{stat.response}} Stunden. Sitz in Ankara." },
   "hero": {
     "eyebrow": "Remote-Studio · Schweizer Bürozeiten",
     "h1": "Design, Web und Performance-Marketing für Schweizer Agenturen und KMU.",
@@ -64,7 +64,7 @@
     "title": "Was Schweizer Kunden uns zuerst fragen.",
     "items": [
       { "q": "Wo sitzt Renee?", "a": "Unser Studio ist im ODTÜ Teknokent in Ankara, Türkei. Ein Schweizer Büro haben wir nicht. Wir arbeiten vollständig remote zu Schweizer Bürozeiten, der Zeitunterschied beträgt je nach Jahreszeit 1 bis 2 Stunden." },
-      { "q": "Auf welcher Sprache läuft die Zusammenarbeit?", "a": "Auf Deutsch, Französisch, Englisch oder Türkisch. Sie erhalten eine feste Ansprechperson für Ihr Projekt." },
+      { "q": "Auf welcher Sprache läuft die Zusammenarbeit?", "a": "Auf Deutsch, Französisch oder Englisch. Sie erhalten eine feste Ansprechperson für Ihr Projekt." },
       { "q": "Wie schnell antworten Sie?", "a": "Während der Bürozeiten innert {{stat.response}} Stunden. Eine Offerte erhalten Sie innert {{stat.offer}} Stunden nach dem Erstgespräch." },
       { "q": "Was bedeuten die Preise «ab CHF»?", "a": "Das sind Einstiegspreise für einen klar begrenzten Umfang, jeweils {{vat}} Nach dem Erstgespräch erhalten Sie einen Festpreis für Ihr Projekt." },
       { "q": "Wie gehen Sie mit Daten um?", "a": "Wir arbeiten nach dem Schweizer revDSG und der DSGVO. Für jedes Mandat mit Personendaten schliessen wir einen Auftragsverarbeitungsvertrag inklusive Standardvertragsklauseln ab, weil die Bearbeitung in der Türkei stattfindet." },

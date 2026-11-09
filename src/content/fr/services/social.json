@@ -1,10 +1,10 @@
 {
   "_review": "TODO: native review needed",
   "breadcrumb": "Contenu pour les réseaux sociaux",
-  "meta": { "title": "Contenu pour les réseaux sociaux {{price.social}} | Renee", "description": "Stratégie, calendrier éditorial et production de publications, reels et carrousels pour PME et agences suisses. Prix : {{price.social}} {{vat}}" },
+  "meta": { "title": "Agence social media Suisse {{price.social}} | Renee", "description": "Stratégie, calendrier éditorial et production de publications, reels et carrousels pour PME et agences suisses. Prix : {{price.social}} {{vat}}" },
   "name": "Contenu pour les réseaux sociaux",
   "short": "Publications, reels et carrousels avec calendrier éditorial.",
-  "h1": "Du contenu régulier, sans que vous ayez à y penser.",
+  "h1": "Agence social media pour PME suisses : du contenu sans effort.",
   "lead": "Nous planifions et produisons des contenus pour Instagram, LinkedIn et Facebook. Vous validez, nous livrons.",
   "facts": { "who": "PME et agences avec des besoins réguliers en contenu", "what": "Stratégie, calendrier éditorial, publications, reels, carrousels" },
   "timeline": "Premier plan mensuel en 10 jours ouvrables",

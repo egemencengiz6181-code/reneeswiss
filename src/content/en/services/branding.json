@@ -1,10 +1,10 @@
 {
   "_review": "",
   "breadcrumb": "Branding & corporate identity",
-  "meta": { "title": "Branding and corporate identity {{price.branding}} | Renee", "description": "Logo, brand system and guidelines for Swiss SMEs and agencies. Remote, {{price.branding}}, in 3 to 5 weeks. Over {{stat.identities}} CI projects." },
+  "meta": { "title": "Branding agency Switzerland {{price.branding}} | Renee", "description": "Logo, brand system and guidelines for Swiss SMEs and agencies. Remote, {{price.branding}}, in 3 to 5 weeks. Over {{stat.identities}} CI projects." },
   "name": "Branding & corporate identity",
   "short": "Logo, brand system and guidelines.",
-  "h1": "A brand that works in every format.",
+  "h1": "Branding and corporate design: a brand for every format.",
   "lead": "We develop logos and brand systems that hold up from letterhead to facade. Over {{stat.identities}} projects, documented so you can follow them.",
   "facts": { "who": "SMEs and agencies launching a new identity or putting their brand in order", "what": "Logo, brand system, guidelines" },
   "timeline": "3–5 weeks",

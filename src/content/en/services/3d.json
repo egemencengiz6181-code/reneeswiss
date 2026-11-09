@@ -4,7 +4,7 @@
   "meta": { "title": "3D product visualisation {{price.3d}} | Renee", "description": "Photorealistic 3D product renders and animations for manufacturers and agencies. Price: {{price.3d}}, standard delivery in 48–72 h." },
   "name": "3D visualisation",
   "short": "Product renders and animation.",
-  "h1": "Product images without a photo shoot.",
+  "h1": "3D product visualisation and rendering without a photo shoot.",
   "lead": "We create photorealistic renders and animations from CAD data or references. Variants are quick to produce.",
   "facts": { "who": "Manufacturers, e-commerce and agencies", "what": "Renders, variants, product animation" },
   "timeline": "48–72 hours per standard render",

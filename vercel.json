@@ -2,6 +2,18 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "astro",
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/tr",
+      "destination": "/de/",
+      "permanent": true
+    },
+    {
+      "source": "/tr/:path*",
+      "destination": "/de/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
