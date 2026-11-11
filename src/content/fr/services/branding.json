@@ -14,7 +14,7 @@
   "process": [
     { "t": "Atelier", "d": "Clarifier les objectifs, le public cible et la concurrence." },
     { "t": "Concepts", "d": "Trois pistes argumentées." },
-    { "t": "Développement", "d": "La piste choisie, en deux tours de retours." },
+    { "t": "Développement", "d": "La piste choisie, en deux boucles de révision." },
     { "t": "Remise", "d": "Charte, fichiers, brève prise en main." }
   ],
   "relatedCase": "arni",

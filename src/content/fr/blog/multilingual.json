@@ -1,0 +1,100 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Site web multilingue",
+  "meta": {
+    "title": "Site multilingue en Suisse : bien le réaliser | Renee",
+    "description": "Allemand, français, italien, anglais : comment planifier, traduire et optimiser un site multilingue en Suisse pour Google et la recherche IA."
+  },
+  "title": "Site web multilingue en Suisse : comment bien faire",
+  "author": "Renee Studio",
+  "date": "2026-11-10",
+  "summary": "Dans peu de pays le multilinguisme va autant de soi qu'en Suisse. Qui ne communique qu'en allemand atteint à peine la Suisse romande et le Tessin. Pourtant, de nombreux sites multilingues commettent des erreurs techniques et rédactionnelles qui coûtent en visibilité. Un guide pour les décisions, la réalisation et le SEO.",
+  "sections": [
+    {
+      "h": "De quelles langues avez-vous vraiment besoin ?",
+      "p": [
+        "Fiez-vous à votre clientèle, pas à la carte. Combinaisons typiques :"
+      ],
+      "list": [
+        "**Allemand et français** pour les entreprises actives en Suisse alémanique et en Suisse romande",
+        "**Plus l'italien**, si le Tessin est un marché pertinent",
+        "**Plus l'anglais** pour une clientèle internationale, les expatriés ou le B2B avec des groupes internationaux"
+      ],
+      "after": [
+        "Mieux vaut deux langues de grande qualité que quatre traduites à moitié."
+      ]
+    },
+    {
+      "h": "Traduire ou localiser ?",
+      "p": [
+        "Une traduction littérale suffit rarement. En Suisse romande, on ne recherche pas avec les mêmes termes qu'en Suisse alémanique ; les exemples, la manière de s'adresser au lecteur et le ton diffèrent. **Localiser** signifie adapter les contenus à la langue, à la culture et aux habitudes de recherche. Les traductions par IA sont un bon point de départ, mais doivent toujours être relues par une personne qui a le sens de la langue."
+      ]
+    },
+    {
+      "h": "La structure technique",
+      "list": [
+        "**Des URL propres à chaque langue :** p. ex. `/de/`, `/fr/`, `/it/`. Pas de changement de langue uniquement par cookie ou script, sinon Google ne voit qu'une version.",
+        "**Balises hreflang :** elles indiquent aux moteurs de recherche quelle page correspond à quelle version linguistique (p. ex. `de-CH`, `fr-CH`) et évitent les problèmes de contenu dupliqué.",
+        "**Slugs et métadonnées traduits :** titres de page, descriptions et chemins d'URL doivent eux aussi être dans la langue concernée.",
+        "**Sélecteur de langue visible :** il mène à la page correspondante dans l'autre langue, et non à la page d'accueil.",
+        "**Pas de redirection automatique selon l'IP :** les visiteurs (et les robots d'indexation) doivent pouvoir choisir eux-mêmes leur langue."
+      ]
+    },
+    {
+      "h": "SEO et visibilité IA par langue",
+      "p": [
+        "Pour les moteurs de recherche, chaque version linguistique est un site à part entière, avec ses propres termes de recherche. Faites la recherche de mots-clés pour chaque langue, et pas une seule fois en allemand. Les assistants IA comme ChatGPT ou Perplexity répondent eux aussi dans la langue de la question : sans bons contenus en français, vous serez rarement recommandé en français."
+      ],
+      "more": {
+        "label": "SEO + visibilité IA",
+        "to": "service-seo"
+      }
+    },
+    {
+      "h": "Erreurs fréquentes",
+      "list": [
+        "Traduire uniquement la page d'accueil, les sous-pages restent en allemand",
+        "Balises hreflang absentes ou erronées",
+        "Formulaires, messages d'erreur et e-mails restent dans une seule langue",
+        "Les textes juridiques (mentions légales, protection des données) manquent dans les autres langues",
+        "Les nouveaux contenus ne paraissent que dans une langue, les autres vieillissent"
+      ]
+    },
+    {
+      "h": "Check-list avant la mise en ligne",
+      "listStyle": "check",
+      "list": [
+        "Toutes les pages disponibles dans toutes les langues",
+        "hreflang défini, y compris `x-default`",
+        "Le sitemap contient toutes les versions linguistiques",
+        "Métadonnées, textes alternatifs et formulaires traduits",
+        "Le sélecteur de langue mène à la page correspondante",
+        "Processus défini pour les futurs contenus"
+      ]
+    },
+    {
+      "h": "Conclusion",
+      "p": [
+        "En Suisse, un site multilingue n'est pas un supplément, mais l'équipement de base pour croître au-delà de la frontière linguistique. Avec une structure soignée et des contenus localisés, il devient un véritable avantage face à la concurrence."
+      ],
+      "more": {
+        "label": "Sites web",
+        "to": "service-website"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": "Une traduction automatique par plugin suffit-elle ?",
+      "a": "Pour démarrer peut-être, pour la confiance et le SEO généralement pas. Les contenus doivent être relus et localisés."
+    },
+    {
+      "q": "Chaque langue a-t-elle besoin de son propre domaine ?",
+      "a": "Non. Des sous-répertoires comme `/fr/` sur un domaine `.ch` sont la solution la plus simple et la plus solide pour la plupart des PME."
+    },
+    {
+      "q": "Combien coûte un site multilingue ?",
+      "a": "Plus de langues signifie plus de contenu et plus d'entretien. Notre article [Combien coûte un site web en Suisse ?](@article-website-cost) vous donne des repères."
+    }
+  ]
+}

@@ -1,15 +1,44 @@
 {
   "_review": "TODO: native review needed",
   "breadcrumb": "Impressum",
-  "meta": { "title": "Impressum | Renee", "description": "Impressum von Renee Design Lab, Ankara, Türkei: Firmenangaben und Kontakt." },
+  "meta": {
+    "title": "Impressum | Renee",
+    "description": "Impressum von Renee Design Lab, Ankara, Türkei: Anbieter, Adresse, Registereintrag und Kontakt."
+  },
   "h1": "Impressum",
   "sections": [
-    { "h": "Anbieter", "p": ["{{legal.legalName}}", "Einzelunternehmen nach türkischem Recht (Şahıs şirketi)", "handelnd unter «{{legal.name}}» bzw. «Renee»"] },
-    { "h": "Adresse", "p": ["{{legal.street}}", "{{legal.building}}, Nr. {{legal.doorNumber}}", "{{legal.postalCode}} {{legal.district}} / {{legal.city}}", "Türkei"] },
-    { "h": "Verantwortliche Person", "p": ["{{legal.representative}}, Inhaber"] },
-    { "h": "Kontakt", "p": ["E-Mail: {{legal.email}}", "Telefon: {{phone}}"] },
-    { "h": "Registereintrag", "p": ["Eingetragen beim Handelsregisteramt Ankara ({{legal.registry}})"] },
-    { "h": "Hinweis zum Standort", "p": ["Renee ist das Remote-Studio von {{legal.name}}. Wir haben keinen Sitz und keine Niederlassung in der Schweiz."] },
-    { "h": "Haftung", "p": ["Wir prüfen die Inhalte dieser Website sorgfältig, übernehmen aber keine Gewähr für Vollständigkeit und Aktualität. Für Inhalte verlinkter Websites sind deren Betreiber verantwortlich."] }
+    {
+      "h": "Anbieter und verantwortlich für den Inhalt",
+      "p": [
+        "{{legal.name}}\nInhaber: {{legal.legalName}}\nEinzelunternehmen nach türkischem Recht",
+        "{{legal.street}}\n{{legal.building}} {{legal.doorNumber}}\n{{legal.district}} / {{legal.city}}, Türkei",
+        "E-Mail: [{{legal.email}}](mailto:{{legal.email}})\nTelefon: [{{phone}}](tel:{{phoneHref}}) (Mo–Fr, {{hours.from}}–{{hours.to}} Schweizer Zeit)",
+        "Handelsregister: Handelsregisteramt Ankara ({{legal.registry}})\nSteueramt: {{legal.taxOffice}}"
+      ]
+    },
+    {
+      "h": "Hinweis zum Standort",
+      "p": [
+        "Renee (reneestudio.ch) ist das Remote-Studio von {{legal.name}}. Wir arbeiten für Kundinnen und Kunden in der Schweiz, haben aber keinen Sitz und keine Niederlassung in der Schweiz."
+      ]
+    },
+    {
+      "h": "Social Media",
+      "p": [
+        "Instagram: [instagram.com/reneestudio.ch]({{social.instagram}})\nLinkedIn: [linkedin.com/company/renee-studio]({{social.linkedin}})"
+      ]
+    },
+    {
+      "h": "Haftung",
+      "p": [
+        "Wir prüfen die Inhalte dieser Website sorgfältig, übernehmen aber keine Gewähr für Vollständigkeit und Aktualität."
+      ]
+    },
+    {
+      "h": "Links",
+      "p": [
+        "Für Inhalte verlinkter Websites sind deren Betreiber verantwortlich."
+      ]
+    }
   ]
 }

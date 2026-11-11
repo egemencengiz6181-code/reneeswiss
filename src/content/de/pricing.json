@@ -11,7 +11,7 @@
     "packages": [
       { "name": "Start", "for": "Für einen sauberen Auftritt im Web.", "price": "{{price.pkgStart}}", "items": ["Website bis 5 Seiten, eine Sprache", "Technisches SEO und strukturierte Daten", "Kontaktformular und Terminbuchung", "Einführung und Übergabe"] },
       { "name": "Wachstum", "for": "Für laufende Sichtbarkeit und Anfragen.", "price": "{{price.pkgGrowth}}", "items": ["Social-Media-Content nach Redaktionsplan", "Google- oder Meta-Ads-Betreuung", "Monatsbericht mit klaren Zahlen", "Eine feste Ansprechperson"] },
-      { "name": "Komplett", "for": "Für Marketing aus einer Hand.", "price": "{{price.pkgFull}}", "items": ["Alles aus dem Paket Wachstum", "SEO und KI-Sichtbarkeit (GEO)", "Google und Meta kombiniert", "Quartalsgespräch zur Strategie"] }
+      { "name": "Komplett", "for": "Für Marketing aus einer Hand.", "price": "{{price.pkgFull}}", "items": ["Alles aus dem Paket Wachstum", "SEO und KI-Sichtbarkeit (GEO, Generative Engine Optimization)", "Google und Meta kombiniert", "Quartalsgespräch zur Strategie"] }
     ]
   },
   "agency": {

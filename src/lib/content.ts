@@ -31,6 +31,9 @@ function tokens(l: Locale): Record<string, string> {
   return {
     email: site.email,
     phone: site.phone,
+    phoneHref: site.phoneHref,
+    'social.linkedin': site.social.linkedin,
+    'social.instagram': site.social.instagram,
     'hours.from': site.hours.from,
     'hours.to': site.hours.to,
     'stat.brands': String(site.stats.brands),
@@ -41,14 +44,14 @@ function tokens(l: Locale): Record<string, string> {
     'stat.report': String(site.stats.reportHours),
     'legal.name': site.legal.name,
     'legal.legalName': site.legal.legalName || site.legal.name,
-    'legal.email': site.legal.email,
+    'legal.email': site.email,
     'legal.street': site.legal.street || MISSING,
     'legal.building': site.legal.building,
     'legal.doorNumber': site.legal.doorNumber,
     'legal.district': site.legal.district,
     'legal.city': site.legal.city,
-    'legal.postalCode': site.legal.postalCode,
     'legal.registry': site.legal.registry || MISSING,
+    'legal.taxOffice': site.legal.taxOffice || MISSING,
     'legal.representative': site.legal.representative || MISSING,
     'legal.formProcessor': site.legal.formProcessor || MISSING,
     'legal.mailProcessor': site.legal.mailProcessor || MISSING,
@@ -110,4 +113,8 @@ export const formatDate = (iso: string) => {
   return `${d}.${m}.${y}`;
 };
 export const articleWords = (a: any) =>
-  [a.summary, ...a.sections.flatMap((s: any) => [s.h, ...(s.p ?? []), ...(s.list ?? [])])].join(' ').split(/\s+/).length;
+  [
+    a.summary,
+    ...a.sections.flatMap((s: any) => [s.h, ...(s.p ?? []), ...(s.sub ?? []).flatMap((x: any) => [x.h, ...(x.p ?? [])]), ...(s.list ?? []), ...(s.after ?? [])]),
+    ...(a.faq ?? []).flatMap((f: any) => [f.q, f.a]),
+  ].join(' ').split(/\s+/).length;

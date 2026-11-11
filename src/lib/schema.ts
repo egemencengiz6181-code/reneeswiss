@@ -1,5 +1,6 @@
 import site from '../config/site.json';
 import { HREFLANG, type Locale } from './routes';
+import { plain } from './inline';
 
 export function orgGraph(origin: string, locale: Locale) {
   const id = `${origin}/#org`;
@@ -15,8 +16,8 @@ export function orgGraph(origin: string, locale: Locale) {
       email: site.email,
       telephone: site.phone,
       areaServed: { '@type': 'Country', name: 'Switzerland' },
-      address: { '@type': 'PostalAddress', streetAddress: 'Akdeniz Caddesi, Bertan Apartmanı B Blok 51/10, Yukarı Bahçelievler Mahallesi', postalCode: site.legal.postalCode, addressLocality: `${site.legal.district}, ${site.legal.city}`, addressCountry: site.legal.country },
-      sameAs: [site.social.linkedin, site.social.instagram, site.existingSite],
+      address: { '@type': 'PostalAddress', streetAddress: 'Akdeniz Caddesi, Bertan Apartmanı B Blok 51/10, Yukarı Bahçelievler Mahallesi', addressLocality: site.legal.city, addressRegion: site.legal.district, addressCountry: site.legal.country },
+      sameAs: [site.social.instagram, site.social.linkedin, site.existingSite],
       contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, telephone: site.phone, areaServed: 'CH', availableLanguage: ['German', 'French', 'English'] },
     },
     {
@@ -37,7 +38,7 @@ export const breadcrumbLd = (origin: string, items: { name: string; url: string 
 
 export const faqLd = (items: { q: string; a: string }[]) => ({
   '@type': 'FAQPage',
-  mainEntity: items.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  mainEntity: items.map((f) => ({ '@type': 'Question', name: plain(f.q), acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })),
 });
 
 export function serviceLd(origin: string, url: string, name: string, description: string, priceKey: string) {
@@ -74,6 +75,6 @@ export const articleLd = (origin: string, url: string, a: any, locale: Locale) =
   inLanguage: HREFLANG[locale],
   mainEntityOfPage: origin + url,
   image: `${origin}/og/${locale}/article-${a.id}.png`,
-  author: { '@type': 'Organization', name: a.author },
-  publisher: { '@id': `${origin}/#org` },
+  author: { '@type': 'Organization', name: a.author, url: `${origin}/${locale}/` },
+  publisher: { '@type': 'Organization', '@id': `${origin}/#org`, name: 'Renee', logo: { '@type': 'ImageObject', url: `${origin}/brand/renee-logo-trim.webp` } },
 });

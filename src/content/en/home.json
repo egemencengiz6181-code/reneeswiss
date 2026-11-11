@@ -32,7 +32,7 @@
     "sme": {
       "eyebrow": "For businesses",
       "title": "One team for brand, website and marketing.",
-      "bullets": ["One point of contact, communication in German or English", "Clear prices instead of open-ended hourly billing", "Quote within {{stat.offer}} hours of the intro call"],
+      "bullets": ["One point of contact, communication in German, French or English", "Clear prices instead of open-ended hourly billing", "Quote within {{stat.offer}} hours of the intro call"],
       "link": "See services and pricing"
     }
   },
@@ -43,7 +43,7 @@
     "items": [
       { "t": "One team for everything", "d": "Design, web, content, ads and SEO from one source. You don't have to coordinate several providers." },
       { "t": "AI-assisted workflows", "d": "AI handles routine work; people decide and review. The result is shorter delivery times." },
-      { "t": "Swiss office hours", "d": "Available Mon–Fri {{hours.from}}–{{hours.to}}. Communication in German, French and English. Time difference: 1 to 2 hours." },
+      { "t": "Swiss office hours", "d": "Available Mon–Fri {{hours.from}}–{{hours.to}}. Communication in German, French or English. Time difference: 1 to 2 hours." },
       { "t": "Data protection in place", "d": "We work in line with the Swiss FADP (revDSG). Data processing agreement included, with standard contractual clauses for processing in Turkey." }
     ]
   },
@@ -53,7 +53,7 @@
     "title": "From first call to handover in four steps.",
     "steps": [
       { "t": "Intro call", "d": "20 minutes by video. We clarify goal, scope and timeline." },
-      { "t": "Quote in {{stat.offer}} h", "d": "You receive a written quote with a fixed price and dates." },
+      { "t": "Quote within {{stat.offer}} hours", "d": "You receive a written quote with a fixed price and dates." },
       { "t": "Production", "d": "With set feedback rounds. You see work in progress before we move on." },
       { "t": "Handover & reporting", "d": "All files and access belong to you. Ongoing engagements receive a monthly report." }
     ]

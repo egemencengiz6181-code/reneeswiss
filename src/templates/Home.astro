@@ -19,7 +19,7 @@ import Pic from '../components/Pic.astro';
 const c = common(locale);
 const names = services(locale).map((s) => s.name);
 const door = (d: any, id: string, dark: boolean) => ({ ...d, id, dark });
-const doors = [door(p.doors.agency, 'agencies', true), door(p.doors.sme, 'services', false)];
+const doors = [door(p.doors.agency, 'agencies', true), door(p.doors.sme, 'pricing', false)];
 ---
 <Layout locale={locale} route={route} meta={p.meta} jsonLd={[faqLd(p.faq.items)]}>
   <section class="wrap pt-10 lg:pt-20 pb-12 lg:pb-16">
@@ -46,7 +46,7 @@ const doors = [door(p.doors.agency, 'agencies', true), door(p.doors.sme, 'servic
       </ul>
     </div>
     <ul class="grid md:grid-cols-3 gap-x-6 mt-10">
-      {p.trust.stats.map((s: any) => <li class="border-t border-line py-4"><span class="title block">{s.value}</span><span class="muted text-[15px]">{s.label}</span></li>)}
+      {p.trust.stats.map((s: any) => <li class="border-t border-line py-4"><span class="title block">{s.value}</span><span class="sr-only"> </span><span class="muted text-[15px]">{s.label}</span></li>)}
     </ul>
   </section>
 
@@ -63,8 +63,12 @@ const doors = [door(p.doors.agency, 'agencies', true), door(p.doors.sme, 'servic
     </div>
   </section>
 
-  <div class="marquee py-6 border-b border-line text-[20px] font-medium tracking-tight" aria-hidden="true">
-    {[0, 1].map(() => <div>{[...names, ...names].map((n) => <span class="inline-flex items-center gap-8 pr-8">{n}<img src="/brand/renee-star-sm.webp" width="12" height="12" alt="" loading="lazy" /></span>)}</div>)}
+  <div class="marquee py-6 border-b border-line text-[20px] font-medium tracking-tight">
+    {[0, 1].map((copy) => (
+      <div aria-hidden={copy > 0 ? 'true' : undefined}>
+        {[...names, ...names].map((n, i) => <span class="inline-flex items-center gap-8 pr-8" aria-hidden={copy === 0 && i >= names.length ? 'true' : undefined}>{n}<img src="/brand/renee-star-sm.webp" width="12" height="12" alt="" loading="lazy" /></span>)}
+      </div>
+    ))}
   </div>
 
   <Section eyebrow={p.services.eyebrow} title={p.services.title}><ServiceGrid locale={locale} /></Section>

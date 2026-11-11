@@ -1,11 +1,14 @@
 ---
-const { items } = Astro.props as { items: { q: string; a: string }[] };
+import type { Locale } from '../lib/routes';
+import { inline } from '../lib/inline';
+// With `locale`, answers may contain inline markup (links, bold); without it they render as plain text.
+const { items, locale } = Astro.props as { items: { q: string; a: string }[]; locale?: Locale };
 ---
 <div class="faq border-b border-line">
   {items.map((f) => (
     <details class="border-t border-line">
       <summary>{f.q}</summary>
-      <p class="pb-6 measure muted">{f.a}</p>
+      {locale ? <p class="pb-6 measure muted" set:html={inline(f.a, locale)} /> : <p class="pb-6 measure muted">{f.a}</p>}
     </details>
   ))}
 </div>

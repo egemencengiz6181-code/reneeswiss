@@ -15,14 +15,14 @@
       { "t": "Contenu social", "d": "Publications, reels et carrousels selon votre calendrier éditorial." },
       { "t": "Rendus 3D", "d": "Visualisation de produits et animation à partir de CAO ou de références." },
       { "t": "Gestion publicitaire", "d": "Mise en place et suivi de campagnes Google et Meta." },
-      { "t": "SEO et GEO", "d": "Mise en œuvre technique, contenus et visibilité IA." }
+      { "t": "SEO et GEO (optimisation pour les moteurs de réponse IA)", "d": "Mise en œuvre technique, contenus et visibilité IA." }
     ]
   },
   "how": {
     "eyebrow": "Comment ça marche",
     "title": "Tout est réglé avant de commencer.",
     "steps": [
-      { "t": "NDA", "d": "Signé avant le premier briefing." },
+      { "t": "Accord de confidentialité (NDA)", "d": "Signé avant le premier briefing." },
       { "t": "Briefing", "d": "Dans vos modèles et vos outils, avec une personne de contact attitrée." },
       { "t": "Livraison", "d": "Tâches standard en 48–72 heures." },
       { "t": "Révision", "d": "Les tours de corrections sont définis dans le périmètre. Les fichiers vous appartiennent." }

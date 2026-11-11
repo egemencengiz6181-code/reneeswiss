@@ -1,0 +1,100 @@
+{
+  "_review": "",
+  "breadcrumb": "Multilingual website",
+  "meta": {
+    "title": "Multilingual website in Switzerland: done right | Renee",
+    "description": "German, French, Italian, English: how Swiss companies plan, translate and optimise a multilingual website for Google and AI search."
+  },
+  "title": "Multilingual website in Switzerland: how to get it right",
+  "author": "Renee Studio",
+  "date": "2026-11-10",
+  "summary": "Few countries take multilingualism for granted the way Switzerland does. If you only communicate in German, you will barely reach French-speaking Switzerland or Ticino. At the same time, many multilingual websites make technical and content mistakes that cost visibility. A guide to the decisions, the build and SEO.",
+  "sections": [
+    {
+      "h": "Which languages do you really need?",
+      "p": [
+        "Be guided by your customers, not by the map. Typical combinations:"
+      ],
+      "list": [
+        "**German and French** for companies active in German- and French-speaking Switzerland",
+        "**Plus Italian** if Ticino is a relevant market",
+        "**Plus English** for international customers, expats or B2B with global corporations"
+      ],
+      "after": [
+        "Two languages done well are better than four translated half-heartedly."
+      ]
+    },
+    {
+      "h": "Translate or localise?",
+      "p": [
+        "A literal translation is rarely enough. People in French-speaking Switzerland search with different terms than German speakers; examples, forms of address and tone differ too. **Localising** means adapting content to language, culture and search behaviour. AI translations are a good starting point, but should always be checked by someone with a feel for the language."
+      ]
+    },
+    {
+      "h": "The technical structure",
+      "list": [
+        "**Separate URLs per language:** e.g. `/de/`, `/fr/`, `/it/`. No language switching by cookie or script alone, otherwise Google only sees one version.",
+        "**hreflang tags:** They tell search engines which page corresponds to which language version (e.g. `de-CH`, `fr-CH`) and prevent duplicate content issues.",
+        "**Translated slugs and metadata:** Page titles, descriptions and URL paths belong in the respective language too.",
+        "**Visible language switcher:** It leads to the corresponding page in the other language, not back to the home page.",
+        "**No automatic redirect by IP:** Visitors (and crawlers) should be able to choose their language themselves."
+      ]
+    },
+    {
+      "h": "SEO and AI visibility per language",
+      "p": [
+        "For search engines, each language version is a website of its own, with its own search terms. Do your keyword research for each language, not just once in German. AI assistants such as ChatGPT or Perplexity also answer in the language of the question: if you have no good content in French, you will rarely be recommended in French."
+      ],
+      "more": {
+        "label": "SEO + AI visibility",
+        "to": "service-seo"
+      }
+    },
+    {
+      "h": "Common mistakes",
+      "list": [
+        "Translating only the home page while subpages stay in German",
+        "Missing or incorrect hreflang annotations",
+        "Forms, error messages and emails stay monolingual",
+        "Legal texts (legal notice, privacy policy) are missing in the other languages",
+        "New content appears in one language only, and the others go out of date"
+      ]
+    },
+    {
+      "h": "Pre-launch checklist",
+      "listStyle": "check",
+      "list": [
+        "All pages available in all languages",
+        "hreflang set, including `x-default`",
+        "Sitemap contains all language versions",
+        "Metadata, alt texts and forms translated",
+        "Language switcher leads to the matching page",
+        "Process defined for future content"
+      ]
+    },
+    {
+      "h": "Conclusion",
+      "p": [
+        "In Switzerland, a multilingual website is not an extra but basic equipment for growing across the language border. With a clean structure and localised content, it becomes a real advantage over the competition."
+      ],
+      "more": {
+        "label": "Websites",
+        "to": "service-website"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is an automatic translation plugin enough?",
+      "a": "Perhaps to get started, but usually not for trust and SEO. Content should be reviewed and localised."
+    },
+    {
+      "q": "Does every language need its own domain?",
+      "a": "No. Subdirectories such as `/fr/` on a `.ch` domain are the simplest and strongest solution for most SMEs."
+    },
+    {
+      "q": "How much does a multilingual website cost?",
+      "a": "More languages mean more content and more upkeep. Our article [What does a website cost in Switzerland?](@article-website-cost) gives you a guide."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Rebranding pour PME",
+  "meta": {
+    "title": "Rebranding pour PME : 7 signes qui ne trompent pas | Renee",
+    "description": "Quand un rebranding vaut-il la peine ? Sept signes clairs, les erreurs fréquentes et comment renouveler votre marque sans perdre en reconnaissance."
+  },
+  "title": "Rebranding pour PME : 7 signes que votre marque a besoin d'un renouveau",
+  "author": "Renee Studio",
+  "date": "2026-11-10",
+  "summary": "Une marque vieillit en silence. Le logo fonctionnait, les couleurs étaient dans l'air du temps, le site paraissait moderne. Puis l'entreprise grandit, l'offre évolue, et soudain votre image raconte une histoire qui n'est plus la bonne. Voici comment reconnaître qu'une mise à jour s'impose, et comment l'aborder sans mettre en jeu la confiance de votre clientèle.",
+  "sections": [
+    {
+      "h": "Rebranding ou rafraîchissement ?",
+      "p": [
+        "Tout changement n'est pas un rebranding complet. Un **rafraîchissement** modernise des éléments existants : typographie, couleurs, univers visuel, ajustements du logo. Un **rebranding** va plus loin et touche au positionnement, au nom, au message et parfois à l'identité tout entière. Pour la plupart des PME, un rafraîchissement ciblé est la bonne première étape."
+      ]
+    },
+    {
+      "h": "7 signes que votre marque a besoin d'une mise à jour",
+      "sub": [
+        {
+          "h": "1. Votre offre a changé, votre image non",
+          "p": [
+            "Vous proposez de nouvelles prestations, visez de nouveaux publics ou un nouveau marché, mais votre logo, votre slogan et votre site parlent encore la langue d'il y a dix ans."
+          ]
+        },
+        {
+          "h": "2. Votre marque n'a pas le même visage d'un canal à l'autre",
+          "p": [
+            "Site web, offres, réseaux sociaux et marquage des véhicules semblent provenir d'entreprises différentes. Le manque de cohérence coûte en reconnaissance, et donc en confiance."
+          ]
+        },
+        {
+          "h": "3. Le logo ne fonctionne pas en numérique",
+          "p": [
+            "Trop fin, trop détaillé, illisible en favicon ou en photo de profil. Un logo moderne doit fonctionner sur 32 pixels aussi bien que sur un stand de salon."
+          ]
+        },
+        {
+          "h": "4. Vous devez sans cesse expliquer ce que vous faites",
+          "p": [
+            "Si vos prospects doivent demander après le premier contact ce que vous proposez exactement, votre marque ne transmet pas votre positionnement."
+          ]
+        },
+        {
+          "h": "5. Vos concurrents paraissent plus professionnels, alors que vous êtes meilleurs",
+          "p": [
+            "La clientèle compare en quelques secondes. Une image vieillissante fait paraître plus modestes même d'excellentes prestations."
+          ]
+        },
+        {
+          "h": "6. Vous n'attirez pas la clientèle que vous souhaitez",
+          "p": [
+            "Si vous recevez surtout des demandes axées sur le prix, votre marque envoie peut-être les mauvais signaux."
+          ]
+        },
+        {
+          "h": "7. Votre équipe n'est pas fière de votre image",
+          "p": [
+            "Lorsque vos collaboratrices et collaborateurs rechignent à donner leur carte de visite ou évitent de mentionner le site web, c'est un signal d'alarme sincère."
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Aborder un rebranding de manière structurée",
+      "listStyle": "ol",
+      "list": [
+        "**Faire l'état des lieux :** qu'est-ce qui fonctionne aujourd'hui ? Que reconnaît votre clientèle ? Conservez ces éléments de manière délibérée.",
+        "**Affiner le positionnement :** pour qui êtes-vous là, qu'est-ce qui vous distingue, quelle promesse faites-vous ? La création ne commence qu'ensuite.",
+        "**Développer un système visuel :** logo, couleurs, typographie, univers visuel et grille de mise en page forment un système, et non des pièces détachées.",
+        "**Prioriser les supports :** commencez par les points de contact qui ont le plus d'impact : site web, modèles d'offre, profils sur les réseaux sociaux.",
+        "**Déployer avec soin :** une courte charte de marque et des modèles prêts à l'emploi garantissent que la nouvelle image reste cohérente au quotidien."
+      ]
+    },
+    {
+      "h": "Erreurs fréquentes",
+      "list": [
+        "Tout changer d'un coup et perdre la reconnaissance en chemin",
+        "Renouveler uniquement le logo en oubliant le site et les modèles",
+        "Créer avant que le positionnement soit clair",
+        "Pas de charte de marque, si bien qu'au bout de trois mois chacun refait à sa façon"
+      ]
+    },
+    {
+      "h": "Conclusion",
+      "p": [
+        "Un bon rebranding paraît familier à la clientèle existante et convainc de nouveaux publics au premier regard. L'essentiel n'est pas l'ampleur du changement, mais que la marque et l'entreprise racontent à nouveau la même histoire."
+      ],
+      "more": {
+        "label": "Branding et identité visuelle",
+        "to": "service-branding"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": "Combien coûte un rebranding pour une PME ?",
+      "a": "Cela dépend du périmètre. Un rafraîchissement avec un logo retravaillé et un système de couleurs et de typographie coûte nettement moins qu'un repositionnement complet. Vous trouverez nos prix d'entrée sur la [page des tarifs](@pricing)."
+    },
+    {
+      "q": "Combien de temps dure un rebranding ?",
+      "a": "Un rafraîchissement prend généralement quelques semaines, un rebranding complet incluant le site web plutôt deux à trois mois."
+    },
+    {
+      "q": "Risquons-nous de perdre des clients avec un rebranding ?",
+      "a": "Non, si les éléments reconnaissables sont conservés de manière délibérée et que le changement est communiqué activement."
+    }
+  ]
+}

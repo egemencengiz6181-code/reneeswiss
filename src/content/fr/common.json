@@ -5,7 +5,7 @@
   "skip": "Aller au contenu",
   "notFound": "Page introuvable. Aller à la page d'accueil en français",
   "languageNames": { "de": "Deutsch", "en": "English", "fr": "Français" },
-  "nav": { "agencies": "Pour les agences", "services": "Prestations", "work": "Réalisations", "pricing": "Tarifs", "kiCheck": "Diagnostic IA", "about": "À propos", "blog": "Ressources", "contact": "Contact", "home": "Accueil", "menu": "Menu", "languages": "Choisir la langue", "primaryLabel": "Navigation principale", "breadcrumb": "Fil d'Ariane" },
+  "nav": { "logoAlt": "Renee – retour à l’accueil", "agencies": "Pour les agences", "services": "Prestations", "work": "Réalisations", "pricing": "Tarifs", "kiCheck": "Diagnostic IA", "about": "À propos", "blog": "Ressources", "contact": "Contact", "home": "Accueil", "menu": "Menu", "languages": "Choisir la langue", "primaryLabel": "Navigation principale", "breadcrumb": "Fil d'Ariane" },
   "cta": { "primary": "Premier entretien gratuit (20 min)", "short": "Réserver un premier entretien", "check": "Demander le diagnostic IA", "checkLink": "Ou : diagnostic gratuit de votre visibilité IA", "agency": "Réserver un entretien partenaire", "more": "En savoir plus", "allServices": "Toutes les prestations", "allWork": "Toutes les réalisations" },
   "price": { "from": "dès CHF {n}", "exact": "CHF {n}", "units": { "month": "/mois", "hour": "/h", "render": " par rendu", "project": " par projet", "once": " en une fois" }, "plusMedia": " + budget média", "vat": "hors TVA." },
   "facts": { "title": "En bref", "who": "Pour qui", "what": "Quoi", "price": "Prix", "delivery": "Délai" },
@@ -14,6 +14,7 @@
   "articleLabels": { "toc": "Sommaire", "reading": "{n} min de lecture" },
   "cal": { "title": "Choisir un créneau", "close": "Fermer", "note": "Réservation via Cal.com" },
   "finalCta": { "eyebrow": "Prochaine étape", "title": "20 minutes pour savoir si nous sommes le bon partenaire.", "text": "Lors du premier entretien, nous clarifions vos besoins, le calendrier et le cadre budgétaire. Vous recevez une offre sous {{stat.offer}} heures." },
+  "social": { "title": "Réseaux sociaux", "instagram": "Renee sur Instagram", "linkedin": "Renee sur LinkedIn" },
   "footer": { "honesty": "Notre studio est à Ankara. Nous travaillons à distance pour la Suisse, sans bureau en Suisse.", "location": "Ankara, Turquie", "servicesTitle": "Prestations", "companyTitle": "Renee", "hours": "Lu–ve {{hours.from}}–{{hours.to}} (heure suisse)", "impressum": "Mentions légales", "privacy": "Protection des données", "terms": "Conditions générales" },
   "forms": {
     "name": "Nom", "company": "Entreprise", "agencyName": "Nom de l'agence", "website": "Site web", "email": "E-mail", "phone": "Téléphone", "city": "Localité", "industry": "Secteur", "message": "Votre message", "optional": "(facultatif)", "send": "Envoyer le message",

@@ -11,7 +11,7 @@
     "packages": [
       { "name": "Start", "for": "Pour une présence web soignée.", "price": "{{price.pkgStart}}", "items": ["Site web jusqu'à 5 pages, une langue", "SEO technique et données structurées", "Formulaire de contact et prise de rendez-vous", "Prise en main et remise"] },
       { "name": "Croissance", "for": "Pour une visibilité et des demandes régulières.", "price": "{{price.pkgGrowth}}", "items": ["Contenu pour les réseaux sociaux selon calendrier éditorial", "Gestion de Google Ads ou Meta Ads", "Rapport mensuel avec des chiffres clairs", "Une personne de contact attitrée"] },
-      { "name": "Complet", "for": "Pour tout votre marketing au même endroit.", "price": "{{price.pkgFull}}", "items": ["Tout le contenu du forfait Croissance", "SEO et visibilité IA (GEO)", "Google et Meta combinés", "Entretien stratégique trimestriel"] }
+      { "name": "Complet", "for": "Pour tout votre marketing au même endroit.", "price": "{{price.pkgFull}}", "items": ["Tout le contenu du forfait Croissance", "SEO et visibilité IA (GEO, optimisation pour les moteurs de réponse IA)", "Google et Meta combinés", "Entretien stratégique trimestriel"] }
     ]
   },
   "agency": {

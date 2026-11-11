@@ -1,0 +1,77 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "KI-Automatisierung für KMU",
+  "meta": {
+    "title": "KI-Automatisierung für KMU: 5 lohnende Abläufe | Renee",
+    "description": "Anfragen, Offerten, Social Media, Reporting, Kundenservice: Fünf Abläufe, die Schweizer KMU mit KI automatisieren können, und was beim Datenschutz gilt."
+  },
+  "title": "KI-Automatisierung für KMU: 5 Abläufe, die sich sofort lohnen",
+  "author": "Renee Studio",
+  "date": "2026-11-10",
+  "summary": "Künstliche Intelligenz ist im Alltag von KMU angekommen. Doch statt eines grossen Digitalisierungsprojekts lohnt sich oft ein pragmatischer Start: einzelne, wiederkehrende Abläufe, die heute Zeit fressen. Fünf Beispiele, die sich in wenigen Wochen umsetzen lassen.",
+  "sections": [
+    {
+      "h": "1. Anfragen automatisch sortieren und beantworten",
+      "p": [
+        "Eingehende Anfragen per Formular oder E-Mail werden von einer KI gelesen, nach Thema und Dringlichkeit eingeordnet und an die richtige Person weitergeleitet. Für Standardfragen entsteht ein Antwortentwurf, den Ihr Team nur noch prüft und abschickt."
+      ]
+    },
+    {
+      "h": "2. Offerten schneller erstellen",
+      "p": [
+        "Aus Gesprächsnotizen oder einem ausgefüllten Formular erstellt die KI einen Offertentwurf auf Basis Ihrer Vorlagen und Preislisten. Die Verantwortung für Preis und Inhalt bleibt bei Ihnen, die Fleissarbeit nicht."
+      ]
+    },
+    {
+      "h": "3. Social-Media-Inhalte vorbereiten",
+      "p": [
+        "Aus einem Blogartikel, einem Projekt oder einer Produktneuheit entstehen Textvorschläge für LinkedIn und Instagram in Ihrer Tonalität. Ein Redaktionsplan sorgt dafür, dass regelmässig gepostet wird, auch in hektischen Wochen."
+      ]
+    },
+    {
+      "h": "4. Reporting ohne Copy-Paste",
+      "p": [
+        "Zahlen aus Google Ads, Meta, Website-Analytics oder dem Onlineshop werden automatisch zusammengeführt. Statt Tabellen manuell zu füllen, erhalten Sie jeden Montag eine kurze Zusammenfassung mit den wichtigsten Veränderungen."
+      ]
+    },
+    {
+      "h": "5. Wissen intern zugänglich machen",
+      "p": [
+        "Handbücher, Produktdaten und häufige Kundenfragen werden in einem internen Assistenten gebündelt. Neue Mitarbeitende finden Antworten selbst, statt Kolleginnen und Kollegen zu unterbrechen."
+      ]
+    },
+    {
+      "h": "Worauf Sie achten sollten",
+      "list": [
+        "**Datenschutz (revDSG):** Klären Sie, welche Daten an welche Dienste gehen und wo sie verarbeitet werden. Personendaten nur mit geeigneten Verträgen und so sparsam wie möglich verwenden.",
+        "**Mensch bleibt verantwortlich:** KI erstellt Entwürfe, die Freigabe bleibt beim Team, besonders bei Offerten und Kundenkommunikation.",
+        "**Klein anfangen, messen, ausbauen:** Ein Ablauf, eine klare Kennzahl (z. B. gesparte Stunden pro Woche), dann der nächste.",
+        "**Bestehende Tools nutzen:** Viele Automatisierungen lassen sich mit Werkzeugen umsetzen, die Sie bereits haben, etwa E-Mail, CRM oder Tabellen."
+      ]
+    },
+    {
+      "h": "Fazit",
+      "p": [
+        "KI-Automatisierung muss weder teuer noch kompliziert sein. Der grösste Hebel liegt in den Routinen, die heute niemand gerne macht. Wer dort beginnt, spart schnell Zeit und schafft Raum für die Arbeit, die wirklich Wert schafft."
+      ],
+      "more": {
+        "label": "KI-Automatisierung",
+        "to": "service-automation"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": "Brauchen wir dafür eigene Entwicklerinnen und Entwickler?",
+      "a": "Nein. Viele Abläufe lassen sich mit bestehenden Tools und etwas Konfiguration umsetzen. Für komplexere Fälle unterstützen wir."
+    },
+    {
+      "q": "Ist KI-Automatisierung mit dem Schweizer Datenschutz vereinbar?",
+      "a": "Ja, wenn Datenflüsse geklärt, Verträge vorhanden und Personendaten minimiert werden."
+    },
+    {
+      "q": "Wie schnell sieht man Ergebnisse?",
+      "a": "Einfache Automatisierungen laufen oft nach wenigen Wochen und sparen ab dann jede Woche Zeit."
+    }
+  ]
+}

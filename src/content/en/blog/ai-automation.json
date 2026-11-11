@@ -1,0 +1,77 @@
+{
+  "_review": "",
+  "breadcrumb": "AI automation for SMEs",
+  "meta": {
+    "title": "AI automation for SMEs: 5 workflows that pay off | Renee",
+    "description": "Enquiries, quotes, social media, reporting, customer service: five workflows Swiss SMEs can automate with AI, and what to watch for on data protection."
+  },
+  "title": "AI automation for SMEs: 5 workflows that pay off straight away",
+  "author": "Renee Studio",
+  "date": "2026-11-10",
+  "summary": "Artificial intelligence has arrived in the everyday work of SMEs. But instead of a large digitalisation project, a pragmatic start often pays off more: individual, recurring workflows that eat up time today. Five examples you can put in place within a few weeks.",
+  "sections": [
+    {
+      "h": "1. Sort and answer enquiries automatically",
+      "p": [
+        "Incoming enquiries by form or email are read by an AI, classified by topic and urgency, and forwarded to the right person. For standard questions, a draft reply is prepared that your team only needs to check and send."
+      ]
+    },
+    {
+      "h": "2. Create quotes faster",
+      "p": [
+        "From call notes or a completed form, the AI drafts a quote based on your templates and price lists. Responsibility for price and content stays with you; the legwork doesn't."
+      ]
+    },
+    {
+      "h": "3. Prepare social media content",
+      "p": [
+        "A blog article, a project or a product launch becomes suggested copy for LinkedIn and Instagram in your tone of voice. A content calendar makes sure you post regularly, even in hectic weeks."
+      ]
+    },
+    {
+      "h": "4. Reporting without copy and paste",
+      "p": [
+        "Figures from Google Ads, Meta, website analytics or your online shop are merged automatically. Instead of filling in spreadsheets by hand, you receive a short summary of the most important changes every Monday."
+      ]
+    },
+    {
+      "h": "5. Make internal knowledge accessible",
+      "p": [
+        "Manuals, product data and frequent customer questions are brought together in an internal assistant. New employees find answers themselves instead of interrupting colleagues."
+      ]
+    },
+    {
+      "h": "What to watch out for",
+      "list": [
+        "**Data protection (Swiss FADP):** Clarify which data goes to which services and where it is processed. Use personal data only with suitable contracts and as sparingly as possible.",
+        "**People stay responsible:** AI creates drafts; approval stays with the team, especially for quotes and customer communication.",
+        "**Start small, measure, expand:** One workflow, one clear metric (e.g. hours saved per week), then the next.",
+        "**Use existing tools:** Many automations can be built with tools you already have, such as email, a CRM or spreadsheets."
+      ]
+    },
+    {
+      "h": "Conclusion",
+      "p": [
+        "AI automation doesn't have to be expensive or complicated. The biggest lever lies in the routines nobody enjoys today. Start there, and you save time quickly and make room for the work that really creates value."
+      ],
+      "more": {
+        "label": "AI automation",
+        "to": "service-automation"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do we need our own developers for this?",
+      "a": "No. Many workflows can be set up with existing tools and a little configuration. For more complex cases, we can help."
+    },
+    {
+      "q": "Is AI automation compatible with Swiss data protection law?",
+      "a": "Yes, as long as data flows are clarified, contracts are in place and personal data is kept to a minimum."
+    },
+    {
+      "q": "How quickly will we see results?",
+      "a": "Simple automations are often running after a few weeks and save time every week from then on."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "skip": "Zum Inhalt springen",
   "notFound": "Seite nicht gefunden. Zur deutschen Startseite",
   "languageNames": { "de": "Deutsch", "en": "English", "fr": "Français" },
-  "nav": { "agencies": "Für Agenturen", "services": "Leistungen", "work": "Arbeiten", "pricing": "Preise", "kiCheck": "KI-Check", "about": "Über uns", "blog": "Wissen", "contact": "Kontakt", "home": "Startseite", "menu": "Menü", "languages": "Sprache wählen", "primaryLabel": "Hauptnavigation", "breadcrumb": "Brotkrumen" },
+  "nav": { "logoAlt": "Renee – zur Startseite", "agencies": "Für Agenturen", "services": "Leistungen", "work": "Arbeiten", "pricing": "Preise", "kiCheck": "KI-Check", "about": "Über uns", "blog": "Wissen", "contact": "Kontakt", "home": "Startseite", "menu": "Menü", "languages": "Sprache wählen", "primaryLabel": "Hauptnavigation", "breadcrumb": "Brotkrumen" },
   "cta": { "primary": "Kostenloses Erstgespräch (20 Min.)", "short": "Erstgespräch buchen", "check": "KI-Check anfordern", "checkLink": "Oder: Kostenloser KI-Sichtbarkeits-Check", "agency": "Partner-Gespräch buchen", "more": "Mehr erfahren", "allServices": "Alle Leistungen", "allWork": "Alle Arbeiten" },
   "price": { "from": "ab CHF {n}", "exact": "CHF {n}", "units": { "month": "/Monat", "hour": "/h", "render": " pro Rendering", "project": " pro Projekt", "once": " einmalig" }, "plusMedia": " + Mediabudget", "vat": "zzgl. MwSt." },
   "facts": { "title": "Auf einen Blick", "who": "Für wen", "what": "Was", "price": "Preis", "delivery": "Lieferzeit" },
@@ -14,6 +14,7 @@
   "articleLabels": { "toc": "Inhalt", "reading": "{n} Min. Lesezeit" },
   "cal": { "title": "Termin wählen", "close": "Schliessen", "note": "Terminbuchung über Cal.com" },
   "finalCta": { "eyebrow": "Nächster Schritt", "title": "20 Minuten. Danach wissen Sie, ob es passt.", "text": "Im Erstgespräch klären wir Ihren Bedarf, den Zeitrahmen und den Preisrahmen. Eine Offerte erhalten Sie innert {{stat.offer}} Stunden." },
+  "social": { "title": "Social Media", "instagram": "Renee auf Instagram", "linkedin": "Renee auf LinkedIn" },
   "footer": { "honesty": "Unser Studio ist in Ankara. Wir arbeiten remote für die Schweiz und haben dort kein Büro.", "location": "Ankara, Türkei", "servicesTitle": "Leistungen", "companyTitle": "Renee", "hours": "Mo–Fr {{hours.from}}–{{hours.to}} (Schweizer Zeit)", "impressum": "Impressum", "privacy": "Datenschutz", "terms": "AGB" },
   "forms": {
     "name": "Name", "company": "Unternehmen", "agencyName": "Name der Agentur", "website": "Website", "email": "E-Mail", "phone": "Telefon", "city": "Ort", "industry": "Branche", "message": "Ihre Nachricht", "optional": "(optional)", "send": "Nachricht senden",

@@ -1,0 +1,111 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Rebranding für KMU",
+  "meta": {
+    "title": "Rebranding für KMU: 7 Anzeichen für ein Update | Renee",
+    "description": "Wann lohnt sich ein Rebranding? Sieben klare Anzeichen, typische Fehler und wie Schweizer KMU ihre Marke erneuern, ohne Wiedererkennung zu verlieren."
+  },
+  "title": "Rebranding für KMU: 7 Anzeichen, dass Ihre Marke ein Update braucht",
+  "author": "Renee Studio",
+  "date": "2026-11-10",
+  "summary": "Eine Marke altert leise. Das Logo funktionierte einmal, die Farben passten zum Zeitgeist, die Website war modern. Dann wächst das Unternehmen, das Angebot verändert sich, und plötzlich erzählt der Auftritt eine Geschichte, die nicht mehr stimmt. Woran Sie erkennen, dass ein Update fällig ist, und wie Sie es angehen, ohne das Vertrauen Ihrer Kundschaft zu verspielen.",
+  "sections": [
+    {
+      "h": "Rebranding oder Refresh?",
+      "p": [
+        "Nicht jede Veränderung ist ein komplettes Rebranding. Ein **Refresh** modernisiert bestehende Elemente: Schrift, Farben, Bildsprache, Logo-Feinschliff. Ein **Rebranding** geht tiefer und betrifft Positionierung, Name, Botschaft und manchmal die gesamte Identität. Für die meisten KMU ist ein gezielter Refresh der richtige erste Schritt."
+      ]
+    },
+    {
+      "h": "7 Anzeichen, dass Ihre Marke ein Update braucht",
+      "sub": [
+        {
+          "h": "1. Ihr Angebot hat sich verändert, Ihr Auftritt nicht",
+          "p": [
+            "Sie haben neue Leistungen, neue Zielgruppen oder einen neuen Markt, aber Logo, Claim und Website sprechen noch die Sprache von vor zehn Jahren."
+          ]
+        },
+        {
+          "h": "2. Ihre Marke sieht auf jedem Kanal anders aus",
+          "p": [
+            "Website, Offerten, Social Media und Fahrzeugbeschriftung wirken wie von verschiedenen Firmen. Fehlende Konsistenz kostet Wiedererkennung und damit Vertrauen."
+          ]
+        },
+        {
+          "h": "3. Das Logo funktioniert digital nicht",
+          "p": [
+            "Zu fein, zu viele Details, unlesbar als Favicon oder Profilbild. Ein modernes Logo muss auf 32 Pixeln genauso funktionieren wie auf einer Messewand."
+          ]
+        },
+        {
+          "h": "4. Sie erklären ständig, was Sie eigentlich machen",
+          "p": [
+            "Wenn Interessenten nach dem ersten Kontakt nachfragen müssen, was genau Sie anbieten, transportiert Ihre Marke die Positionierung nicht."
+          ]
+        },
+        {
+          "h": "5. Ihre Konkurrenz wirkt professioneller, obwohl Sie besser sind",
+          "p": [
+            "Kundinnen und Kunden vergleichen in Sekunden. Ein veralteter Auftritt lässt auch starke Leistungen kleiner wirken."
+          ]
+        },
+        {
+          "h": "6. Sie gewinnen nicht die Kundschaft, die Sie wollen",
+          "p": [
+            "Wenn vor allem preissensible Anfragen kommen, sendet Ihre Marke womöglich die falschen Signale."
+          ]
+        },
+        {
+          "h": "7. Ihr Team ist nicht stolz auf den Auftritt",
+          "p": [
+            "Wenn Mitarbeitende Visitenkarten ungern abgeben oder die Website im Gespräch lieber nicht erwähnen, ist das ein ehrliches Warnsignal."
+          ]
+        }
+      ]
+    },
+    {
+      "h": "So gehen Sie ein Rebranding strukturiert an",
+      "listStyle": "ol",
+      "list": [
+        "**Bestandsaufnahme:** Was funktioniert heute? Was erkennen Kundinnen und Kunden wieder? Diese Elemente bewusst behalten.",
+        "**Positionierung schärfen:** Für wen sind Sie da, was unterscheidet Sie, welches Versprechen geben Sie? Erst danach wird gestaltet.",
+        "**Visuelles System entwickeln:** Logo, Farben, Typografie, Bildsprache und Gestaltungsraster als System, nicht als Einzelteile.",
+        "**Anwendungen priorisieren:** Zuerst die Kontaktpunkte mit der grössten Wirkung: Website, Offertvorlagen, Social-Media-Profile.",
+        "**Sauber einführen:** Ein kurzes Markenhandbuch und fertige Vorlagen sorgen dafür, dass der neue Auftritt im Alltag konsistent bleibt."
+      ]
+    },
+    {
+      "h": "Typische Fehler",
+      "list": [
+        "Alles auf einmal ändern und dabei die Wiedererkennung verlieren",
+        "Nur das Logo erneuern, aber Website und Vorlagen vergessen",
+        "Gestalten, bevor die Positionierung klar ist",
+        "Kein Markenhandbuch, sodass nach drei Monaten wieder Wildwuchs entsteht"
+      ]
+    },
+    {
+      "h": "Fazit",
+      "p": [
+        "Ein gutes Rebranding fühlt sich für bestehende Kundschaft vertraut an und überzeugt neue Zielgruppen auf den ersten Blick. Entscheidend ist nicht die Grösse der Veränderung, sondern dass Marke und Unternehmen wieder dieselbe Geschichte erzählen."
+      ],
+      "more": {
+        "label": "Branding & Corporate Identity",
+        "to": "service-branding"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was kostet ein Rebranding für ein KMU?",
+      "a": "Das hängt vom Umfang ab. Ein Refresh mit überarbeitetem Logo, Farb- und Schriftsystem ist deutlich günstiger als eine komplette Neupositionierung. Unsere Einstiegspreise finden Sie auf der [Preisseite](@pricing)."
+    },
+    {
+      "q": "Wie lange dauert ein Rebranding?",
+      "a": "Ein Refresh dauert typischerweise einige Wochen, ein umfassendes Rebranding inklusive Website eher zwei bis drei Monate."
+    },
+    {
+      "q": "Verlieren wir durch ein Rebranding Kundschaft?",
+      "a": "Nicht, wenn wiedererkennbare Elemente bewusst weitergeführt und die Veränderung aktiv kommuniziert wird."
+    }
+  ]
+}

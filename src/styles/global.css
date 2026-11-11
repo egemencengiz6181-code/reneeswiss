@@ -81,6 +81,13 @@
   .prose-rn ul { list-style: none; padding: 0; margin-bottom: 16px; }
   .prose-rn li { padding-left: 20px; position: relative; margin-bottom: 8px; }
   .prose-rn li::before { content: ''; position: absolute; left: 0; top: 0.72em; width: 10px; height: 1px; background: currentColor; }
+  .prose-rn h3 { font-size: clamp(19px, 1.6vw, 22px); line-height: 1.25; font-weight: 500; margin-top: 32px; margin-bottom: 8px; }
+  .prose-rn ol { list-style: none; padding: 0; margin-bottom: 16px; counter-reset: rn; }
+  .prose-rn ol > li { counter-increment: rn; padding-left: 32px; }
+  .prose-rn ol > li::before { content: counter(rn) '.'; width: auto; height: auto; top: 0; background: none; font-variant-numeric: tabular-nums; }
+  .prose-rn ul.checklist > li { padding-left: 30px; }
+  .prose-rn ul.checklist > li::before { top: 0.3em; width: 16px; height: 16px; background: none; border: 1px solid currentColor; }
+  .prose-rn code { font-size: 0.9em; padding: 1px 5px; background: var(--color-mist); border-radius: 3px; }
 
   .dash-list { list-style: none; padding: 0; }
   .dash-list li { display: grid; grid-template-columns: 20px 1fr; padding-block: 10px; border-top: 1px solid var(--color-line); }

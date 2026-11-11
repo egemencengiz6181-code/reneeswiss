@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import site from '../config/site.json';
-import { href, LOCALES } from '../lib/routes';
+import { ARTICLE_IDS, href, LOCALES } from '../lib/routes';
 import { formatPrice, load, services } from '../lib/content';
 
 // Summary for AI crawlers: English, generated from the same config and content as the site.
@@ -8,6 +8,7 @@ export const GET: APIRoute = ({ site: url }) => {
   const o = url!.origin;
   const l = 'en' as const;
   const c = load(l, 'common');
+  const articles = ARTICLE_IDS.map((id) => ({ id, ...load(l, `blog/${id}`) })).sort((a, b) => b.date.localeCompare(a.date));
   const lines = [
     '# Renee',
     '',
@@ -20,9 +21,15 @@ export const GET: APIRoute = ({ site: url }) => {
     ...services(l).map((s) => `- [${s.name}](${o}${href(l, `service-${s.id}`)}): ${s.short} Price: ${formatPrice(s.id, l)}. Delivery: ${s.timeline}.`),
     `- White-label for agencies: ${formatPrice('agencyHour', l)}. [Details](${o}${href(l, 'agencies')})`,
     '',
+    '## Insights (articles)',
+    ...articles.map((a) => `- [${a.title}](${o}${href(l, `article-${a.id}`)}) (${a.date}): ${a.meta.description}`),
+    '',
     '## Contact',
     `- Email: ${site.email}`,
     `- Phone: ${site.phone}`,
+    `- Location: Ankara, Turkey (remote studio, no office in Switzerland)`,
+    `- Instagram: ${site.social.instagram}`,
+    `- LinkedIn: ${site.social.linkedin}`,
     `- Free 20-minute intro call: ${o}${href(l, 'contact')}`,
     `- Free AI visibility check: ${o}${href(l, 'ki-check')}`,
     '',

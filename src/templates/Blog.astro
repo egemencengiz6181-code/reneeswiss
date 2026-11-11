@@ -5,7 +5,8 @@ const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c
 import { ARTICLE_IDS, href } from '../lib/routes';
 import { load, formatDate } from '../lib/content';
 import PageHead from '../components/PageHead.astro';
-const list = ARTICLE_IDS.map((id) => ({ id, ...load(locale, `blog/${id}`) }));
+// Newest first; articles from the same day keep their order in ARTICLE_IDS.
+const list = ARTICLE_IDS.map((id) => ({ id, ...load(locale, `blog/${id}`) })).sort((a, b) => b.date.localeCompare(a.date));
 ---
 <Layout locale={locale} route={route} meta={p.meta}>
   <PageHead eyebrow={p.eyebrow} title={p.h1} lead={p.lead} />

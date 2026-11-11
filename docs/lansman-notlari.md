@@ -40,7 +40,7 @@ Yayın öncesi `npm run launch-check` bunların çoğunu yakalar.
 - [x] Impressum: ad, hukuki biçim, açık adres, sicil müdürlüğü, sorumlu kişi. Vergi no ve kimlik no sitede yayınlanmaz.
 - [ ] Form alıcısı (`FORWARD_URL`) ve Turnstile anahtarları
 - [ ] Gizlilik metnindeki sağlayıcılar: `site.json` → `legal.formProcessor` ve `legal.mailProcessor`. Boş alanın satırı sayfada görünmez; form veya e-posta servisi devreye girmeden doldurun.
-- [ ] E-posta: şu an info@reneedesignlab.com, yeni alan adı alınca değiştirin
+- [x] E-posta: info@reneestudio.ch (11.11.2026)
 - [ ] Almanca ve Fransızca anadil kontrolü: `docs/native-review.md`
 - [ ] Datenschutzerklärung ve AGB için İsviçre hukukçusu kontrolü (AGB şu an yer tutucu)
 

@@ -5,7 +5,7 @@
   "skip": "Skip to content",
   "notFound": "Page not found. Go to the English homepage",
   "languageNames": { "de": "Deutsch", "en": "English", "fr": "Français" },
-  "nav": { "agencies": "For agencies", "services": "Services", "work": "Work", "pricing": "Pricing", "kiCheck": "AI check", "about": "About", "blog": "Insights", "contact": "Contact", "home": "Home", "menu": "Menu", "languages": "Choose language", "primaryLabel": "Main navigation", "breadcrumb": "Breadcrumb" },
+  "nav": { "logoAlt": "Renee – go to home page", "agencies": "For agencies", "services": "Services", "work": "Work", "pricing": "Pricing", "kiCheck": "AI check", "about": "About", "blog": "Insights", "contact": "Contact", "home": "Home", "menu": "Menu", "languages": "Choose language", "primaryLabel": "Main navigation", "breadcrumb": "Breadcrumb" },
   "cta": { "primary": "Free intro call (20 min)", "short": "Book an intro call", "check": "Request AI check", "checkLink": "Or: free AI visibility check", "agency": "Book a partner call", "more": "Learn more", "allServices": "All services", "allWork": "All work" },
   "price": { "from": "from CHF {n}", "exact": "CHF {n}", "units": { "month": "/month", "hour": "/h", "render": " per render", "project": " per project", "once": " one-off" }, "plusMedia": " + media budget", "vat": "excl. VAT." },
   "facts": { "title": "At a glance", "who": "Who it's for", "what": "What", "price": "Price", "delivery": "Delivery time" },
@@ -14,6 +14,7 @@
   "articleLabels": { "toc": "Contents", "reading": "{n} min read" },
   "cal": { "title": "Choose a time", "close": "Close", "note": "Appointments booked via Cal.com" },
   "finalCta": { "eyebrow": "Next step", "title": "20 minutes. Then you'll know if it's a fit.", "text": "In the intro call we clarify your needs, timeline and budget range. You'll receive a quote within {{stat.offer}} hours." },
+  "social": { "title": "Social media", "instagram": "Renee on Instagram", "linkedin": "Renee on LinkedIn" },
   "footer": { "honesty": "Our studio is in Ankara. We work remotely for Swiss clients, without a Swiss office.", "location": "Ankara, Turkey", "servicesTitle": "Services", "companyTitle": "Renee", "hours": "Mon–Fri {{hours.from}}–{{hours.to}} (Swiss time)", "impressum": "Legal notice", "privacy": "Privacy", "terms": "Terms" },
   "forms": {
     "name": "Name", "company": "Company", "agencyName": "Agency name", "website": "Website", "email": "Email", "phone": "Phone", "city": "City", "industry": "Industry", "message": "Your message", "optional": "(optional)", "send": "Send message",
@@ -29,7 +30,7 @@
       "Has worked for {{stat.brands}}+ brands.",
       "Has delivered {{stat.identities}}+ corporate identity projects.",
       "Replies within {{stat.response}} hours during office hours. Quotes within {{stat.offer}} hours of the intro call.",
-      "Working languages: German, French and English."
+      "Working languages: German, French or English."
     ]
   }
 }

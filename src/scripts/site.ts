@@ -8,6 +8,15 @@ onScroll();
 
 // Mobile menu: native <details>, plus Escape to close.
 const menu = document.querySelector<HTMLDetailsElement>('details.menu');
+// Only the active label ("Menu" or "Close") is exposed to screen readers and crawlers.
+menu?.addEventListener('toggle', () => {
+  menu.querySelectorAll<HTMLElement>('.menu-open, .menu-close').forEach((el) => {
+    const hide = el.classList.contains('menu-open') === menu.open;
+    el.hidden = hide;
+    if (hide) el.setAttribute('aria-hidden', 'true');
+    else el.removeAttribute('aria-hidden');
+  });
+});
 addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && menu?.open) menu.open = false;
 });

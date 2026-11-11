@@ -1,0 +1,77 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Automatisation IA pour PME",
+  "meta": {
+    "title": "Automatisation IA pour PME : 5 processus rentables | Renee",
+    "description": "Demandes, offres, réseaux sociaux, reporting, service client : cinq processus que les PME suisses peuvent automatiser avec l'IA, en respectant la nLPD."
+  },
+  "title": "Automatisation IA pour PME : 5 processus rentables dès le départ",
+  "author": "Renee Studio",
+  "date": "2026-11-10",
+  "summary": "L'intelligence artificielle est arrivée dans le quotidien des PME. Mais plutôt qu'un grand projet de digitalisation, un démarrage pragmatique est souvent plus payant : des processus isolés et récurrents qui font perdre du temps aujourd'hui. Cinq exemples réalisables en quelques semaines.",
+  "sections": [
+    {
+      "h": "1. Trier et répondre automatiquement aux demandes",
+      "p": [
+        "Les demandes reçues par formulaire ou par e-mail sont lues par une IA, classées par thème et par urgence, puis transmises à la bonne personne. Pour les questions courantes, un projet de réponse est préparé : votre équipe n'a plus qu'à le vérifier et à l'envoyer."
+      ]
+    },
+    {
+      "h": "2. Établir des offres plus rapidement",
+      "p": [
+        "À partir de notes d'entretien ou d'un formulaire rempli, l'IA rédige un projet d'offre sur la base de vos modèles et de vos listes de prix. La responsabilité du prix et du contenu vous revient, le travail fastidieux non."
+      ]
+    },
+    {
+      "h": "3. Préparer les contenus pour les réseaux sociaux",
+      "p": [
+        "Un article de blog, un projet ou une nouveauté produit donne lieu à des propositions de textes pour LinkedIn et Instagram, dans votre ton. Un calendrier éditorial garantit des publications régulières, même pendant les semaines chargées."
+      ]
+    },
+    {
+      "h": "4. Un reporting sans copier-coller",
+      "p": [
+        "Les chiffres de Google Ads, Meta, de l'analyse de votre site ou de votre boutique en ligne sont regroupés automatiquement. Au lieu de remplir des tableaux à la main, vous recevez chaque lundi un bref résumé des principales évolutions."
+      ]
+    },
+    {
+      "h": "5. Rendre le savoir interne accessible",
+      "p": [
+        "Manuels, données produits et questions fréquentes de la clientèle sont réunis dans un assistant interne. Les nouvelles recrues trouvent elles-mêmes les réponses, au lieu d'interrompre leurs collègues."
+      ]
+    },
+    {
+      "h": "Les points à surveiller",
+      "list": [
+        "**Protection des données (nLPD) :** déterminez quelles données vont vers quels services et où elles sont traitées. N'utilisez des données personnelles qu'avec des contrats appropriés et avec la plus grande parcimonie.",
+        "**L'humain reste responsable :** l'IA produit des projets, la validation reste à l'équipe, en particulier pour les offres et la communication avec la clientèle.",
+        "**Commencer petit, mesurer, étendre :** un processus, un indicateur clair (p. ex. heures gagnées par semaine), puis le suivant.",
+        "**Utiliser les outils existants :** de nombreuses automatisations se réalisent avec des outils dont vous disposez déjà, comme la messagerie, le CRM ou les tableurs."
+      ]
+    },
+    {
+      "h": "Conclusion",
+      "p": [
+        "L'automatisation par l'IA ne doit être ni coûteuse ni compliquée. Le plus grand levier se trouve dans les routines que personne n'aime faire aujourd'hui. En commençant par là, vous gagnez rapidement du temps et libérez de la place pour le travail qui crée vraiment de la valeur."
+      ],
+      "more": {
+        "label": "Automatisation IA",
+        "to": "service-automation"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": "Avons-nous besoin de nos propres développeuses et développeurs ?",
+      "a": "Non. De nombreux processus se mettent en place avec des outils existants et un peu de configuration. Pour les cas plus complexes, nous vous accompagnons."
+    },
+    {
+      "q": "L'automatisation par l'IA est-elle compatible avec la protection des données suisse ?",
+      "a": "Oui, si les flux de données sont clarifiés, les contrats en place et les données personnelles réduites au minimum."
+    },
+    {
+      "q": "En combien de temps voit-on des résultats ?",
+      "a": "Les automatisations simples fonctionnent souvent après quelques semaines et font ensuite gagner du temps chaque semaine."
+    }
+  ]
+}

@@ -18,6 +18,7 @@ const c = common(locale);
         <div class="py-4 border-b border-line"><dt class="muted text-[15px]">{p.labels.phone}</dt><dd class="mt-1"><a class="link" href={`tel:${site.phoneHref}`}>{site.phone}</a></dd></div>
         <div class="py-4 border-b border-line"><dt class="muted text-[15px]">{p.labels.hours}</dt><dd class="mt-1">{c.footer.hours}</dd></div>
         <div class="py-4 border-b border-line"><dt class="muted text-[15px]">{p.labels.location}</dt><dd class="mt-1">{p.location}</dd></div>
+        <div class="py-4 border-b border-line"><dt class="muted text-[15px]">{c.social.title}</dt><dd class="mt-1 flex gap-4"><a class="link" href={site.social.instagram} rel="noopener" aria-label={c.social.instagram}>Instagram</a><a class="link" href={site.social.linkedin} rel="noopener" aria-label={c.social.linkedin}>LinkedIn</a></dd></div>
       </dl>
       <div class="flex flex-wrap gap-3 mt-8">
         <CalButton locale={locale} label={c.cta.primary} />

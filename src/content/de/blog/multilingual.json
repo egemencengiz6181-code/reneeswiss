@@ -1,0 +1,100 @@
+{
+  "_review": "TODO: native review needed",
+  "breadcrumb": "Mehrsprachige Website",
+  "meta": {
+    "title": "Mehrsprachige Website Schweiz: richtig umsetzen | Renee",
+    "description": "Deutsch, Französisch, Italienisch, Englisch: Wie Schweizer Firmen eine mehrsprachige Website planen, übersetzen und für Google und KI-Suche optimieren."
+  },
+  "title": "Mehrsprachige Website in der Schweiz: So machen Sie es richtig",
+  "author": "Renee Studio",
+  "date": "2026-11-10",
+  "summary": "In kaum einem Land ist Mehrsprachigkeit so selbstverständlich wie in der Schweiz. Wer nur auf Deutsch kommuniziert, erreicht die Romandie und das Tessin kaum. Gleichzeitig machen viele mehrsprachige Websites technische und inhaltliche Fehler, die Sichtbarkeit kosten. Ein Leitfaden für Entscheidungen, Umsetzung und SEO.",
+  "sections": [
+    {
+      "h": "Welche Sprachen brauchen Sie wirklich?",
+      "p": [
+        "Orientieren Sie sich an Ihrer Kundschaft, nicht an der Landkarte. Typische Kombinationen:"
+      ],
+      "list": [
+        "**Deutsch und Französisch** für Unternehmen, die in der Deutschschweiz und der Romandie tätig sind",
+        "**Plus Italienisch**, wenn das Tessin ein relevanter Markt ist",
+        "**Plus Englisch** für internationale Kundschaft, Expats oder B2B mit globalen Konzernen"
+      ],
+      "after": [
+        "Lieber zwei Sprachen in hoher Qualität als vier halbherzig übersetzte."
+      ]
+    },
+    {
+      "h": "Übersetzen oder lokalisieren?",
+      "p": [
+        "Eine wörtliche Übersetzung reicht selten. Romands suchen mit anderen Begriffen als Deutschschweizer, Beispiele, Anrede und Tonalität unterscheiden sich. **Lokalisieren** heisst: Inhalte an Sprache, Kultur und Suchverhalten anpassen. KI-Übersetzungen sind ein guter Startpunkt, sollten aber immer von einer Person mit Sprachgefühl geprüft werden."
+      ]
+    },
+    {
+      "h": "Die technische Struktur",
+      "list": [
+        "**Eigene URLs pro Sprache:** z. B. `/de/`, `/fr/`, `/it/`. Keine Sprachumschaltung nur per Cookie oder Skript, sonst sieht Google nur eine Version.",
+        "**hreflang-Tags:** Sie sagen Suchmaschinen, welche Seite welcher Sprachversion entspricht (z. B. `de-CH`, `fr-CH`) und vermeiden Duplicate-Content-Probleme.",
+        "**Übersetzte Slugs und Metadaten:** Seitentitel, Beschreibungen und URL-Pfade gehören ebenfalls in die jeweilige Sprache.",
+        "**Sichtbarer Sprachumschalter:** Er führt auf die entsprechende Seite in der anderen Sprache, nicht zurück zur Startseite.",
+        "**Keine automatische Weiterleitung nach IP:** Besucherinnen und Besucher (und Crawler) sollen die gewünschte Sprache selbst wählen können."
+      ]
+    },
+    {
+      "h": "SEO und KI-Sichtbarkeit pro Sprache",
+      "p": [
+        "Jede Sprachversion ist für Suchmaschinen eine eigene Website mit eigenen Suchbegriffen. Machen Sie die Keyword-Recherche pro Sprache, nicht nur einmal auf Deutsch. Auch KI-Assistenten wie ChatGPT oder Perplexity beantworten Fragen in der Sprache der Anfrage: Wer auf Französisch keine guten Inhalte hat, wird auf Französisch kaum empfohlen."
+      ],
+      "more": {
+        "label": "SEO + KI-Sichtbarkeit",
+        "to": "service-seo"
+      }
+    },
+    {
+      "h": "Typische Fehler",
+      "list": [
+        "Nur die Startseite übersetzen, Unterseiten bleiben deutsch",
+        "Fehlende oder falsche hreflang-Angaben",
+        "Formulare, Fehlermeldungen und E-Mails bleiben einsprachig",
+        "Rechtstexte (Impressum, Datenschutz) fehlen in den anderen Sprachen",
+        "Neue Inhalte erscheinen nur in einer Sprache, die anderen veralten"
+      ]
+    },
+    {
+      "h": "Checkliste vor dem Launch",
+      "listStyle": "check",
+      "list": [
+        "Alle Seiten in allen Sprachen vorhanden",
+        "hreflang inklusive `x-default` gesetzt",
+        "Sitemap enthält alle Sprachversionen",
+        "Metadaten, Alt-Texte und Formulare übersetzt",
+        "Sprachumschalter führt auf die Entsprechung",
+        "Prozess für künftige Inhalte festgelegt"
+      ]
+    },
+    {
+      "h": "Fazit",
+      "p": [
+        "Eine mehrsprachige Website ist in der Schweiz kein Extra, sondern Grundausstattung für Wachstum über die Sprachgrenze hinweg. Mit sauberer Struktur und lokalisierten Inhalten wird sie zu einem echten Vorteil gegenüber der Konkurrenz."
+      ],
+      "more": {
+        "label": "Websites",
+        "to": "service-website"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": "Reicht eine automatische Übersetzung per Plugin?",
+      "a": "Für den Einstieg vielleicht, für Vertrauen und SEO meist nicht. Inhalte sollten geprüft und lokalisiert werden."
+    },
+    {
+      "q": "Braucht jede Sprache eine eigene Domain?",
+      "a": "Nein. Unterverzeichnisse wie `/fr/` auf einer `.ch`-Domain sind für die meisten KMU die einfachste und stärkste Lösung."
+    },
+    {
+      "q": "Was kostet eine mehrsprachige Website?",
+      "a": "Mehr Sprachen bedeuten mehr Inhalt und Pflege. Eine Orientierung gibt unser Artikel [Was kostet eine Website in der Schweiz?](@article-website-cost)."
+    }
+  ]
+}

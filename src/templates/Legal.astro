@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import type { Locale, Route } from '../lib/routes';
 import { MISSING } from '../lib/content';
+import { inline } from '../lib/inline';
 const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
 const known = (lines?: string[]) => lines?.filter((t) => !t.includes(MISSING)).map((t) => t.trim());
 const sections = p.sections
@@ -15,8 +16,8 @@ const sections = p.sections
     {sections.map((s: any) => (
       <>
         <h2>{s.h}</h2>
-        {s.p?.map((t: string) => <p>{t}</p>)}
-        {s.list && <ul>{s.list.map((t: string) => <li>{t}</li>)}</ul>}
+        {s.p?.map((t: string) => <p set:html={inline(t, locale)} />)}
+        {s.list && <ul>{s.list.map((t: string) => <li set:html={inline(t, locale)} />)}</ul>}
       </>
     ))}
     {p.updated && <p class="muted text-[15px] mt-12">{p.updated}</p>}

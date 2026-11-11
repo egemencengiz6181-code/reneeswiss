@@ -2,32 +2,55 @@
 import Layout from '../layouts/Layout.astro';
 import type { Locale, Route } from '../lib/routes';
 const { locale, route, c: p } = Astro.props as { locale: Locale; route: Route; c: any };
-import { pathOf } from '../lib/routes';
+import { href, pathOf } from '../lib/routes';
 import { common, formatDate, articleWords } from '../lib/content';
-import { articleLd } from '../lib/schema';
+import { articleLd, faqLd } from '../lib/schema';
+import { inline } from '../lib/inline';
+import Faq from '../components/Faq.astro';
 import FinalCta from '../components/FinalCta.astro';
-const L = common(locale).articleLabels;
+const c = common(locale);
+const L = c.articleLabels;
 const minutes = Math.max(1, Math.round(articleWords(p) / 200));
 const anchor = (i: number) => `s${i + 1}`;
+const faq: { q: string; a: string }[] = p.faq ?? [];
+const toc = [...p.sections.map((s: any, i: number) => ({ id: anchor(i), h: s.h })), ...(faq.length ? [{ id: 'faq', h: c.serviceLabels.faq }] : [])];
+const md = (t: string) => inline(t, locale);
+// Section shape: { h, p?, sub?: [{ h, p }], list?, listStyle?: 'ol' | 'check', after?, more?: { label, to } }
 ---
-<Layout locale={locale} route={route} meta={p.meta} jsonLd={[articleLd(Astro.site!.origin, pathOf(route, locale), { ...p, id: route.param }, locale)]}>
+<Layout locale={locale} route={route} meta={p.meta} jsonLd={[articleLd(Astro.site!.origin, pathOf(route, locale), { ...p, id: route.param }, locale), ...(faq.length ? [faqLd(faq)] : [])]}>
   <article class="wrap pt-10 lg:pt-16 pb-20">
     <h1 class="title max-w-[26ch]">{p.title}</h1>
     <p class="muted text-[15px] mt-6">{p.author} · <time datetime={p.date}>{formatDate(p.date)}</time> · {L.reading.replace('{n}', String(minutes))}</p>
     <div class="grid-12 mt-10 pt-8 border-t border-ink">
       <nav class="col-span-12 lg:col-span-3 mb-8 lg:mb-0 lg:sticky lg:top-28 lg:self-start text-[15px]" aria-label={L.toc}>
         <p class="muted mb-2">{L.toc}</p>
-        <ol class="space-y-2">{p.sections.map((s: any, i: number) => <li><a class="link no-underline hover:underline" href={`#${anchor(i)}`}>{s.h}</a></li>)}</ol>
+        <ol class="space-y-2">{toc.map((t) => <li><a class="link no-underline hover:underline" href={`#${t.id}`}>{t.h}</a></li>)}</ol>
       </nav>
       <div class="col-span-12 lg:col-start-5 lg:col-span-7 measure prose-rn">
         <p class="lead !mb-10">{p.summary}</p>
         {p.sections.map((s: any, i: number) => (
           <>
             <h2 id={anchor(i)}>{s.h}</h2>
-            {s.p?.map((t: string) => <p>{t}</p>)}
-            {s.list && <ul>{s.list.map((t: string) => <li>{t}</li>)}</ul>}
+            {s.p?.map((t: string) => <p set:html={md(t)} />)}
+            {s.sub?.map((x: any) => (
+              <>
+                <h3>{x.h}</h3>
+                {x.p?.map((t: string) => <p set:html={md(t)} />)}
+              </>
+            ))}
+            {s.list && (s.listStyle === 'ol'
+              ? <ol>{s.list.map((t: string) => <li set:html={md(t)} />)}</ol>
+              : <ul class:list={[s.listStyle === 'check' && 'checklist']}>{s.list.map((t: string) => <li set:html={md(t)} />)}</ul>)}
+            {s.after?.map((t: string) => <p set:html={md(t)} />)}
+            {s.more && <p><a class="arrow-link" href={href(locale, s.more.to)}>{s.more.label} →</a></p>}
           </>
         ))}
+        {faq.length > 0 && (
+          <>
+            <h2 id="faq">{c.serviceLabels.faq}</h2>
+            <Faq items={faq} locale={locale} />
+          </>
+        )}
       </div>
     </div>
   </article>

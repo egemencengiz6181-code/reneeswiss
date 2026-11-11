@@ -1,7 +1,7 @@
 {
   "domain": "https://www.reneestudio.ch",
   "calLink": "",
-  "email": "info@reneedesignlab.com",
+  "email": "info@reneestudio.ch",
   "phone": "+90 532 504 66 06",
   "phoneHref": "+905325046606",
   "whatsapp": "",
@@ -10,8 +10,8 @@
     "to": "18:00"
   },
   "social": {
-    "linkedin": "https://www.linkedin.com/company/renee-designlab/",
-    "instagram": "https://www.instagram.com/reneedesignlab/"
+    "linkedin": "https://www.linkedin.com/company/renee-studio/",
+    "instagram": "https://www.instagram.com/reneestudio.ch/"
   },
   "existingSite": "https://reneedesignlab.com",
   "identityGuide": "https://reneedesignlab.com/kurumsal-kimlik",
@@ -25,15 +25,14 @@
   "legal": {
     "name": "Renee Design Lab",
     "legalName": "Egemen Cenğiz",
-    "email": "hello@reneestudio.ch",
     "street": "Yukarı Bahçelievler Mahallesi, Akdeniz Caddesi",
     "building": "Bertan Apartmanı B Blok",
     "doorNumber": "51/10",
     "district": "Çankaya",
     "city": "Ankara",
     "country": "TR",
-    "postalCode": "06490",
     "registry": "Ankara Ticaret Sicil Müdürlüğü",
+    "taxOffice": "Maltepe, Ankara",
     "representative": "Egemen Cenğiz",
     "formProcessor": "",
     "mailProcessor": ""

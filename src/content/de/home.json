@@ -32,7 +32,7 @@
     "sme": {
       "eyebrow": "Für Unternehmen",
       "title": "Ein Team für Marke, Website und Marketing.",
-      "bullets": ["Eine Ansprechperson, Kommunikation auf Deutsch", "Klare Preise statt Stundenrechnung ohne Ende", "Offerte innert {{stat.offer}} Stunden nach dem Erstgespräch"],
+      "bullets": ["Eine Ansprechperson, Kommunikation auf Deutsch, Französisch oder Englisch", "Klare Preise statt Stundenrechnung ohne Ende", "Offerte innert {{stat.offer}} Stunden nach dem Erstgespräch"],
       "link": "Leistungen und Preise ansehen"
     }
   },
@@ -43,7 +43,7 @@
     "items": [
       { "t": "Ein Team für alles", "d": "Design, Web, Content, Ads und SEO aus einer Hand. Sie koordinieren nicht mehrere Dienstleister." },
       { "t": "KI-gestützte Abläufe", "d": "KI übernimmt Routinearbeit, Menschen entscheiden und prüfen. Das Ergebnis sind kürzere Lieferzeiten." },
-      { "t": "Schweizer Bürozeiten", "d": "Erreichbar Mo–Fr {{hours.from}}–{{hours.to}}. Kommunikation auf Deutsch und Französisch. Zeitunterschied: 1 bis 2 Stunden." },
+      { "t": "Schweizer Bürozeiten", "d": "Erreichbar Mo–Fr {{hours.from}}–{{hours.to}}. Kommunikation auf Deutsch, Französisch oder Englisch. Zeitunterschied: 1 bis 2 Stunden." },
       { "t": "Datenschutz geregelt", "d": "Arbeit nach revDSG. Auftragsverarbeitungsvertrag inklusive, mit Standardvertragsklauseln für die Bearbeitung in der Türkei." }
     ]
   },
@@ -53,7 +53,7 @@
     "title": "Vom Gespräch zur Übergabe in vier Schritten.",
     "steps": [
       { "t": "Erstgespräch", "d": "20 Minuten per Video. Wir klären Ziel, Umfang und Zeitrahmen." },
-      { "t": "Angebot in {{stat.offer}} h", "d": "Sie erhalten eine schriftliche Offerte mit Festpreis und Terminen." },
+      { "t": "Offerte innert {{stat.offer}} Stunden", "d": "Sie erhalten eine schriftliche Offerte mit Festpreis und Terminen." },
       { "t": "Umsetzung", "d": "Mit festen Feedbackrunden. Sie sehen Zwischenstände, bevor es weitergeht." },
       { "t": "Übergabe & Reporting", "d": "Alle Dateien und Zugänge gehören Ihnen. Laufende Mandate erhalten einen Monatsbericht." }
     ]

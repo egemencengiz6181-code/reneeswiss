@@ -1,18 +1,79 @@
 {
   "_review": "TODO: native review needed. Legal review required before launch.",
   "breadcrumb": "Datenschutz",
-  "meta": { "title": "Datenschutzerklärung | Renee", "description": "Wie Renee Personendaten nach Schweizer revDSG und DSGVO bearbeitet: Zwecke, Dienstleister, Bekanntgabe ins Ausland und Ihre Rechte." },
+  "meta": {
+    "title": "Datenschutzerklärung | Renee",
+    "description": "Wie Renee Personendaten nach Schweizer revDSG und DSGVO bearbeitet: Zwecke, Dienstleister, Bekanntgabe ins Ausland und Ihre Rechte."
+  },
   "h1": "Datenschutzerklärung",
   "intro": "Diese Erklärung beschreibt, wie wir Personendaten nach dem Schweizer Datenschutzgesetz (revDSG) und, soweit anwendbar, der DSGVO bearbeiten.",
   "sections": [
-    { "h": "Verantwortliche Stelle", "p": ["{{legal.legalName}}", "Einzelunternehmen nach türkischem Recht (Şahıs şirketi)", "{{legal.street}}", "{{legal.building}}, Nr. {{legal.doorNumber}}", "{{legal.postalCode}} {{legal.district}} / {{legal.city}}", "Türkei", "E-Mail: {{email}}"] },
-    { "h": "Welche Daten wir bearbeiten", "list": ["Angaben aus Formularen: Name, Unternehmen, E-Mail, Telefon, Website, Ort, Branche, Nachricht", "Technische Angaben beim Seitenaufruf: IP-Adresse, Browser, Zeitpunkt (Server-Logs)", "Herkunftsangaben aus Links (utm-Parameter), Sprache und aufgerufene Seite, zusammen mit Ihrer Anfrage", "Termindaten, wenn Sie ein Gespräch buchen"] },
-    { "h": "Zwecke", "list": ["Beantwortung Ihrer Anfrage und Erstellung von Offerten", "Durchführung des KI-Sichtbarkeits-Checks", "Vertragsabwicklung und Zusammenarbeit", "Betrieb, Sicherheit und Missbrauchsschutz der Website", "Newsletter, nur mit Ihrer ausdrücklichen Einwilligung"] },
-    { "h": "Dienstleister", "p": ["Wir setzen folgende Auftragsbearbeiter ein. Die Liste wird vor Inbetriebnahme jedes Dienstes aktualisiert:"], "list": ["Vercel Inc. (USA): Hosting und Verarbeitung der Formulare", "Cloudflare, Inc. (USA): Spamschutz (Turnstile), cookielose Reichweitenmessung (Web Analytics)", "Formular-Weiterleitung: {{legal.formProcessor}}", "Cal.com, Inc. (USA): Terminbuchung. Wird erst geladen, wenn Sie die Terminbuchung öffnen.", "Brevo (Sendinblue SAS, Frankreich): Newsletter, nur mit Einwilligung", "E-Mail: {{legal.mailProcessor}}"] },
-    { "h": "Bekanntgabe ins Ausland", "p": ["Unser Studio befindet sich in der Türkei. Für die Türkei besteht nach Einschätzung des Schweizer Bundesrats kein anerkannt angemessenes Datenschutzniveau. Wir stützen die Bekanntgabe auf Standardvertragsklauseln oder, bei Ihrer Anfrage an uns, auf die Abwicklung eines Vertrags oder vorvertraglicher Massnahmen.", "Dienstleister in den USA setzen wir auf Grundlage des Swiss-U.S. Data Privacy Framework oder von Standardvertragsklauseln ein."] },
-    { "h": "Cookies und Analyse", "p": ["Wir verwenden keine Tracking-Cookies und kein Google Analytics. Die Reichweitenmessung erfolgt cookielos und ohne Profilbildung. Die Herkunftsangaben werden nur für die Dauer der Sitzung im Browser gespeichert."] },
-    { "h": "Aufbewahrung", "p": ["Anfragen ohne Vertragsabschluss löschen wir spätestens nach 24 Monaten. Vertragsdaten bewahren wir so lange auf, wie gesetzliche Aufbewahrungspflichten bestehen."] },
-    { "h": "Ihre Rechte", "p": ["Sie können Auskunft, Berichtigung, Löschung, Herausgabe Ihrer Daten sowie den Widerruf einer Einwilligung verlangen. Schreiben Sie an {{email}}. Sie können sich zudem an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder eine zuständige EU-Aufsichtsbehörde wenden."] }
+    {
+      "h": "Verantwortliche Stelle",
+      "p": [
+        "{{legal.name}}\nInhaber: {{legal.legalName}}\nEinzelunternehmen nach türkischem Recht",
+        "{{legal.street}}\n{{legal.building}} {{legal.doorNumber}}\n{{legal.district}} / {{legal.city}}, Türkei",
+        "E-Mail: [{{legal.email}}](mailto:{{legal.email}})"
+      ]
+    },
+    {
+      "h": "Welche Daten wir bearbeiten",
+      "list": [
+        "Angaben aus Formularen: Name, Unternehmen, E-Mail, Telefon, Website, Ort, Branche, Nachricht",
+        "Technische Angaben beim Seitenaufruf: IP-Adresse, Browser, Zeitpunkt (Server-Logs)",
+        "Herkunftsangaben aus Links (utm-Parameter), Sprache und aufgerufene Seite, zusammen mit Ihrer Anfrage",
+        "Termindaten, wenn Sie ein Gespräch buchen"
+      ]
+    },
+    {
+      "h": "Zwecke",
+      "list": [
+        "Beantwortung Ihrer Anfrage und Erstellung von Offerten",
+        "Durchführung des KI-Sichtbarkeits-Checks",
+        "Vertragsabwicklung und Zusammenarbeit",
+        "Betrieb, Sicherheit und Missbrauchsschutz der Website",
+        "Newsletter, nur mit Ihrer ausdrücklichen Einwilligung"
+      ]
+    },
+    {
+      "h": "Dienstleister",
+      "p": [
+        "Wir setzen folgende Auftragsbearbeiter ein. Die Liste wird vor Inbetriebnahme jedes Dienstes aktualisiert:"
+      ],
+      "list": [
+        "Vercel Inc. (USA): Hosting und Verarbeitung der Formulare",
+        "Cloudflare, Inc. (USA): Spamschutz (Turnstile), cookielose Reichweitenmessung (Web Analytics)",
+        "Formular-Weiterleitung: {{legal.formProcessor}}",
+        "Cal.com, Inc. (USA): Terminbuchung. Wird erst geladen, wenn Sie die Terminbuchung öffnen.",
+        "Brevo (Sendinblue SAS, Frankreich): Newsletter, nur mit Einwilligung",
+        "E-Mail: {{legal.mailProcessor}}"
+      ]
+    },
+    {
+      "h": "Bekanntgabe ins Ausland",
+      "p": [
+        "Unser Studio befindet sich in der Türkei. Für die Türkei besteht nach Einschätzung des Schweizer Bundesrats kein anerkannt angemessenes Datenschutzniveau. Wir stützen die Bekanntgabe auf Standardvertragsklauseln oder, bei Ihrer Anfrage an uns, auf die Abwicklung eines Vertrags oder vorvertraglicher Massnahmen.",
+        "Dienstleister in den USA setzen wir auf Grundlage des Swiss-U.S. Data Privacy Framework oder von Standardvertragsklauseln ein."
+      ]
+    },
+    {
+      "h": "Cookies und Analyse",
+      "p": [
+        "Wir verwenden keine Tracking-Cookies und kein Google Analytics. Die Reichweitenmessung erfolgt cookielos und ohne Profilbildung. Die Herkunftsangaben werden nur für die Dauer der Sitzung im Browser gespeichert."
+      ]
+    },
+    {
+      "h": "Aufbewahrung",
+      "p": [
+        "Anfragen ohne Vertragsabschluss löschen wir spätestens nach 24 Monaten. Vertragsdaten bewahren wir so lange auf, wie gesetzliche Aufbewahrungspflichten bestehen."
+      ]
+    },
+    {
+      "h": "Ihre Rechte",
+      "p": [
+        "Sie können Auskunft, Berichtigung, Löschung, Herausgabe Ihrer Daten sowie den Widerruf einer Einwilligung verlangen. Schreiben Sie an [{{legal.email}}](mailto:{{legal.email}}). Sie können sich zudem an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder eine zuständige EU-Aufsichtsbehörde wenden."
+      ]
+    }
   ],
-  "updated": "Stand: 10.11.2026"
+  "updated": "Stand: 11.11.2026"
 }

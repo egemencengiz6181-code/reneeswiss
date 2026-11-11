@@ -4,7 +4,7 @@ export const DEFAULT_LOCALE: Locale = 'de';
 export const HREFLANG: Record<Locale, string> = { de: 'de-CH', en: 'en-CH', fr: 'fr-CH' };
 export const SERVICE_IDS = ['branding', 'website', 'social', 'ads', 'seo', '3d', 'automation'] as const;
 export const CASE_IDS = ['arni', 'deru', 'erts'] as const;
-export const ARTICLE_IDS = ['ai-visibility', 'white-label', 'website-cost'] as const;
+export const ARTICLE_IDS = ['ai-visibility', 'white-label', 'website-cost', 'rebranding', 'multilingual', 'ai-automation'] as const;
 
 type Slugs = Record<Locale, string>;
 export type Route = { id: string; template: string; param?: string; parent?: string; noindex?: boolean; slugs: Slugs };
@@ -30,6 +30,9 @@ const articleSlugs: Record<(typeof ARTICLE_IDS)[number], Slugs> = {
   'ai-visibility': { de: 'ki-sichtbarkeit-kmu', en: 'ai-visibility-smes', fr: 'visibilite-ia-pme' },
   'white-label': { de: 'white-label-partner-agenturen', en: 'white-label-partner-agencies', fr: 'partenaire-marque-blanche-agences' },
   'website-cost': { de: 'was-kostet-eine-website-schweiz', en: 'website-cost-switzerland', fr: 'prix-site-web-suisse' },
+  rebranding: { de: 'rebranding-kmu-anzeichen', en: 'rebranding-sme-signs', fr: 'rebranding-pme-signes' },
+  multilingual: { de: 'mehrsprachige-website-schweiz', en: 'multilingual-website-switzerland', fr: 'site-multilingue-suisse' },
+  'ai-automation': { de: 'ki-automatisierung-kmu', en: 'ai-automation-sme', fr: 'automatisation-ia-pme' },
 };
 
 export const ROUTES: Route[] = [

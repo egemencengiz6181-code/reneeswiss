@@ -11,8 +11,8 @@ const alt = (l: Locale) => (route ? pathOf(route, l) : `/${l}/`);
 ---
 <header class="sticky top-0 z-40 bg-white border-b border-line">
   <div class="wrap flex items-center justify-between gap-6 h-16 lg:h-20">
-    <a href={href(locale, 'home')} class="flex-none" aria-label={c.nav.home}>
-      <img src="/brand/renee-logo-trim.webp" alt="Renee" width="92" height="40" class="h-8 lg:h-9 w-auto" />
+    <a href={href(locale, 'home')} class="flex-none">
+      <img src="/brand/renee-logo-trim.webp" alt={c.nav.logoAlt} width="92" height="40" class="h-8 lg:h-9 w-auto" />
     </a>
     <nav class="hidden lg:flex gap-6 xl:gap-8 text-[15px]" aria-label={c.nav.primaryLabel}>
       {items.map(([id, label]) => (
@@ -28,7 +28,7 @@ const alt = (l: Locale) => (route ? pathOf(route, l) : `/${l}/`);
       <CalButton locale={locale} label={c.cta.short} size="sm" class="head-cta" />
     </div>
     <details class="menu lg:hidden">
-      <summary class="btn btn-outline btn-sm" aria-label={c.nav.menu}><span class="menu-open">{c.nav.menu}</span><span class="menu-close">{c.cal.close}</span></summary>
+      <summary class="btn btn-outline btn-sm"><span class="menu-open">{c.nav.menu}</span><span class="menu-close" hidden aria-hidden="true">{c.cal.close}</span></summary>
       <div class="fixed inset-x-0 top-16 bottom-0 bg-white overflow-y-auto">
         <nav class="wrap py-6" aria-label={c.nav.primaryLabel}>
           <ul>

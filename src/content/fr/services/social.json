@@ -9,7 +9,7 @@
   "facts": { "who": "PME et agences avec des besoins réguliers en contenu", "what": "Stratégie, calendrier éditorial, publications, reels, carrousels" },
   "timeline": "Premier plan mensuel en 10 jours ouvrables",
   "problem": "Au quotidien, les réseaux sociaux passent après le reste. On publie de façon irrégulière, sans plan et sans image cohérente.",
-  "included": ["Stratégie de contenu et thématiques", "Calendrier éditorial mensuel", "Visuels, carrousels et vidéos courtes", "Textes en français, en allemand ou en anglais", "Validation selon un processus défini"],
+  "included": ["Stratégie de contenu et thématiques", "Calendrier éditorial mensuel", "Visuels, carrousels et vidéos courtes", "Textes en allemand, en français ou en anglais", "Validation selon un processus défini"],
   "deliverables": ["Plan mensuel avec dates", "Publications finalisées et fichiers sources", "Bref rapport mensuel"],
   "process": [
     { "t": "Stratégie", "d": "Objectifs, public cible et thèmes." },
