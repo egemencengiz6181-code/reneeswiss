@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects (Vercel equivalent: vercel.json → redirects)
+/tr/    /de/  301
+/tr/*   /de/  301

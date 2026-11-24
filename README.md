@@ -1,6 +1,6 @@
 # Renee Schweiz: web sitesi
 
-İsviçre pazarı için çok dilli (de-CH, en-CH, fr-CH) statik site. Astro + Tailwind. Canlı ortam Vercel; Cloudflare Pages için de hazır.
+İsviçre pazarı için çok dilli (de-CH, en-CH, fr-CH) statik site. Astro + Tailwind. Canlı ortam Cloudflare Pages (Vercel ayarları yedek olarak duruyor).
 
 ## Kurulum
 
